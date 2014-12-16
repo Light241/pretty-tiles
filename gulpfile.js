@@ -32,7 +32,7 @@ gulp.task("jade", function () {
 
 gulp.task('watch', function () {
     gulp.watch(['examples/dev.jade'], ['jade']);
-    gulp.watch(['styles/**/*.styl'], ['stylus']);
+    gulp.watch(['stylus/**/*.styl'], ['stylus']);
 });
 
 gulp.task("build", function () {
