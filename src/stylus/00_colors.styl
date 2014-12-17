@@ -1,3 +1,4 @@
+@import 'nib'
 //Colors from http://flatuicolors.com/
 
 turquoise_color = #1abc9c
@@ -24,3 +25,109 @@ asbestos_color = #7f8c8d
 //some basic colors
 white_color = #FFF
 black_color = #000
+
+//steps for hovers
+tile_darken_ratio = 5
+tile_lighten_ratio = 5
+
+tile_bg(c)
+  background-color c
+  &:hover
+    background-color darken(c, tile_darken_ratio)
+    button
+      background-color c
+  button
+    background-color darken(c, tile_darken_ratio)
+    &:hover
+      background-color lighten(c, tile_lighten_ratio)
+
+tile_text_color(c)
+  color c
+  &:hover, &:active, &:focus, &:active:focus
+    .t_body
+      .description
+        color alpha(c, 0.5)
+  .t_body
+    .description
+      color alpha(c, 0.8)
+    .value
+      color c
+  button
+    color c
+    &:hover, &:active, &:focus, &:active:focus
+      color c
+  .t_buttons
+    button
+      color c
+
+.t_turquoise
+  tile_text_color(white_color)
+  tile_bg(turquoise_color)
+
+.t_green_sea
+  tile_text_color(white_color)
+  tile_bg(green_sea_color)
+
+.t_sun_flower
+  tile_text_color(white_color)
+  tile_bg(sun_flower_color)
+
+.t_orange
+  tile_text_color(white_color)
+  tile_bg(orange_color)
+
+.t_emerald
+  tile_text_color(white_color)
+  tile_bg(emerald_color)
+
+.t_nephritis
+  tile_text_color(white_color)
+  tile_bg(nephritis_color)
+
+.t_carrot
+  tile_text_color(white_color)
+  tile_bg(carrot_color)
+
+.t_pumpkin
+  tile_text_color(white_color)
+  tile_bg(pumpkin_color)
+
+.t_peter_river
+  tile_text_color(white_color)
+  tile_bg(peter_river_color)
+
+.t_belize_hole
+  tile_text_color(white_color)
+  tile_bg(belize_hole_color)
+
+.t_alizarin
+  tile_text_color(white_color)
+  tile_bg(alizarin_color)
+
+.t_pomegranat
+  tile_text_color(white_color)
+  tile_bg(pomegranat_color)
+
+.t_amethyst
+  tile_text_color(white_color)
+  tile_bg(amethyst_color)
+
+.t_wisteria
+  tile_text_color(white_color)
+  tile_bg(wisteria_color)
+
+.t_clouds
+  tile_text_color(black_color)
+  tile_bg(clouds_color)
+
+.t_silver
+  tile_text_color(black_color)
+  tile_bg(silver_color)
+
+.t_wet_asphalt
+  tile_text_color(white_color)
+  tile_bg(wet_asphalt_color)
+
+.t_midnight_blue
+  tile_text_color(white_color)
+  tile_bg(midnight_blue_color)

@@ -9,11 +9,11 @@ var nib = require('nib');
 
 gulp.task('stylus', function () {
     var src = 'src/stylus/**/*.styl';
-    var dest = 'dist/pretty_tiles.css';
+    var dest = 'dist';
 
     return gulp.src(src)
         //.pipe(changed(dest))
-        .pipe(concat("app.styl"))
+        .pipe(concat("pretty_tiles.styl"))
         .pipe(stylus({use: [nib()], compress: true}))
         .on('error', console.log)
         .pipe(gulp.dest(dest));

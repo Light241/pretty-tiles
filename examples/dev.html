@@ -1,11 +1,66 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="../stylus/app.css">
+  <link rel="stylesheet" href="./common.css">
+  <link rel="stylesheet" href="../dist/pretty_tiles.css">
+  <link rel="stylesheet" href="http//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 <html>
   <body>
-    <div class="tile tile_alizarin spinner">asdasd</div>
-    <div class="tile tile_amethyst">asdasd</div>
-    <div class="tile tile_wet_asphalt">asdasd</div>
+    <h3>Regular tiles</h3>
+    <div class="regulars_tile">
+      <div class="tile t_alizarin">
+        <div class="t_body">Regular tile</div>
+      </div>
+      <div class="tile t_amethyst">
+        <div class="t_cap">Did you know?</div>
+        <div class="t_body">Regular capped tile</div>
+      </div>
+      <div class="tile t_belize_hole">
+        <div class="t_cap">Limitted offer</div>
+        <div class="t_label">-40%</div>
+        <div class="t_body">Regular capped and labeled tile</div>
+      </div>
+      <div class="tile t_emerald">
+        <div class="t_cap">Sale</div>
+        <div class="t_label">-50%</div>
+        <div class="t_body">Regular capped and labeled tile with controls</div>
+        <div class="t_controls">
+          <button type="button" class="t_btn">Call</button>
+        </div>
+      </div>
+      <div class="tile t_carrot">
+        <div class="t_cap">New!</div>
+        <div class="t_label">Today</div>
+        <div class="t_body">Regular capped and labeled tile with controls</div>
+        <div class="t_controls">
+          <button type="button" class="t_btn"><i class="fa fa-phone"></i>&nbsp;
+            Call
+          </button>
+          <button type="button" class="t_btn">Mail</button>
+        </div>
+      </div>
+    </div>
+    <h3>Condensed tiles</h3>
+    <div class="condensed_tile">
+      <div class="tile t_condensed t_alizarin">
+        <div class="t_body">Condensed tile</div>
+      </div>
+    </div>
+    <h3>Splitted tiles</h3>
+    <div class="splitted_tile">
+      <div class="tile t_split t_alizarin">
+        <div class="t_body">
+          <div class="t_group">Split tile</div>
+          <div class="t_group">Split tile</div>
+          <div class="t_group">Split tile</div>
+        </div>
+      </div>
+    </div>
+    <h3>Promo tiles</h3>
+    <div class="promo_tile">
+      <div class="tile t_promo t_alizarin">
+        <div class="t_body">Promo text tile</div>
+      </div>
+    </div>
   </body>
 </html>

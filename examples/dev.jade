@@ -1,11 +1,66 @@
 doctype html
 head
-    link(rel='stylesheet', href='../stylus/app.css')
+    link(rel='stylesheet', href='./common.css')
+    link(rel='stylesheet', href='../dist/pretty_tiles.css')
+    link(rel="stylesheet", href="http//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css")
 html
     body
-        .tile.t_alizarin
-            | asdasd
-        .tile.t_amethyst
-            | asdasd
-        .tile.t_wet_asphalt
-            | asdasd
+        h3 Regular tiles
+        .regulars_tile
+            .tile.t_alizarin
+                .t_body
+                    | Regular tile
+            .tile.t_amethyst
+                .t_cap
+                    | Did you know?
+                .t_body
+                    | Regular capped tile
+            .tile.t_belize_hole
+                .t_cap
+                    | Limitted offer
+                .t_label
+                    | -40%
+                .t_body
+                    | Regular capped and labeled tile
+            .tile.t_emerald
+                .t_cap
+                    | Sale
+                .t_label
+                    | -50%
+                .t_body
+                    | Regular capped and labeled tile with controls
+                .t_controls
+                    button.t_btn(type="button") Call
+            .tile.t_carrot
+                .t_cap
+                    | New!
+                .t_label
+                    | Today
+                .t_body
+                    | Regular capped and labeled tile with controls
+                .t_controls
+                    button.t_btn(type="button")
+                        i.fa.fa-phone
+                        | &nbsp;
+                        | Call
+                    button.t_btn(type="button") Mail
+        h3 Condensed tiles
+        .condensed_tile
+            .tile.t_condensed.t_alizarin
+                .t_body
+                    | Condensed tile
+        h3 Splitted tiles
+        .splitted_tile
+            .tile.t_split.t_alizarin
+                .t_body
+                    .t_group
+                        | Split tile
+                    .t_group
+                        | Split tile
+                    .t_group
+                        | Split tile
+        h3 Promo tiles
+        .promo_tile
+            .tile.t_promo.t_alizarin
+                .t_body
+                    | Promo text tile
