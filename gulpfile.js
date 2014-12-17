@@ -8,8 +8,8 @@ var nib = require('nib');
 
 
 gulp.task('stylus', function () {
-    var src = 'stylus/**/*.styl';
-    var dest = 'stylus';
+    var src = 'src/stylus/**/*.styl';
+    var dest = 'dist/pretty_tiles.css';
 
     return gulp.src(src)
         //.pipe(changed(dest))
@@ -32,7 +32,7 @@ gulp.task("jade", function () {
 
 gulp.task('watch', function () {
     gulp.watch(['examples/dev.jade'], ['jade']);
-    gulp.watch(['stylus/**/*.styl'], ['stylus']);
+    gulp.watch(['src/stylus/**/*.styl'], ['stylus']);
 });
 
 gulp.task("build", function () {

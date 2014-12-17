@@ -1,4 +1,5 @@
 tile_min_height = 315px
+tile_wide = 280px
 
 tile_transition(n)
   transition background-color n ease
@@ -17,10 +18,10 @@ tile_bg(c)
 tile_text_color(c)
   color c
   &:hover
-    .tile_body
+    .t_body
       .description
         color alpha(c, 0.5)
-  .tile_body
+  .t_body
     .description
       color alpha(c, 0.8)
     .value
@@ -29,64 +30,46 @@ tile_text_color(c)
     color c
     &:hover, &:active, &:focus, &:active:focus
       color c
-  .tile_buttons
+  .t_buttons
     button
       color c
 
-.triple_row_tiles
-  width 842px
-  .tile
-    width 842px
-
-.four_row_tiles
-  width 1120px
-  .tile
-    width 1120px
-
-.double_row_tiles
-  width 558px
-  .tile
-    width 560px
-
-.single_row_tiles
-  width 279px
-
 .tile
-  &.tile_condensed
+  &.t_condensed
     width 245px
   border-radius 5px
   display inline-block
   overflow hidden
-  width 280px
+  width tile_wide
   min-height tile_min_height
   position relative
   tile_transition(0.6s)
-  .tile_body
+  .t_body
     .description
       transition color 0.6s ease
   &.divided
-    .tile_body
+    .t_body
       padding 0
       .controlls_group
         border-top 1px solid white_color
         padding 15px
-    .tile_buttons
+    .t_buttons
       border-top 1px solid white_color
-  .tile_header
+  .t_header
     text-align center
     padding 5px
     font-size 24px
-  .tile_label
+  .t_label
     font-size 36px
     padding 15px
     text-align center
-  .tile_body
+  .t_body
     padding 15px
-    .tile_value
+    .t_value
       text-align center
       font-size 18px
       padding 5px 0
-    .tile_sub_value
+    .t_sub_value
       text-align center
       font-size 12px
   .controlls_group
@@ -95,7 +78,7 @@ tile_text_color(c)
     tile_transition(0.6s)
     &:hover, &:active, &:focus, &:active:focus
       outline none
-  .tile_buttons
+  .t_buttons
     button
       width 100%
       outline none
@@ -103,74 +86,74 @@ tile_text_color(c)
       min-height 45px
       tile_transition(0.6s)
 
-.tile_turquoise
+.t_turquoise
   tile_text_color(white_color)
   tile_bg(turquoise_color)
 
-.tile_green_sea
+.t_green_sea
   tile_text_color(white_color)
   tile_bg(green_sea_color)
 
-.tile_sun_flower
+.t_sun_flower
   tile_text_color(white_color)
   tile_bg(sun_flower_color)
 
-.tile_orange
+.t_orange
   tile_text_color(white_color)
   tile_bg(orange_color)
 
-.tile_emerald
+.t_emerald
   tile_text_color(white_color)
   tile_bg(emerald_color)
 
-.tile_nephritis
+.t_nephritis
   tile_text_color(white_color)
   tile_bg(nephritis_color)
 
-.tile_carrot
+.t_carrot
   tile_text_color(white_color)
   tile_bg(carrot_color)
 
-.tile_pumpkin
+.t_pumpkin
   tile_text_color(white_color)
   tile_bg(pumpkin_color)
 
-.tile_peter_river
+.t_peter_river
   tile_text_color(white_color)
   tile_bg(peter_river_color)
 
-.tile_belize_hole
+.t_belize_hole
   tile_text_color(white_color)
   tile_bg(belize_hole_color)
 
-.tile_alizarin
+.t_alizarin
   tile_text_color(white_color)
   tile_bg(alizarin_color)
 
-.tile_pomegranat
+.t_pomegranat
   tile_text_color(white_color)
   tile_bg(pomegranat_color)
 
-.tile_amethyst
+.t_amethyst
   tile_text_color(white_color)
   tile_bg(amethyst_color)
 
-.tile_wisteria
+.t_wisteria
   tile_text_color(white_color)
   tile_bg(wisteria_color)
 
-.tile_clouds
+.t_clouds
   tile_text_color(black_color)
   tile_bg(clouds_color)
 
-.tile_silver
+.t_silver
   tile_text_color(black_color)
   tile_bg(silver_color)
 
-.tile_wet_asphalt
+.t_wet_asphalt
   tile_text_color(white_color)
   tile_bg(wet_asphalt_color)
 
-.tile_midnight_blue
+.t_midnight_blue
   tile_text_color(white_color)
   tile_bg(midnight_blue_color)
