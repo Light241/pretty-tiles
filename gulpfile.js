@@ -14,7 +14,8 @@ gulp.task('stylus', function () {
     return gulp.src(src)
         //.pipe(changed(dest))
         .pipe(concat("pretty_tiles.styl"))
-        .pipe(stylus({use: [nib()], compress: true}))
+        //.pipe(stylus({use: [nib()], compress: true}))
+        .pipe(stylus({use: [nib()]}))
         .on('error', console.log)
         .pipe(gulp.dest(dest))
         .pipe(connect.reload());
