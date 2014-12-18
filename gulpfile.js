@@ -33,7 +33,7 @@ gulp.task("jade", function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['examples/dev.jade'], ['jade']);
+    gulp.watch(['examples/**/*.jade'], ['jade']);
     gulp.watch(['src/stylus/**/*.styl'], ['stylus']);
 });
 
