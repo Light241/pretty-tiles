@@ -742,14 +742,8 @@
 .tile .t_cap + .t_label + .t_body {
   height: 161px;
 }
-.tile .t_cap + .t_label + .t_body + .t_controls {
-  height: 131px;
-}
 .tile .t_cap + .t_body {
   height: 230px;
-}
-.tile .t_cap + .t_body + .t_controls {
-  height: 131px;
 }
 .tile .t_label {
   font-size: 36px;
@@ -757,18 +751,12 @@
   text-align: center;
 }
 .tile .t_label + .t_body {
-  height: 161px;
-}
-.tile .t_label + .t_body + .t_controls {
-  height: 131px;
+  height: 200px;
 }
 .tile .t_body {
   overflow-y: auto;
   padding: 15px;
   height: 267px;
-}
-.tile .t_body + .t_controls {
-  height: 131px;
 }
 .tile .t_body .description {
   -webkit-transition: color 0.6s ease;
@@ -832,6 +820,15 @@
   border-top: 1px solid #fff;
 }
 .tile.t_stretch_v {
+  height: initial;
+}
+.tile.t_stretch_v .t_cap + .t_label + .t_body {
+  height: initial;
+}
+.tile.t_stretch_v .t_cap + .t_body {
+  height: initial;
+}
+.tile.t_stretch_v .t_cap .t_label + .t_body {
   height: initial;
 }
 .tile.t_stretch_v .t_body {
