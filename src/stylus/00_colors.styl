@@ -40,20 +40,36 @@ tile_bg(c)
     background-color darken(c, tile_darken_ratio)
     &:nth-child(1)
       background-color lighten(c, tile_lighten_ratio + 1)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(2)
       background-color lighten(c, tile_lighten_ratio + 2)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(3)
       background-color lighten(c, tile_lighten_ratio + 3)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(4)
       background-color lighten(c, tile_lighten_ratio + 4)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(5)
       background-color lighten(c, tile_lighten_ratio + 5)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(6)
       background-color lighten(c, tile_lighten_ratio + 6)
-    &:nth-child(6)
-      background-color lighten(c, tile_lighten_ratio + 7)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:nth-child(7)
+      background-color lighten(c, tile_lighten_ratio + 7)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
+    &:nth-child(8)
       background-color lighten(c, tile_lighten_ratio + 8)
+      &:hover
+        background-color lighten(c, tile_lighten_ratio)
     &:last-of-type
       background-color lighten(c, tile_lighten_ratio)
     &:hover
@@ -78,74 +94,110 @@ tile_text_color(c)
     button
       color c
 
+scroll(c)
+  scrollbar-face-color c
+  scrollbar-shadow-color c
+  scrollbar-highlight-color c
+  scrollbar-3dlight-color c
+  scrollbar-darkshadow-color c
+  scrollbar-track-color c
+  scrollbar-arrow-color c
+  .t_body
+    &::-webkit-scrollbar
+      width 12px
+    &::-webkit-scrollbar-track
+      -webkit-box-shadow inset 0 0 3px c
+    &::-webkit-scrollbar-thumb
+      background c
+      border 1px solid c
+      -webkit-box-shadow: inset 0 0 3px c
+
 .t_turquoise
   tile_text_color(white_color)
   tile_bg(turquoise_color)
+  scroll(turquoise_color)
 
 .t_green_sea
   tile_text_color(white_color)
   tile_bg(green_sea_color)
+  scroll(green_sea_color)
 
 .t_sun_flower
   tile_text_color(white_color)
   tile_bg(sun_flower_color)
+  scroll(sun_flower_color)
 
 .t_orange
   tile_text_color(white_color)
   tile_bg(orange_color)
+  scroll(orange_color)
 
 .t_emerald
   tile_text_color(white_color)
   tile_bg(emerald_color)
+  scroll(emerald_color)
 
 .t_nephritis
   tile_text_color(white_color)
   tile_bg(nephritis_color)
+  scroll(nephritis_color)
 
 .t_carrot
   tile_text_color(white_color)
   tile_bg(carrot_color)
+  scroll(carrot_color)
 
 .t_pumpkin
   tile_text_color(white_color)
   tile_bg(pumpkin_color)
+  scroll(pumpkin_color)
 
 .t_peter_river
   tile_text_color(white_color)
   tile_bg(peter_river_color)
+  scroll(peter_river_color)
 
 .t_belize_hole
   tile_text_color(white_color)
   tile_bg(belize_hole_color)
+  scroll(belize_hole_color)
 
 .t_alizarin
   tile_text_color(white_color)
   tile_bg(alizarin_color)
+  scroll(alizarin_color)
 
 .t_pomegranat
   tile_text_color(white_color)
   tile_bg(pomegranat_color)
+  scroll(pomegranat_color)
 
 .t_amethyst
   tile_text_color(white_color)
   tile_bg(amethyst_color)
+  scroll(amethyst_color)
 
 .t_wisteria
   tile_text_color(white_color)
   tile_bg(wisteria_color)
+  scroll(wisteria_color)
 
 .t_clouds
   tile_text_color(black_color)
   tile_bg(clouds_color)
+  scroll(clouds_color)
 
 .t_silver
   tile_text_color(black_color)
   tile_bg(silver_color)
+  scroll(silver_color)
 
 .t_wet_asphalt
   tile_text_color(white_color)
   tile_bg(wet_asphalt_color)
+  scroll(wet_asphalt_color)
 
 .t_midnight_blue
   tile_text_color(white_color)
   tile_bg(midnight_blue_color)
+  scroll(midnight_blue_color)
