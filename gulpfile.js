@@ -53,6 +53,5 @@ gulp.task('webserver', function () {
 
 gulp.task("default", function () {
     gulp.start("build");
-    gulp.start("webserver");
     gulp.start("watch");
 });

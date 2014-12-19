@@ -38,6 +38,22 @@ tile_bg(c)
       background-color c
   button
     background-color darken(c, tile_darken_ratio)
+    &:nth-child(1)
+      background-color lighten(c, tile_lighten_ratio)
+    &:nth-child(2)
+      background-color lighten(c, tile_lighten_ratio + 1)
+    &:nth-child(3)
+      background-color lighten(c, tile_lighten_ratio + 2)
+    &:nth-child(4)
+      background-color lighten(c, tile_lighten_ratio + 3)
+    &:nth-child(5)
+      background-color lighten(c, tile_lighten_ratio + 4)
+    &:nth-child(6)
+      background-color lighten(c, tile_lighten_ratio + 5)
+    &:nth-child(6)
+      background-color lighten(c, tile_lighten_ratio + 6)
+    &:nth-child(7)
+      background-color lighten(c, tile_lighten_ratio + 7)
     &:hover
       background-color lighten(c, tile_lighten_ratio)
 
