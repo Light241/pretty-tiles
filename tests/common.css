@@ -5,7 +5,7 @@ body, html {
 }
 
 body {
-    background: #2c3e50 url('../examples/img/bg.png');
+    background: #2c3e50 url('../tests/img/bg.png');
 }
 
 h1, h2, h3, h4, h5, h6 {
