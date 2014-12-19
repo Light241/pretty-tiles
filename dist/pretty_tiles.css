@@ -203,6 +203,9 @@
 .t_green_sea button:hover {
   background-color: #19b698;
 }
+.t_green_sea .t_marked {
+  background-color: #138a72;
+}
 .t_green_sea .t_body {
   scrollbar-face-color: #16a085;
   scrollbar-shadow-color: #16a085;
@@ -313,6 +316,9 @@
 }
 .t_sun_flower button:hover {
   background-color: #f2ca27;
+}
+.t_sun_flower .t_marked {
+  background-color: #dab10d;
 }
 .t_sun_flower .t_body {
   scrollbar-face-color: #f1c40f;
@@ -425,6 +431,9 @@
 .t_orange button:hover {
   background-color: #f4a62a;
 }
+.t_orange .t_marked {
+  background-color: #e08e0b;
+}
 .t_orange .t_body {
   scrollbar-face-color: #f39c12;
   scrollbar-shadow-color: #f39c12;
@@ -535,6 +544,9 @@
 }
 .t_emerald button:hover {
   background-color: #40d47e;
+}
+.t_emerald .t_marked {
+  background-color: #29b765;
 }
 .t_emerald .t_body {
   scrollbar-face-color: #2ecc71;
@@ -647,6 +659,9 @@
 .t_nephritis button:hover {
   background-color: #2cc36b;
 }
+.t_nephritis .t_marked {
+  background-color: #295;
+}
 .t_nephritis .t_body {
   scrollbar-face-color: #27ae60;
   scrollbar-shadow-color: #27ae60;
@@ -757,6 +772,9 @@
 }
 .t_carrot button:hover {
   background-color: #e98b39;
+}
+.t_carrot .t_marked {
+  background-color: #d67118;
 }
 .t_carrot .t_body {
   scrollbar-face-color: #e67e22;
@@ -869,6 +887,9 @@
 .t_pumpkin button:hover {
   background-color: #ec5e00;
 }
+.t_pumpkin .t_marked {
+  background-color: #b94a00;
+}
 .t_pumpkin .t_body {
   scrollbar-face-color: #d35400;
   scrollbar-shadow-color: #d35400;
@@ -979,6 +1000,9 @@
 }
 .t_peter_river button:hover {
   background-color: #4aa3df;
+}
+.t_peter_river .t_marked {
+  background-color: #258cd1;
 }
 .t_peter_river .t_body {
   scrollbar-face-color: #3498db;
@@ -1091,6 +1115,9 @@
 .t_belize_hole button:hover {
   background-color: #2e8ece;
 }
+.t_belize_hole .t_marked {
+  background-color: #2472a4;
+}
 .t_belize_hole .t_body {
   scrollbar-face-color: #2980b9;
   scrollbar-shadow-color: #2980b9;
@@ -1201,6 +1228,9 @@
 }
 .t_alizarin button:hover {
   background-color: #ea6153;
+}
+.t_alizarin .t_marked {
+  background-color: #e43725;
 }
 .t_alizarin .t_body {
   scrollbar-face-color: #e74c3c;
@@ -1313,6 +1343,9 @@
 .t_pomegranat button:hover {
   background-color: #d14233;
 }
+.t_pomegranat .t_marked {
+  background-color: #ab3326;
+}
 .t_pomegranat .t_body {
   scrollbar-face-color: #c0392b;
   scrollbar-shadow-color: #c0392b;
@@ -1423,6 +1456,9 @@
 }
 .t_amethyst button:hover {
   background-color: #a66bbe;
+}
+.t_amethyst .t_marked {
+  background-color: #8f4bab;
 }
 .t_amethyst .t_body {
   scrollbar-face-color: #9b59b6;
@@ -1535,6 +1571,9 @@
 .t_wisteria button:hover {
   background-color: #9b50ba;
 }
+.t_wisteria .t_marked {
+  background-color: #7f3d9b;
+}
 .t_wisteria .t_body {
   scrollbar-face-color: #8e44ad;
   scrollbar-shadow-color: #8e44ad;
@@ -1645,6 +1684,9 @@
 }
 .t_clouds button:hover {
   background-color: #fbfcfc;
+}
+.t_clouds .t_marked {
+  background-color: #dde4e6;
 }
 .t_clouds .t_body {
   scrollbar-face-color: #ecf0f1;
@@ -1757,6 +1799,9 @@
 .t_silver button:hover {
   background-color: #cbd0d3;
 }
+.t_silver .t_marked {
+  background-color: #afb6bb;
+}
 .t_silver .t_body {
   scrollbar-face-color: #bdc3c7;
   scrollbar-shadow-color: #bdc3c7;
@@ -1868,6 +1913,9 @@
 .t_wet_asphalt button:hover {
   background-color: #3d566e;
 }
+.t_wet_asphalt .t_marked {
+  background-color: #2b3c4e;
+}
 .t_wet_asphalt .t_body {
   scrollbar-face-color: #34495e;
   scrollbar-shadow-color: #34495e;
@@ -1978,6 +2026,9 @@
 }
 .t_midnight_blue button:hover {
   background-color: #354b60;
+}
+.t_midnight_blue .t_marked {
+  background-color: #233140;
 }
 .t_midnight_blue .t_body {
   scrollbar-face-color: #2c3e50;
