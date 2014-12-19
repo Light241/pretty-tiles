@@ -22,8 +22,8 @@ gulp.task('stylus', function () {
 });
 
 gulp.task("jade", function () {
-    var src = 'examples/**/*.jade';
-    var dest = 'examples';
+    var src = 'tests/**/*.jade';
+    var dest = 'tests';
 
     return gulp.src([src])
         .pipe(changed(dest, {extension: '.html'}))
@@ -34,7 +34,7 @@ gulp.task("jade", function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['examples/**/*.jade'], ['jade']);
+    gulp.watch(['tests/**/*.jade'], ['jade']);
     gulp.watch(['src/stylus/**/*.styl'], ['stylus']);
 });
 
@@ -54,4 +54,5 @@ gulp.task('webserver', function () {
 gulp.task("default", function () {
     gulp.start("build");
     gulp.start("watch");
+    gulp.start("webserver");
 });
