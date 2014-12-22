@@ -2163,6 +2163,21 @@
 .tile.t_wide {
   width: 536px;
 }
+.tile.t_tall {
+  height: 636px;
+}
+.tile.t_tall .t_cap + .t_label + .t_body {
+  height: 491px;
+}
+.tile.t_tall .t_cap + .t_body {
+  height: 563px;
+}
+.tile.t_tall .t_cap .t_label + .t_body {
+  height: 528px;
+}
+.tile.t_tall .t_body {
+  height: 600px;
+}
 .tile.t_split .t_body {
   padding: 0;
 }

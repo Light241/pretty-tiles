@@ -70,6 +70,19 @@ tile_transition(n)
     width (tile_wide - 35px)
   &.t_wide
     width (tile_wide * 2) + 6px
+  &.t_tall
+    height (tile_min_height * 2) + 6px
+    .t_cap
+      & + .t_label
+        & + .t_body
+          height ((tile_min_height * 2) - (t_cap_height + t_label_height + t_body_v_padding))
+      & + .t_body
+        height ((tile_min_height * 2) - (t_cap_height + t_body_v_padding ))
+      .t_label
+        & + .t_body
+          height ((tile_min_height * 2) - (t_label_height + t_body_v_padding ))
+    .t_body
+      height (tile_min_height * 2) - t_body_v_padding
   &.t_split
     .t_body
       padding 0
