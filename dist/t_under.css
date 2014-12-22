@@ -35,52 +35,52 @@
 .t_turquoise button {
   background-color: #17a689;
 }
-.t_turquoise button:nth-child(1) {
+.t_turquoise button:nth-child(1n+1) {
   background-color: #1ed7b2;
 }
-.t_turquoise button:nth-child(1):hover {
+.t_turquoise button:nth-child(1n+1):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(2) {
+.t_turquoise button:nth-child(1n+2) {
   background-color: #1edbb6;
 }
-.t_turquoise button:nth-child(2):hover {
+.t_turquoise button:nth-child(1n+2):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(3) {
+.t_turquoise button:nth-child(1n+3) {
   background-color: #1fe0ba;
 }
-.t_turquoise button:nth-child(3):hover {
+.t_turquoise button:nth-child(1n+3):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(4) {
+.t_turquoise button:nth-child(1n+4) {
   background-color: #23e1bb;
 }
-.t_turquoise button:nth-child(4):hover {
+.t_turquoise button:nth-child(1n+4):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(5) {
+.t_turquoise button:nth-child(1n+5) {
   background-color: #28e1bd;
 }
-.t_turquoise button:nth-child(5):hover {
+.t_turquoise button:nth-child(1n+5):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(6) {
+.t_turquoise button:nth-child(1n+6) {
   background-color: #2ce2be;
 }
-.t_turquoise button:nth-child(6):hover {
+.t_turquoise button:nth-child(1n+6):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(7) {
+.t_turquoise button:nth-child(1n+7) {
   background-color: #31e2bf;
 }
-.t_turquoise button:nth-child(7):hover {
+.t_turquoise button:nth-child(1n+7):hover {
   background-color: #1dd2af;
 }
-.t_turquoise button:nth-child(8) {
+.t_turquoise button:nth-child(1n+8) {
   background-color: #35e3c1;
 }
-.t_turquoise button:nth-child(8):hover {
+.t_turquoise button:nth-child(1n+8):hover {
   background-color: #1dd2af;
 }
 .t_turquoise button:last-of-type {
@@ -89,7 +89,8 @@
 .t_turquoise button:hover {
   background-color: #1dd2af;
 }
-.t_turquoise .t_marked {
+.t_turquoise .t_cap.t_marked,
+.t_turquoise .t_label.t_marked {
   background-color: #17a689;
 }
 .t_turquoise .t_body {
@@ -149,52 +150,52 @@
 .t_green_sea button {
   background-color: #138a72;
 }
-.t_green_sea button:nth-child(1) {
+.t_green_sea button:nth-child(1n+1) {
   background-color: #1abb9b;
 }
-.t_green_sea button:nth-child(1):hover {
+.t_green_sea button:nth-child(1n+1):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(2) {
+.t_green_sea button:nth-child(1n+2) {
   background-color: #1abf9f;
 }
-.t_green_sea button:nth-child(2):hover {
+.t_green_sea button:nth-child(1n+2):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(3) {
+.t_green_sea button:nth-child(1n+3) {
   background-color: #1bc4a3;
 }
-.t_green_sea button:nth-child(3):hover {
+.t_green_sea button:nth-child(1n+3):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(4) {
+.t_green_sea button:nth-child(1n+4) {
   background-color: #1cc8a7;
 }
-.t_green_sea button:nth-child(4):hover {
+.t_green_sea button:nth-child(1n+4):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(5) {
+.t_green_sea button:nth-child(1n+5) {
   background-color: #1ccdaa;
 }
-.t_green_sea button:nth-child(5):hover {
+.t_green_sea button:nth-child(1n+5):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(6) {
+.t_green_sea button:nth-child(1n+6) {
   background-color: #1dd1ae;
 }
-.t_green_sea button:nth-child(6):hover {
+.t_green_sea button:nth-child(1n+6):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(7) {
+.t_green_sea button:nth-child(1n+7) {
   background-color: #1dd6b2;
 }
-.t_green_sea button:nth-child(7):hover {
+.t_green_sea button:nth-child(1n+7):hover {
   background-color: #19b698;
 }
-.t_green_sea button:nth-child(8) {
+.t_green_sea button:nth-child(1n+8) {
   background-color: #1edab5;
 }
-.t_green_sea button:nth-child(8):hover {
+.t_green_sea button:nth-child(1n+8):hover {
   background-color: #19b698;
 }
 .t_green_sea button:last-of-type {
@@ -203,7 +204,8 @@
 .t_green_sea button:hover {
   background-color: #19b698;
 }
-.t_green_sea .t_marked {
+.t_green_sea .t_cap.t_marked,
+.t_green_sea .t_label.t_marked {
   background-color: #138a72;
 }
 .t_green_sea .t_body {
@@ -263,52 +265,52 @@
 .t_sun_flower button {
   background-color: #dab10d;
 }
-.t_sun_flower button:nth-child(1) {
+.t_sun_flower button:nth-child(1n+1) {
   background-color: #f3cb2c;
 }
-.t_sun_flower button:nth-child(1):hover {
+.t_sun_flower button:nth-child(1n+1):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(2) {
+.t_sun_flower button:nth-child(1n+2) {
   background-color: #f3cc31;
 }
-.t_sun_flower button:nth-child(2):hover {
+.t_sun_flower button:nth-child(1n+2):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(3) {
+.t_sun_flower button:nth-child(1n+3) {
   background-color: #f3cd36;
 }
-.t_sun_flower button:nth-child(3):hover {
+.t_sun_flower button:nth-child(1n+3):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(4) {
+.t_sun_flower button:nth-child(1n+4) {
   background-color: #f4cf3a;
 }
-.t_sun_flower button:nth-child(4):hover {
+.t_sun_flower button:nth-child(1n+4):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(5) {
+.t_sun_flower button:nth-child(1n+5) {
   background-color: #f4d03f;
 }
-.t_sun_flower button:nth-child(5):hover {
+.t_sun_flower button:nth-child(1n+5):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(6) {
+.t_sun_flower button:nth-child(1n+6) {
   background-color: #f4d144;
 }
-.t_sun_flower button:nth-child(6):hover {
+.t_sun_flower button:nth-child(1n+6):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(7) {
+.t_sun_flower button:nth-child(1n+7) {
   background-color: #f4d249;
 }
-.t_sun_flower button:nth-child(7):hover {
+.t_sun_flower button:nth-child(1n+7):hover {
   background-color: #f2ca27;
 }
-.t_sun_flower button:nth-child(8) {
+.t_sun_flower button:nth-child(1n+8) {
   background-color: #f5d34e;
 }
-.t_sun_flower button:nth-child(8):hover {
+.t_sun_flower button:nth-child(1n+8):hover {
   background-color: #f2ca27;
 }
 .t_sun_flower button:last-of-type {
@@ -317,7 +319,8 @@
 .t_sun_flower button:hover {
   background-color: #f2ca27;
 }
-.t_sun_flower .t_marked {
+.t_sun_flower .t_cap.t_marked,
+.t_sun_flower .t_label.t_marked {
   background-color: #dab10d;
 }
 .t_sun_flower .t_body {
@@ -377,52 +380,52 @@
 .t_orange button {
   background-color: #e08e0b;
 }
-.t_orange button:nth-child(1) {
+.t_orange button:nth-child(1n+1) {
   background-color: #f4a82f;
 }
-.t_orange button:nth-child(1):hover {
+.t_orange button:nth-child(1n+1):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(2) {
+.t_orange button:nth-child(1n+2) {
   background-color: #f5aa34;
 }
-.t_orange button:nth-child(2):hover {
+.t_orange button:nth-child(1n+2):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(3) {
+.t_orange button:nth-child(1n+3) {
   background-color: #f5ac39;
 }
-.t_orange button:nth-child(3):hover {
+.t_orange button:nth-child(1n+3):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(4) {
+.t_orange button:nth-child(1n+4) {
   background-color: #f5ae3e;
 }
-.t_orange button:nth-child(4):hover {
+.t_orange button:nth-child(1n+4):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(5) {
+.t_orange button:nth-child(1n+5) {
   background-color: #f5b043;
 }
-.t_orange button:nth-child(5):hover {
+.t_orange button:nth-child(1n+5):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(6) {
+.t_orange button:nth-child(1n+6) {
   background-color: #f6b247;
 }
-.t_orange button:nth-child(6):hover {
+.t_orange button:nth-child(1n+6):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(7) {
+.t_orange button:nth-child(1n+7) {
   background-color: #f6b44c;
 }
-.t_orange button:nth-child(7):hover {
+.t_orange button:nth-child(1n+7):hover {
   background-color: #f4a62a;
 }
-.t_orange button:nth-child(8) {
+.t_orange button:nth-child(1n+8) {
   background-color: #f6b651;
 }
-.t_orange button:nth-child(8):hover {
+.t_orange button:nth-child(1n+8):hover {
   background-color: #f4a62a;
 }
 .t_orange button:last-of-type {
@@ -431,7 +434,8 @@
 .t_orange button:hover {
   background-color: #f4a62a;
 }
-.t_orange .t_marked {
+.t_orange .t_cap.t_marked,
+.t_orange .t_label.t_marked {
   background-color: #e08e0b;
 }
 .t_orange .t_body {
@@ -491,52 +495,52 @@
 .t_emerald button {
   background-color: #29b765;
 }
-.t_emerald button:nth-child(1) {
+.t_emerald button:nth-child(1n+1) {
   background-color: #44d581;
 }
-.t_emerald button:nth-child(1):hover {
+.t_emerald button:nth-child(1n+1):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(2) {
+.t_emerald button:nth-child(1n+2) {
   background-color: #48d684;
 }
-.t_emerald button:nth-child(2):hover {
+.t_emerald button:nth-child(1n+2):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(3) {
+.t_emerald button:nth-child(1n+3) {
   background-color: #4cd787;
 }
-.t_emerald button:nth-child(3):hover {
+.t_emerald button:nth-child(1n+3):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(4) {
+.t_emerald button:nth-child(1n+4) {
   background-color: #50d88a;
 }
-.t_emerald button:nth-child(4):hover {
+.t_emerald button:nth-child(1n+4):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(5) {
+.t_emerald button:nth-child(1n+5) {
   background-color: #54d98c;
 }
-.t_emerald button:nth-child(5):hover {
+.t_emerald button:nth-child(1n+5):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(6) {
+.t_emerald button:nth-child(1n+6) {
   background-color: #59d98f;
 }
-.t_emerald button:nth-child(6):hover {
+.t_emerald button:nth-child(1n+6):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(7) {
+.t_emerald button:nth-child(1n+7) {
   background-color: #5dda92;
 }
-.t_emerald button:nth-child(7):hover {
+.t_emerald button:nth-child(1n+7):hover {
   background-color: #40d47e;
 }
-.t_emerald button:nth-child(8) {
+.t_emerald button:nth-child(1n+8) {
   background-color: #61db95;
 }
-.t_emerald button:nth-child(8):hover {
+.t_emerald button:nth-child(1n+8):hover {
   background-color: #40d47e;
 }
 .t_emerald button:last-of-type {
@@ -545,7 +549,8 @@
 .t_emerald button:hover {
   background-color: #40d47e;
 }
-.t_emerald .t_marked {
+.t_emerald .t_cap.t_marked,
+.t_emerald .t_label.t_marked {
   background-color: #29b765;
 }
 .t_emerald .t_body {
@@ -605,52 +610,52 @@
 .t_nephritis button {
   background-color: #295;
 }
-.t_nephritis button:nth-child(1) {
+.t_nephritis button:nth-child(1n+1) {
   background-color: #2dc76e;
 }
-.t_nephritis button:nth-child(1):hover {
+.t_nephritis button:nth-child(1n+1):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(2) {
+.t_nephritis button:nth-child(1n+2) {
   background-color: #2ecb70;
 }
-.t_nephritis button:nth-child(2):hover {
+.t_nephritis button:nth-child(1n+2):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(3) {
+.t_nephritis button:nth-child(1n+3) {
   background-color: #2ecf72;
 }
-.t_nephritis button:nth-child(3):hover {
+.t_nephritis button:nth-child(1n+3):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(4) {
+.t_nephritis button:nth-child(1n+4) {
   background-color: #32d175;
 }
-.t_nephritis button:nth-child(4):hover {
+.t_nephritis button:nth-child(1n+4):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(5) {
+.t_nephritis button:nth-child(1n+5) {
   background-color: #36d278;
 }
-.t_nephritis button:nth-child(5):hover {
+.t_nephritis button:nth-child(1n+5):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(6) {
+.t_nephritis button:nth-child(1n+6) {
   background-color: #3ad37b;
 }
-.t_nephritis button:nth-child(6):hover {
+.t_nephritis button:nth-child(1n+6):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(7) {
+.t_nephritis button:nth-child(1n+7) {
   background-color: #3ed47d;
 }
-.t_nephritis button:nth-child(7):hover {
+.t_nephritis button:nth-child(1n+7):hover {
   background-color: #2cc36b;
 }
-.t_nephritis button:nth-child(8) {
+.t_nephritis button:nth-child(1n+8) {
   background-color: #43d580;
 }
-.t_nephritis button:nth-child(8):hover {
+.t_nephritis button:nth-child(1n+8):hover {
   background-color: #2cc36b;
 }
 .t_nephritis button:last-of-type {
@@ -659,7 +664,8 @@
 .t_nephritis button:hover {
   background-color: #2cc36b;
 }
-.t_nephritis .t_marked {
+.t_nephritis .t_cap.t_marked,
+.t_nephritis .t_label.t_marked {
   background-color: #295;
 }
 .t_nephritis .t_body {
@@ -719,52 +725,52 @@
 .t_carrot button {
   background-color: #d67118;
 }
-.t_carrot button:nth-child(1) {
+.t_carrot button:nth-child(1n+1) {
   background-color: #e98e3d;
 }
-.t_carrot button:nth-child(1):hover {
+.t_carrot button:nth-child(1n+1):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(2) {
+.t_carrot button:nth-child(1n+2) {
   background-color: #ea9142;
 }
-.t_carrot button:nth-child(2):hover {
+.t_carrot button:nth-child(1n+2):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(3) {
+.t_carrot button:nth-child(1n+3) {
   background-color: #ea9347;
 }
-.t_carrot button:nth-child(3):hover {
+.t_carrot button:nth-child(1n+3):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(4) {
+.t_carrot button:nth-child(1n+4) {
   background-color: #eb964b;
 }
-.t_carrot button:nth-child(4):hover {
+.t_carrot button:nth-child(1n+4):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(5) {
+.t_carrot button:nth-child(1n+5) {
   background-color: #eb9950;
 }
-.t_carrot button:nth-child(5):hover {
+.t_carrot button:nth-child(1n+5):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(6) {
+.t_carrot button:nth-child(1n+6) {
   background-color: #ec9b54;
 }
-.t_carrot button:nth-child(6):hover {
+.t_carrot button:nth-child(1n+6):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(7) {
+.t_carrot button:nth-child(1n+7) {
   background-color: #ec9e59;
 }
-.t_carrot button:nth-child(7):hover {
+.t_carrot button:nth-child(1n+7):hover {
   background-color: #e98b39;
 }
-.t_carrot button:nth-child(8) {
+.t_carrot button:nth-child(1n+8) {
   background-color: #eda15e;
 }
-.t_carrot button:nth-child(8):hover {
+.t_carrot button:nth-child(1n+8):hover {
   background-color: #e98b39;
 }
 .t_carrot button:last-of-type {
@@ -773,7 +779,8 @@
 .t_carrot button:hover {
   background-color: #e98b39;
 }
-.t_carrot .t_marked {
+.t_carrot .t_cap.t_marked,
+.t_carrot .t_label.t_marked {
   background-color: #d67118;
 }
 .t_carrot .t_body {
@@ -833,52 +840,52 @@
 .t_pumpkin button {
   background-color: #b94a00;
 }
-.t_pumpkin button:nth-child(1) {
+.t_pumpkin button:nth-child(1n+1) {
   background-color: #f26000;
 }
-.t_pumpkin button:nth-child(1):hover {
+.t_pumpkin button:nth-child(1n+1):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(2) {
+.t_pumpkin button:nth-child(1n+2) {
   background-color: #f76200;
 }
-.t_pumpkin button:nth-child(2):hover {
+.t_pumpkin button:nth-child(1n+2):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(3) {
+.t_pumpkin button:nth-child(1n+3) {
   background-color: #fc6400;
 }
-.t_pumpkin button:nth-child(3):hover {
+.t_pumpkin button:nth-child(1n+3):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(4) {
+.t_pumpkin button:nth-child(1n+4) {
   background-color: #ff6702;
 }
-.t_pumpkin button:nth-child(4):hover {
+.t_pumpkin button:nth-child(1n+4):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(5) {
+.t_pumpkin button:nth-child(1n+5) {
   background-color: #ff6a07;
 }
-.t_pumpkin button:nth-child(5):hover {
+.t_pumpkin button:nth-child(1n+5):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(6) {
+.t_pumpkin button:nth-child(1n+6) {
   background-color: #ff6d0c;
 }
-.t_pumpkin button:nth-child(6):hover {
+.t_pumpkin button:nth-child(1n+6):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(7) {
+.t_pumpkin button:nth-child(1n+7) {
   background-color: #ff7011;
 }
-.t_pumpkin button:nth-child(7):hover {
+.t_pumpkin button:nth-child(1n+7):hover {
   background-color: #ec5e00;
 }
-.t_pumpkin button:nth-child(8) {
+.t_pumpkin button:nth-child(1n+8) {
   background-color: #ff7316;
 }
-.t_pumpkin button:nth-child(8):hover {
+.t_pumpkin button:nth-child(1n+8):hover {
   background-color: #ec5e00;
 }
 .t_pumpkin button:last-of-type {
@@ -887,7 +894,8 @@
 .t_pumpkin button:hover {
   background-color: #ec5e00;
 }
-.t_pumpkin .t_marked {
+.t_pumpkin .t_cap.t_marked,
+.t_pumpkin .t_label.t_marked {
   background-color: #b94a00;
 }
 .t_pumpkin .t_body {
@@ -947,52 +955,52 @@
 .t_peter_river button {
   background-color: #258cd1;
 }
-.t_peter_river button:nth-child(1) {
+.t_peter_river button:nth-child(1n+1) {
   background-color: #4ea5e0;
 }
-.t_peter_river button:nth-child(1):hover {
+.t_peter_river button:nth-child(1n+1):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(2) {
+.t_peter_river button:nth-child(1n+2) {
   background-color: #52a7e0;
 }
-.t_peter_river button:nth-child(2):hover {
+.t_peter_river button:nth-child(1n+2):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(3) {
+.t_peter_river button:nth-child(1n+3) {
   background-color: #57aae1;
 }
-.t_peter_river button:nth-child(3):hover {
+.t_peter_river button:nth-child(1n+3):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(4) {
+.t_peter_river button:nth-child(1n+4) {
   background-color: #5bace2;
 }
-.t_peter_river button:nth-child(4):hover {
+.t_peter_river button:nth-child(1n+4):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(5) {
+.t_peter_river button:nth-child(1n+5) {
   background-color: #5faee3;
 }
-.t_peter_river button:nth-child(5):hover {
+.t_peter_river button:nth-child(1n+5):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(6) {
+.t_peter_river button:nth-child(1n+6) {
   background-color: #64b0e3;
 }
-.t_peter_river button:nth-child(6):hover {
+.t_peter_river button:nth-child(1n+6):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(7) {
+.t_peter_river button:nth-child(1n+7) {
   background-color: #68b2e4;
 }
-.t_peter_river button:nth-child(7):hover {
+.t_peter_river button:nth-child(1n+7):hover {
   background-color: #4aa3df;
 }
-.t_peter_river button:nth-child(8) {
+.t_peter_river button:nth-child(1n+8) {
   background-color: #6cb5e5;
 }
-.t_peter_river button:nth-child(8):hover {
+.t_peter_river button:nth-child(1n+8):hover {
   background-color: #4aa3df;
 }
 .t_peter_river button:last-of-type {
@@ -1001,7 +1009,8 @@
 .t_peter_river button:hover {
   background-color: #4aa3df;
 }
-.t_peter_river .t_marked {
+.t_peter_river .t_cap.t_marked,
+.t_peter_river .t_label.t_marked {
   background-color: #258cd1;
 }
 .t_peter_river .t_body {
@@ -1061,52 +1070,52 @@
 .t_belize_hole button {
   background-color: #2472a4;
 }
-.t_belize_hole button:nth-child(1) {
+.t_belize_hole button:nth-child(1n+1) {
   background-color: #3091d1;
 }
-.t_belize_hole button:nth-child(1):hover {
+.t_belize_hole button:nth-child(1n+1):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(2) {
+.t_belize_hole button:nth-child(1n+2) {
   background-color: #3493d2;
 }
-.t_belize_hole button:nth-child(2):hover {
+.t_belize_hole button:nth-child(1n+2):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(3) {
+.t_belize_hole button:nth-child(1n+3) {
   background-color: #3896d3;
 }
-.t_belize_hole button:nth-child(3):hover {
+.t_belize_hole button:nth-child(1n+3):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(4) {
+.t_belize_hole button:nth-child(1n+4) {
   background-color: #3c98d4;
 }
-.t_belize_hole button:nth-child(4):hover {
+.t_belize_hole button:nth-child(1n+4):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(5) {
+.t_belize_hole button:nth-child(1n+5) {
   background-color: #409ad5;
 }
-.t_belize_hole button:nth-child(5):hover {
+.t_belize_hole button:nth-child(1n+5):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(6) {
+.t_belize_hole button:nth-child(1n+6) {
   background-color: #449cd6;
 }
-.t_belize_hole button:nth-child(6):hover {
+.t_belize_hole button:nth-child(1n+6):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(7) {
+.t_belize_hole button:nth-child(1n+7) {
   background-color: #499ed7;
 }
-.t_belize_hole button:nth-child(7):hover {
+.t_belize_hole button:nth-child(1n+7):hover {
   background-color: #2e8ece;
 }
-.t_belize_hole button:nth-child(8) {
+.t_belize_hole button:nth-child(1n+8) {
   background-color: #4da1d8;
 }
-.t_belize_hole button:nth-child(8):hover {
+.t_belize_hole button:nth-child(1n+8):hover {
   background-color: #2e8ece;
 }
 .t_belize_hole button:last-of-type {
@@ -1115,7 +1124,8 @@
 .t_belize_hole button:hover {
   background-color: #2e8ece;
 }
-.t_belize_hole .t_marked {
+.t_belize_hole .t_cap.t_marked,
+.t_belize_hole .t_label.t_marked {
   background-color: #2472a4;
 }
 .t_belize_hole .t_body {
@@ -1175,52 +1185,52 @@
 .t_alizarin button {
   background-color: #e43725;
 }
-.t_alizarin button:nth-child(1) {
+.t_alizarin button:nth-child(1n+1) {
   background-color: #ea6557;
 }
-.t_alizarin button:nth-child(1):hover {
+.t_alizarin button:nth-child(1n+1):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(2) {
+.t_alizarin button:nth-child(1n+2) {
   background-color: #eb695c;
 }
-.t_alizarin button:nth-child(2):hover {
+.t_alizarin button:nth-child(1n+2):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(3) {
+.t_alizarin button:nth-child(1n+3) {
   background-color: #eb6d60;
 }
-.t_alizarin button:nth-child(3):hover {
+.t_alizarin button:nth-child(1n+3):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(4) {
+.t_alizarin button:nth-child(1n+4) {
   background-color: #ec7265;
 }
-.t_alizarin button:nth-child(4):hover {
+.t_alizarin button:nth-child(1n+4):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(5) {
+.t_alizarin button:nth-child(1n+5) {
   background-color: #ed7669;
 }
-.t_alizarin button:nth-child(5):hover {
+.t_alizarin button:nth-child(1n+5):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(6) {
+.t_alizarin button:nth-child(1n+6) {
   background-color: #ed7a6e;
 }
-.t_alizarin button:nth-child(6):hover {
+.t_alizarin button:nth-child(1n+6):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(7) {
+.t_alizarin button:nth-child(1n+7) {
   background-color: #ee7e72;
 }
-.t_alizarin button:nth-child(7):hover {
+.t_alizarin button:nth-child(1n+7):hover {
   background-color: #ea6153;
 }
-.t_alizarin button:nth-child(8) {
+.t_alizarin button:nth-child(1n+8) {
   background-color: #ee8277;
 }
-.t_alizarin button:nth-child(8):hover {
+.t_alizarin button:nth-child(1n+8):hover {
   background-color: #ea6153;
 }
 .t_alizarin button:last-of-type {
@@ -1229,7 +1239,8 @@
 .t_alizarin button:hover {
   background-color: #ea6153;
 }
-.t_alizarin .t_marked {
+.t_alizarin .t_cap.t_marked,
+.t_alizarin .t_label.t_marked {
   background-color: #e43725;
 }
 .t_alizarin .t_body {
@@ -1289,52 +1300,52 @@
 .t_pomegranat button {
   background-color: #ab3326;
 }
-.t_pomegranat button:nth-child(1) {
+.t_pomegranat button:nth-child(1n+1) {
   background-color: #d24637;
 }
-.t_pomegranat button:nth-child(1):hover {
+.t_pomegranat button:nth-child(1n+1):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(2) {
+.t_pomegranat button:nth-child(1n+2) {
   background-color: #d34a3b;
 }
-.t_pomegranat button:nth-child(2):hover {
+.t_pomegranat button:nth-child(1n+2):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(3) {
+.t_pomegranat button:nth-child(1n+3) {
   background-color: #d44e40;
 }
-.t_pomegranat button:nth-child(3):hover {
+.t_pomegranat button:nth-child(1n+3):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(4) {
+.t_pomegranat button:nth-child(1n+4) {
   background-color: #d55144;
 }
-.t_pomegranat button:nth-child(4):hover {
+.t_pomegranat button:nth-child(1n+4):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(5) {
+.t_pomegranat button:nth-child(1n+5) {
   background-color: #d65548;
 }
-.t_pomegranat button:nth-child(5):hover {
+.t_pomegranat button:nth-child(1n+5):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(6) {
+.t_pomegranat button:nth-child(1n+6) {
   background-color: #d7594c;
 }
-.t_pomegranat button:nth-child(6):hover {
+.t_pomegranat button:nth-child(1n+6):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(7) {
+.t_pomegranat button:nth-child(1n+7) {
   background-color: #d85d50;
 }
-.t_pomegranat button:nth-child(7):hover {
+.t_pomegranat button:nth-child(1n+7):hover {
   background-color: #d14233;
 }
-.t_pomegranat button:nth-child(8) {
+.t_pomegranat button:nth-child(1n+8) {
   background-color: #d96154;
 }
-.t_pomegranat button:nth-child(8):hover {
+.t_pomegranat button:nth-child(1n+8):hover {
   background-color: #d14233;
 }
 .t_pomegranat button:last-of-type {
@@ -1343,7 +1354,8 @@
 .t_pomegranat button:hover {
   background-color: #d14233;
 }
-.t_pomegranat .t_marked {
+.t_pomegranat .t_cap.t_marked,
+.t_pomegranat .t_label.t_marked {
   background-color: #ab3326;
 }
 .t_pomegranat .t_body {
@@ -1403,52 +1415,52 @@
 .t_amethyst button {
   background-color: #8f4bab;
 }
-.t_amethyst button:nth-child(1) {
+.t_amethyst button:nth-child(1n+1) {
   background-color: #a86ebf;
 }
-.t_amethyst button:nth-child(1):hover {
+.t_amethyst button:nth-child(1n+1):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(2) {
+.t_amethyst button:nth-child(1n+2) {
   background-color: #aa72c1;
 }
-.t_amethyst button:nth-child(2):hover {
+.t_amethyst button:nth-child(1n+2):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(3) {
+.t_amethyst button:nth-child(1n+3) {
   background-color: #ac75c2;
 }
-.t_amethyst button:nth-child(3):hover {
+.t_amethyst button:nth-child(1n+3):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(4) {
+.t_amethyst button:nth-child(1n+4) {
   background-color: #ae79c4;
 }
-.t_amethyst button:nth-child(4):hover {
+.t_amethyst button:nth-child(1n+4):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(5) {
+.t_amethyst button:nth-child(1n+5) {
   background-color: #b07cc6;
 }
-.t_amethyst button:nth-child(5):hover {
+.t_amethyst button:nth-child(1n+5):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(6) {
+.t_amethyst button:nth-child(1n+6) {
   background-color: #b280c7;
 }
-.t_amethyst button:nth-child(6):hover {
+.t_amethyst button:nth-child(1n+6):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(7) {
+.t_amethyst button:nth-child(1n+7) {
   background-color: #b584c9;
 }
-.t_amethyst button:nth-child(7):hover {
+.t_amethyst button:nth-child(1n+7):hover {
   background-color: #a66bbe;
 }
-.t_amethyst button:nth-child(8) {
+.t_amethyst button:nth-child(1n+8) {
   background-color: #b787ca;
 }
-.t_amethyst button:nth-child(8):hover {
+.t_amethyst button:nth-child(1n+8):hover {
   background-color: #a66bbe;
 }
 .t_amethyst button:last-of-type {
@@ -1457,7 +1469,8 @@
 .t_amethyst button:hover {
   background-color: #a66bbe;
 }
-.t_amethyst .t_marked {
+.t_amethyst .t_cap.t_marked,
+.t_amethyst .t_label.t_marked {
   background-color: #8f4bab;
 }
 .t_amethyst .t_body {
@@ -1517,52 +1530,52 @@
 .t_wisteria button {
   background-color: #7f3d9b;
 }
-.t_wisteria button:nth-child(1) {
+.t_wisteria button:nth-child(1n+1) {
   background-color: #9d54bc;
 }
-.t_wisteria button:nth-child(1):hover {
+.t_wisteria button:nth-child(1n+1):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(2) {
+.t_wisteria button:nth-child(1n+2) {
   background-color: #9f58bd;
 }
-.t_wisteria button:nth-child(2):hover {
+.t_wisteria button:nth-child(1n+2):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(3) {
+.t_wisteria button:nth-child(1n+3) {
   background-color: #a15bbf;
 }
-.t_wisteria button:nth-child(3):hover {
+.t_wisteria button:nth-child(1n+3):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(4) {
+.t_wisteria button:nth-child(1n+4) {
   background-color: #a35fc0;
 }
-.t_wisteria button:nth-child(4):hover {
+.t_wisteria button:nth-child(1n+4):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(5) {
+.t_wisteria button:nth-child(1n+5) {
   background-color: #a563c1;
 }
-.t_wisteria button:nth-child(5):hover {
+.t_wisteria button:nth-child(1n+5):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(6) {
+.t_wisteria button:nth-child(1n+6) {
   background-color: #a866c3;
 }
-.t_wisteria button:nth-child(6):hover {
+.t_wisteria button:nth-child(1n+6):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(7) {
+.t_wisteria button:nth-child(1n+7) {
   background-color: #aa6ac4;
 }
-.t_wisteria button:nth-child(7):hover {
+.t_wisteria button:nth-child(1n+7):hover {
   background-color: #9b50ba;
 }
-.t_wisteria button:nth-child(8) {
+.t_wisteria button:nth-child(1n+8) {
   background-color: #ac6dc6;
 }
-.t_wisteria button:nth-child(8):hover {
+.t_wisteria button:nth-child(1n+8):hover {
   background-color: #9b50ba;
 }
 .t_wisteria button:last-of-type {
@@ -1571,7 +1584,8 @@
 .t_wisteria button:hover {
   background-color: #9b50ba;
 }
-.t_wisteria .t_marked {
+.t_wisteria .t_cap.t_marked,
+.t_wisteria .t_label.t_marked {
   background-color: #7f3d9b;
 }
 .t_wisteria .t_body {
@@ -1631,52 +1645,52 @@
 .t_clouds button {
   background-color: #dde4e6;
 }
-.t_clouds button:nth-child(1) {
+.t_clouds button:nth-child(1n+1) {
   background-color: #fefefe;
 }
-.t_clouds button:nth-child(1):hover {
+.t_clouds button:nth-child(1n+1):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(2) {
+.t_clouds button:nth-child(1n+2) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(2):hover {
+.t_clouds button:nth-child(1n+2):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(3) {
+.t_clouds button:nth-child(1n+3) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(3):hover {
+.t_clouds button:nth-child(1n+3):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(4) {
+.t_clouds button:nth-child(1n+4) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(4):hover {
+.t_clouds button:nth-child(1n+4):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(5) {
+.t_clouds button:nth-child(1n+5) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(5):hover {
+.t_clouds button:nth-child(1n+5):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(6) {
+.t_clouds button:nth-child(1n+6) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(6):hover {
+.t_clouds button:nth-child(1n+6):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(7) {
+.t_clouds button:nth-child(1n+7) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(7):hover {
+.t_clouds button:nth-child(1n+7):hover {
   background-color: #fbfcfc;
 }
-.t_clouds button:nth-child(8) {
+.t_clouds button:nth-child(1n+8) {
   background-color: #fff;
 }
-.t_clouds button:nth-child(8):hover {
+.t_clouds button:nth-child(1n+8):hover {
   background-color: #fbfcfc;
 }
 .t_clouds button:last-of-type {
@@ -1685,7 +1699,8 @@
 .t_clouds button:hover {
   background-color: #fbfcfc;
 }
-.t_clouds .t_marked {
+.t_clouds .t_cap.t_marked,
+.t_clouds .t_label.t_marked {
   background-color: #dde4e6;
 }
 .t_clouds .t_body {
@@ -1745,52 +1760,52 @@
 .t_silver button {
   background-color: #afb6bb;
 }
-.t_silver button:nth-child(1) {
+.t_silver button:nth-child(1n+1) {
   background-color: #ced2d5;
 }
-.t_silver button:nth-child(1):hover {
+.t_silver button:nth-child(1n+1):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(2) {
+.t_silver button:nth-child(1n+2) {
   background-color: #d0d5d7;
 }
-.t_silver button:nth-child(2):hover {
+.t_silver button:nth-child(1n+2):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(3) {
+.t_silver button:nth-child(1n+3) {
   background-color: #d3d7da;
 }
-.t_silver button:nth-child(3):hover {
+.t_silver button:nth-child(1n+3):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(4) {
+.t_silver button:nth-child(1n+4) {
   background-color: #d6dadc;
 }
-.t_silver button:nth-child(4):hover {
+.t_silver button:nth-child(1n+4):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(5) {
+.t_silver button:nth-child(1n+5) {
   background-color: #d9dcde;
 }
-.t_silver button:nth-child(5):hover {
+.t_silver button:nth-child(1n+5):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(6) {
+.t_silver button:nth-child(1n+6) {
   background-color: #dbdfe1;
 }
-.t_silver button:nth-child(6):hover {
+.t_silver button:nth-child(1n+6):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(7) {
+.t_silver button:nth-child(1n+7) {
   background-color: #dee1e3;
 }
-.t_silver button:nth-child(7):hover {
+.t_silver button:nth-child(1n+7):hover {
   background-color: #cbd0d3;
 }
-.t_silver button:nth-child(8) {
+.t_silver button:nth-child(1n+8) {
   background-color: #e1e4e5;
 }
-.t_silver button:nth-child(8):hover {
+.t_silver button:nth-child(1n+8):hover {
   background-color: #cbd0d3;
 }
 .t_silver button:last-of-type {
@@ -1799,7 +1814,8 @@
 .t_silver button:hover {
   background-color: #cbd0d3;
 }
-.t_silver .t_marked {
+.t_silver .t_cap.t_marked,
+.t_silver .t_label.t_marked {
   background-color: #afb6bb;
 }
 .t_silver .t_body {
@@ -1859,52 +1875,52 @@
 .t_wet_asphalt button {
   background-color: #2b3c4e;
 }
-.t_wet_asphalt button:nth-child(1) {
+.t_wet_asphalt button:nth-child(1n+1) {
   background-color: #3f5872;
 }
-.t_wet_asphalt button:nth-child(1):hover {
+.t_wet_asphalt button:nth-child(1n+1):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(2) {
+.t_wet_asphalt button:nth-child(1n+2) {
   background-color: #415b75;
 }
-.t_wet_asphalt button:nth-child(2):hover {
+.t_wet_asphalt button:nth-child(1n+2):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(3) {
+.t_wet_asphalt button:nth-child(1n+3) {
   background-color: #435d78;
 }
-.t_wet_asphalt button:nth-child(3):hover {
+.t_wet_asphalt button:nth-child(1n+3):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(4) {
+.t_wet_asphalt button:nth-child(1n+4) {
   background-color: #44607c;
 }
-.t_wet_asphalt button:nth-child(4):hover {
+.t_wet_asphalt button:nth-child(1n+4):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(5) {
+.t_wet_asphalt button:nth-child(1n+5) {
   background-color: #46627f;
 }
-.t_wet_asphalt button:nth-child(5):hover {
+.t_wet_asphalt button:nth-child(1n+5):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(6) {
+.t_wet_asphalt button:nth-child(1n+6) {
   background-color: #486582;
 }
-.t_wet_asphalt button:nth-child(6):hover {
+.t_wet_asphalt button:nth-child(1n+6):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(7) {
+.t_wet_asphalt button:nth-child(1n+7) {
   background-color: #4a6885;
 }
-.t_wet_asphalt button:nth-child(7):hover {
+.t_wet_asphalt button:nth-child(1n+7):hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt button:nth-child(8) {
+.t_wet_asphalt button:nth-child(1n+8) {
   background-color: #4c6a89;
 }
-.t_wet_asphalt button:nth-child(8):hover {
+.t_wet_asphalt button:nth-child(1n+8):hover {
   background-color: #3d566e;
 }
 .t_wet_asphalt button:last-of-type {
@@ -1913,7 +1929,8 @@
 .t_wet_asphalt button:hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt .t_marked {
+.t_wet_asphalt .t_cap.t_marked,
+.t_wet_asphalt .t_label.t_marked {
   background-color: #2b3c4e;
 }
 .t_wet_asphalt .t_body {
@@ -1973,52 +1990,52 @@
 .t_midnight_blue button {
   background-color: #233140;
 }
-.t_midnight_blue button:nth-child(1) {
+.t_midnight_blue button:nth-child(1n+1) {
   background-color: #374d64;
 }
-.t_midnight_blue button:nth-child(1):hover {
+.t_midnight_blue button:nth-child(1n+1):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(2) {
+.t_midnight_blue button:nth-child(1n+2) {
   background-color: #395067;
 }
-.t_midnight_blue button:nth-child(2):hover {
+.t_midnight_blue button:nth-child(1n+2):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(3) {
+.t_midnight_blue button:nth-child(1n+3) {
   background-color: #3a526a;
 }
-.t_midnight_blue button:nth-child(3):hover {
+.t_midnight_blue button:nth-child(1n+3):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(4) {
+.t_midnight_blue button:nth-child(1n+4) {
   background-color: #3c556e;
 }
-.t_midnight_blue button:nth-child(4):hover {
+.t_midnight_blue button:nth-child(1n+4):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(5) {
+.t_midnight_blue button:nth-child(1n+5) {
   background-color: #3e5771;
 }
-.t_midnight_blue button:nth-child(5):hover {
+.t_midnight_blue button:nth-child(1n+5):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(6) {
+.t_midnight_blue button:nth-child(1n+6) {
   background-color: #405a74;
 }
-.t_midnight_blue button:nth-child(6):hover {
+.t_midnight_blue button:nth-child(1n+6):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(7) {
+.t_midnight_blue button:nth-child(1n+7) {
   background-color: #425d77;
 }
-.t_midnight_blue button:nth-child(7):hover {
+.t_midnight_blue button:nth-child(1n+7):hover {
   background-color: #354b60;
 }
-.t_midnight_blue button:nth-child(8) {
+.t_midnight_blue button:nth-child(1n+8) {
   background-color: #445f7b;
 }
-.t_midnight_blue button:nth-child(8):hover {
+.t_midnight_blue button:nth-child(1n+8):hover {
   background-color: #354b60;
 }
 .t_midnight_blue button:last-of-type {
@@ -2027,7 +2044,8 @@
 .t_midnight_blue button:hover {
   background-color: #354b60;
 }
-.t_midnight_blue .t_marked {
+.t_midnight_blue .t_cap.t_marked,
+.t_midnight_blue .t_label.t_marked {
   background-color: #233140;
 }
 .t_midnight_blue .t_body {
@@ -2089,6 +2107,7 @@
   overflow-y: auto;
   padding: 15px;
   height: 285px;
+  margin-bottom: 15px;
 }
 .tile .t_body .description {
   -webkit-transition: color 0.6s ease;
@@ -2140,6 +2159,9 @@
 }
 .tile.t_condensed {
   width: 230px;
+}
+.tile.t_wide {
+  width: 536px;
 }
 .tile.t_split .t_body {
   padding: 0;

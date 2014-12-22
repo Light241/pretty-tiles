@@ -38,35 +38,35 @@ tile_bg(c)
       background-color c
   button
     background-color darken(c, tile_darken_ratio)
-    &:nth-child(1)
+    &:nth-child(1n+1)
       background-color lighten(c, tile_lighten_ratio + 1)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(2)
+    &:nth-child(1n+2)
       background-color lighten(c, tile_lighten_ratio + 2)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(3)
+    &:nth-child(1n+3)
       background-color lighten(c, tile_lighten_ratio + 3)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(4)
+    &:nth-child(1n+4)
       background-color lighten(c, tile_lighten_ratio + 4)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(5)
+    &:nth-child(1n+5)
       background-color lighten(c, tile_lighten_ratio + 5)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(6)
+    &:nth-child(1n+6)
       background-color lighten(c, tile_lighten_ratio + 6)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(7)
+    &:nth-child(1n+7)
       background-color lighten(c, tile_lighten_ratio + 7)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
-    &:nth-child(8)
+    &:nth-child(1n+8)
       background-color lighten(c, tile_lighten_ratio + 8)
       &:hover
         background-color lighten(c, tile_lighten_ratio)
@@ -112,8 +112,9 @@ scroll(c)
     -webkit-box-shadow: inset 0 0 3px c
 
 marked_elems(c)
-  .t_marked
-    background-color darken(c, tile_darken_ratio)
+  .t_cap, .t_label
+    &.t_marked
+      background-color darken(c, tile_darken_ratio)
 
 .t_turquoise
   tile_text_color(clouds_color)
