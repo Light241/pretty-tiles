@@ -6,6 +6,7 @@ var changed = require('gulp-changed');
 var stylus = require('gulp-stylus');
 var nib = require('nib');
 var connect = require('gulp-connect');
+var rename = require('gulp-rename');
 
 gulp.task('stylus', function () {
     var src = 'src/stylus/**/*.styl';
@@ -13,10 +14,23 @@ gulp.task('stylus', function () {
 
     return gulp.src(src)
         //.pipe(changed(dest))
-        .pipe(concat("pretty_tiles.styl"))
+        .pipe(concat("t_under.styl"))
         //.pipe(stylus({use: [nib()], compress: true}))
         .pipe(stylus({use: [nib()]}))
         .on('error', console.log)
+        .pipe(gulp.dest(dest))
+        .pipe(connect.reload());
+});
+
+gulp.task('min', function () {
+    var src = 'src/stylus/**/*.styl';
+    var dest = 'dist';
+
+    return gulp.src(src)
+        .pipe(concat("t_under.styl"))
+        .pipe(stylus({use: [nib()], compress: true}))
+        .on('error', console.log)
+        .pipe(rename('t_under.min.css'))
         .pipe(gulp.dest(dest))
         .pipe(connect.reload());
 });
@@ -41,6 +55,7 @@ gulp.task('watch', function () {
 gulp.task("build", function () {
     gulp.start("jade");
     gulp.start("stylus");
+    gulp.start("min");
 });
 
 gulp.task('webserver', function () {
