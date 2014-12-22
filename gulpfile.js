@@ -45,7 +45,7 @@ gulp.task("build", function () {
 
 gulp.task('webserver', function () {
     connect.server({
-        root: './',
+        root: [__dirname],
         port: 8001,
         livereload: true
     });
