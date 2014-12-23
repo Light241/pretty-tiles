@@ -5,7 +5,12 @@
   "main": "dist/t_under.css",
   "license": "https://github.com/Light241/t_under_tiles/blob/master/LICENSE",
   "keywords": "Flat, tile, tiles, square, squares, t_, tunder",
-  "authors": [{"name": "Sergey Panfilov", "email": "se-panfilov@ya.ru"}],
+  "authors": [
+    {
+      "name": "Sergey Panfilov",
+      "email": "se-panfilov@ya.ru"
+    }
+  ],
   "homepage": "https://light241.github.io/t_under_tiles/",
   "repository": {
     "type": "git",
@@ -16,6 +21,7 @@
   "devDependencies": {
     "angular": "~1.3.8",
     "font-awesome": "~4.2.0",
-    "angular-route": "~1.3.8"
+    "ui-router": "~0.2.13",
+    "angular-ui-router-anim-in-out": "~0.0.13"
   }
 }

@@ -1,14 +1,12 @@
 'use strict';
 
 angular.module('app', [
-    'ngRoute'
+    'app.pages.layout',
+    'ui.router',
+    'ngAnimate',
+    'anim-in-out'
 ])
-    .config(function ($routeProvider) {
-
-        $routeProvider
-            .when('/', {templateUrl: 'tests/src/pages/layout/layout.html'})
-            .when('/layout', {templateUrl: 'tests/src/pages/layout/layout.html'})
-            .when('/colors', {templateUrl: 'tests/src/pages/colors/colors.html'})
-        ;
+    .config(function ($urlRouterProvider) {
+        $urlRouterProvider.otherwise('/layout');
     })
 ;
