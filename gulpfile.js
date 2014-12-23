@@ -78,11 +78,13 @@ gulp.task("js", function () {
 gulp.task('watch', function () {
     gulp.watch(['tests/**/*.jade'], ['jade']);
     gulp.watch(['src/stylus/**/*.styl'], ['stylus']);
+    gulp.watch(['tests/src/**/*.js'], ['js']);
 });
 
 gulp.task("build", function () {
     gulp.start("jade");
     gulp.start("stylus");
+    gulp.start("js");
     gulp.start("min");
 });
 
