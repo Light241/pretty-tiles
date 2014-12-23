@@ -1,0 +1,21 @@
+{
+  "name": "t_",
+  "version": "0.0.1",
+  "description": "t_under tiles - is a flat tiles css framework",
+  "main": "dist/t_under.css",
+  "license": "private",
+  "keywords": "Flat, tile, tiles, square, squares, t_, tunder",
+  "authors": [{"name": "Sergey Panfilov", "email": "se-panfilov@ya.ru"}],
+  "homepage": "https://light241.github.io/t_under_tiles/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Light241/t_under_tiles.git"
+  },
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "~1.3.8",
+    "font-awesome": "~4.2.0",
+    "angular-route": "~1.3.8"
+  }
+}

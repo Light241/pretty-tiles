@@ -7,6 +7,8 @@ var stylus = require('gulp-stylus');
 var nib = require('nib');
 var connect = require('gulp-connect');
 var rename = require('gulp-rename');
+var ngAnnotate = require('gulp-ng-annotate');
+var jshint = require('gulp-jshint');
 
 gulp.task('stylus', function () {
     var src = 'src/stylus/**/*.styl';
@@ -45,6 +47,32 @@ gulp.task("jade", function () {
         .on('error', console.log)
         .pipe(gulp.dest(dest))
         .pipe(connect.reload());
+});
+
+gulp.task('lint', function () {
+    return gulp.src('tests/**/*.js')
+        .pipe(jshint({
+            globalstrict: true,
+            strict: false,
+            globals: {
+                angular: true,
+                localStorage: true,
+                console: true
+            }
+        }))
+        .pipe(jshint.reporter('jshint-stylish'));
+});
+
+gulp.task("js", function () {
+    var src = 'tests/src/**/*.js';
+    var dest = 'tests';
+
+    return gulp.src([src])
+        .pipe(changed(dest))
+        .pipe(concat("app.js"))
+        .pipe(ngAnnotate({remove: true, add: true, single_quotes: true}))
+        .on('error', console.log)
+        .pipe(gulp.dest(dest));
 });
 
 gulp.task('watch', function () {
