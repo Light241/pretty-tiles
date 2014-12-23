@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "t_under tiles - is a flat tiles css framework",
   "main": "dist/t_under.css",
-  "license": "private",
+  "license": "https://github.com/Light241/t_under_tiles/blob/master/LICENSE",
   "keywords": "Flat, tile, tiles, square, squares, t_, tunder",
   "authors": [{"name": "Sergey Panfilov", "email": "se-panfilov@ya.ru"}],
   "homepage": "https://light241.github.io/t_under_tiles/",
