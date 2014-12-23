@@ -1,1160 +1,123 @@
 h3 Regular tiles
-regular-tile
+
 #regulars_tile
     h4 Simple regular tiles
     #simple_regulars_tile
-        .tile.t_alizarin
-            .t_body
-                ul
-                    li Regular
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Regular
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
+        regular-tile(tile-classes="t_alizarin")
+        regular-tile(tile-classes="t_amethyst", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat", label="Yes")
     h4 One Button regular tiles
     #one_button_regulars_tile
-        .tile.t_wisteria
-            .t_body
-                ul
-                    li Regular
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_emerald
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_silver
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_pomegranat
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria", buttons="1")
+        regular-tile(tile-classes="t_emerald", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat", label="-50%", buttons="1")
     h4 Multiple Buttons regular tiles
     #multiple_buttons_regulars_tile
-        .tile.t_sun_flower
-            .t_body
-                ul
-                    li Regular
-                    li Buttons (7)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_orange
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_carrot
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Regular
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_green_sea
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Regular
-                    li Label
-                    li Buttons (8)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_sun_flower", buttons="7")
+        regular-tile(tile-classes="t_orange", cap="One", buttons="7")
+        regular-tile(tile-classes="t_carrot", cap="Now", label="You", buttons="7")
+        regular-tile(tile-classes="t_green_sea", label="Birthday", buttons="7")
 h3 Regular stretchable horizontal tiles
 #regulars_stretch_h_tiles
-    h4 Simple stretchable horizonta regular tiles
+    h4 Simple stretchable horizontal regular tiles
     #simple_regular_stretch_h_tiles
-        .tile.t_stretch_h.t_alizarin
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                div Lorem ipsum dolor sit amet, elit. Morbi tincidunt
-        .tile.t_stretch_h.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetu.
-        .tile.t_stretch_h.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-        .tile.t_stretch_h.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
+        regular-tile(tile-classes="t_alizarin t_stretch_h")
+        regular-tile(tile-classes="t_amethyst t_stretch_h", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole t_stretch_h", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat t_stretch_h", label="Yes")
     h4 One button regular stretchable horizontal tiles
     #one_button_regulars_stretch_h_tiles
-        .tile.t_stretch_h.t_wisteria
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_h.t_emerald
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_h.t_wisteria
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_h.t_emerald
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria t_stretch_h", buttons="1")
+        regular-tile(tile-classes="t_emerald t_stretch_h", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver t_stretch_h", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat t_stretch_h", label="-50%", buttons="1")
     h4 Multiple Buttons regular stretchable horizontal tiles
     #multiple_buttons_regular_stretch_h_tiles
-        .tile.t_stretch_h.t_sun_flower
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Buttons (8)
-                div Lorem ipsum dolor sit.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_h.t_orange
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_h.t_carrot
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, consectetur adipiscing elit. Morbi tincidunt, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_h.t_green_sea
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Regular
-                    li Stretch horizontal
-                    li Label
-                    li Button (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_wisteria t_stretch_h", buttons="3")
+        regular-tile(tile-classes="t_emerald t_stretch_h", cap="Yep", buttons="3")
+        regular-tile(tile-classes="t_silver t_stretch_h", cap="Sale", label="-50%", buttons="3")
+        regular-tile(tile-classes="t_pomegranat t_stretch_h", label="-50%", buttons="3")
 h3 Regular stretchable vertical tiles
 #regulars_stretch_v_tiles
     h4 Simple stretchable horizonta regular tiles
     #simple_regular_stretch_v_tiles
-        .tile.t_stretch_v.t_alizarin
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_stretch_v.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_stretch_v.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_stretch_v.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
+        regular-tile(tile-classes="t_alizarin t_stretch_v")
+        regular-tile(tile-classes="t_amethyst t_stretch_v", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole t_stretch_v", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat t_stretch_v", label="Yes")
     h4 One button regular stretchable vertical tiles
     #one_button_regulars_stretch_v_tiles
-        .tile.t_stretch_v.t_amethyst
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_v.t_belize_hole
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_v.t_emerald
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_stretch_v.t_peter_river
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria t_stretch_v", buttons="1")
+        regular-tile(tile-classes="t_emerald t_stretch_v", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver t_stretch_v", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat t_stretch_v", label="-50%", buttons="1")
     h4 Multiple Buttons regular stretchable vertical tiles
     #multiple_buttons_regular_stretch_v_tiles
-        .tile.t_stretch_v.t_sun_flower
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_v.t_orange
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_v.t_carrot
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_stretch_v.t_green_sea
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Regular
-                    li Stretch vertical
-                    li Label
-                    li Button (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_wisteria t_stretch_v", buttons="3")
+        regular-tile(tile-classes="t_emerald t_stretch_v", cap="Yep", buttons="3")
+        regular-tile(tile-classes="t_silver t_stretch_v", cap="Sale", label="-50%", buttons="3")
+        regular-tile(tile-classes="t_pomegranat t_stretch_v", label="-50%", buttons="3")
 h3 Condensed tiles
 #condensed_tile
     h4 Simple condensed tiles
     #simple_condensed_tile
-        .tile.t_condensed.t_turquoise
-            .t_body
-                ul
-                    li Condensed
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Condensed
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
+        regular-tile(tile-classes="t_alizarin t_condensed")
+        regular-tile(tile-classes="t_amethyst t_condensed", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole t_condensed", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat t_condensed", label="Yes")
     h4 One Button condensed tiles
     #one_button_condensed_tile
-        .tile.t_condensed.t_emerald
-            .t_body
-                ul
-                    li Condensed
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_emerald
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_emerald
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_emerald
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Condensed
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria t_condensed", buttons="1")
+        regular-tile(tile-classes="t_emerald t_condensed", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver t_condensed", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat t_condensed", label="-50%", buttons="1")
     h4 Multiple Buttons condensed tiles
     #multiple_buttons_condensed_tile
-        .tile.t_condensed.t_carrot
-            .t_body
-                ul
-                    li Condensed
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_carrot
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_carrot
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Condensed
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_turquoise
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Condensed
-                    li Label
-                    li Button (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_wisteria t_condensed", buttons="3")
+        regular-tile(tile-classes="t_emerald t_condensed", cap="Yep", buttons="3")
+        regular-tile(tile-classes="t_silver t_condensed", cap="Sale", label="-50%", buttons="3")
+        regular-tile(tile-classes="t_pomegranat t_condensed", label="-50%", buttons="3")
 h3 Condensed stretchable vertical tiles
 #condensed_stretch_v_tiles
     h4 Simple stretchable vertical condensed tiles
     #simple_condensed_stretch_v_tiles
-        .tile.t_condensed.t_stretch_v.t_alizarin
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_stretch_v.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_stretch_v.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_condensed.t_stretch_v.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-    h4 One button condensed stretchable vertical tiles
+        regular-tile(tile-classes="t_alizarin t_condensed t_stretch_v")
+        regular-tile(tile-classes="t_amethyst t_condensed t_stretch_v", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole t_condensed t_stretch_v", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat t_condensed t_stretch_v", label="Yes")
     #one_button_condensed_stretch_v_tiles
-        .tile.t_condensed.t_stretch_v.t_emerald
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_stretch_v.t_emerald
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_stretch_v.t_emerald
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_condensed.t_stretch_v.t_emerald
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria t_condensed t_stretch_v", buttons="1")
+        regular-tile(tile-classes="t_emerald t_condensed t_stretch_v", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver t_condensed t_stretch_v", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat t_condensed t_stretch_v", label="-50%", buttons="1")
     h4 Multiple Buttons condensed stretchable vertical tiles
     #multiple_buttons_condensed_stretch_v_tiles
-        .tile.t_condensed.t_stretch_v.t_pumpkin
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_stretch_v.t_orange
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_stretch_v.t_pumpkin
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_condensed.t_stretch_v.t_peter_river
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Condensed
-                    li Stretch vertical
-                    li Label
-                    li Button (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_wisteria t_condensed t_stretch_v", buttons="3")
+        regular-tile(tile-classes="t_emerald t_condensed t_stretch_v", cap="Yep", buttons="3")
+        regular-tile(tile-classes="t_silver t_condensed t_stretch_v", cap="Sale", label="-50%", buttons="3")
+        regular-tile(tile-classes="t_pomegranat t_condensed t_stretch_v", label="-50%", buttons="3")
 h3 Wide tiles
 #wide_tile
     h4 Simple wide tiles
     #simple_wide_tile
-        .tile.t_wide.t_turquoise
-            .t_body
-                ul
-                    li Wide
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_wide.t_amethyst
-            .t_cap
-                | Did you know?
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_wide.t_belize_hole
-            .t_cap
-                | Limitted offer
-            .t_label
-                | -40%
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-        .tile.t_wide.t_pomegranat
-            .t_label
-                | Yes
-            .t_body
-                ul
-                    li Wide
-                    li Label
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
+        regular-tile(tile-classes="t_alizarin t_wide")
+        regular-tile(tile-classes="t_amethyst t_wide", cap="Did you know?")
+        regular-tile(tile-classes="t_belize_hole t_wide", cap="Limitted offer", label="-40%")
+        regular-tile(tile-classes="t_pomegranat t_wide", label="Yes")
     h4 One Button wide tiles
     #one_button_wide_tile
-        .tile.t_wide.t_emerald
-            .t_body
-                ul
-                    li Wide
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_wide.t_emerald
-            .t_cap
-                | Sale
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_wide.t_emerald
-            .t_cap
-                | Sale
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-        .tile.t_wide.t_emerald
-            .t_label
-                | -50%
-            .t_body
-                ul
-                    li Wide
-                    li Label
-                    li Button (1)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
+        regular-tile(tile-classes="t_wisteria t_wide", buttons="1")
+        regular-tile(tile-classes="t_emerald t_wide", cap="Yep", buttons="1")
+        regular-tile(tile-classes="t_silver t_wide", cap="Sale", label="-50%", buttons="1")
+        regular-tile(tile-classes="t_pomegranat t_wide", label="-50%", buttons="1")
     h4 Multiple Buttons wide tiles
     #multiple_buttons_wide_tile
-        .tile.t_wide.t_carrot
-            .t_body
-                ul
-                    li Wide
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_wide.t_carrot
-            .t_cap
-                | New!
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_wide.t_carrot
-            .t_cap
-                | New!
-            .t_label
-                | Today
-            .t_body
-                ul
-                    li Wide
-                    li Cap
-                    li Label
-                    li Buttons (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
-        .tile.t_wide.t_turquoise
-            .t_label
-                | Birthday
-            .t_body
-                ul
-                    li Wide
-                    li Label
-                    li Button (2)
-                div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-            .t_controls
-                button.t_btn(type="button")
-                    i.fa.fa-phone
-                    | &nbsp;
-                    | Call
-                button.t_btn(type="button")
-                    i.fa.fa-envelope-o
-                    | &nbsp;
-                    | Mail
+        regular-tile(tile-classes="t_wisteria t_wide", buttons="3")
+        regular-tile(tile-classes="t_emerald t_wide", cap="Yep", buttons="3")
+        regular-tile(tile-classes="t_silver t_wide", cap="Sale", label="-50%", buttons="3")
+        regular-tile(tile-classes="t_pomegranat t_wide", label="-50%", buttons="3")
 h3 Wide stretchable vertical tiles
 #wide_stretch_v_tiles
     h4 Simple stretchable vertical wide tiles

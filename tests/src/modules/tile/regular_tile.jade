@@ -1,11 +1,13 @@
-.tile.t_wisteria
-   .t_body
+.tile(class="{{tileClasses}}")
+   .t_cap(ng-if="cap", ng-bind="cap")
+   .t_label(ng-if="label",ng-bind="label")
+   .t_body(class="{{tBodyClasses}}")
       ul
          li Regular
-         li Button (1)
-      div Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.
-   .t_controls
-      button.t_btn(type="button")
+         li(ng-repeat="property in properties",ng-bind="property")
+      div(ng-bind="lorem")
+   .t_controls(ng-if="!!buttons")
+      button.t_btn(type="button", ng-repeat="button in makeArr(buttons) track by $index")
          i.fa.fa-phone
          | &nbsp;
-         | Call
+         | Button {{$index + 1}}
