@@ -1,0 +1,11 @@
+language: node_js
+git:
+  depth: 10
+node_js:
+  - "0.10"
+install:
+  - npm install --global gulp
+  - npm install -g bower
+  - npm install
+  - bower install -F
+  
