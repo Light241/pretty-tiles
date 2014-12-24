@@ -1,6 +1,9 @@
 {
   "name": "t_under_tiles",
   "version": "0.0.3",
+  "ignore": [
+    "**/*.log"
+  ],
   "description": "t_under tiles - is a flat tiles css framework",
   "main": "dist/t_under.css",
   "keywords": [
