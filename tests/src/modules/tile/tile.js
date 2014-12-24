@@ -16,6 +16,7 @@ angular.module('app.tile.regular', [])
                 cap: '@',
                 label: '@'
             },
+            replace: true,
             templateUrl: 'src/modules/tile/regular_tile.html',
             controller: function ($scope) {
                 $scope.lorem = lorem;

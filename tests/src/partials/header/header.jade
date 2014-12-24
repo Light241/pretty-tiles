@@ -1,0 +1,7 @@
+.header
+    .header-container
+        ul.header_nav
+            li(ng-class="{active: $state.includes('layout')}")
+                a(href='', ui-sref="layout", ui-sref-opts="{reload: true}") Layout
+            li(ng-class="{active: $state.includes('colors')}")
+                a(href='', ui-sref="colors", ui-sref-opts="{reload: true}") Colors

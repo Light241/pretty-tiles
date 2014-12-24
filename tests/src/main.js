@@ -2,6 +2,8 @@
 
 angular.module('app', [
     'app.pages.layout',
+    'app.pages.colors',
+    'app.header',
     'app.tile.regular',
     'ui.router',
     'ngAnimate',

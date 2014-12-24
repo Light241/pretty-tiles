@@ -16,7 +16,6 @@ angular.module('app.pages.layout', [
     })
 
     .controller('LayoutPageCtrl', function ($scope) {
-        console.log(1);
 
     })
 
