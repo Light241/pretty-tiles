@@ -23,6 +23,7 @@ angular.module('app.tile.regular', [])
                 $scope.properties = [];
 
                 if ($scope.buttons) $scope.properties.push('Buttons (' + $scope.buttons + ')');
+
                 if ($scope.marked) {
                     var marked = $scope.marked.split(' ');
                     for (var i = 0; i < marked.length; i++) {
