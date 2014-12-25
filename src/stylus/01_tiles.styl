@@ -57,12 +57,16 @@ tile_transition(n)
       outline none
       border 0
       min-height 45px
+      margin 0
       tile_transition(0.6s)
   .t_btn
     tile_transition(0.6s)
     &:hover, &:active, &:focus, &:active:focus
       cursor pointer
       outline none
+    &:last-of-type
+      border-bottom-left-radius 5px
+      border-bottom-right-radius 5px
   &.t_promo
     font-size: 5em;
     word-wrap: break-word;
