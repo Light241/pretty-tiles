@@ -34,10 +34,16 @@ tile_bg(c)
   background-color c
   &:hover
     background-color darken(c, tile_darken_ratio)
-    button
+    .t_btn
       background-color c
-  button
+  .t_btn
     background-color darken(c, tile_darken_ratio)
+    &.t_dialog_btn
+      &:nth-child(even)
+        background-color darken(c, tile_darken_ratio)
+      &:nth-child(odd)
+        &:hover
+          background-color lighten(c, tile_lighten_ratio + 1)
     &:nth-child(1n+1)
       background-color lighten(c, tile_lighten_ratio + 1)
       &:hover

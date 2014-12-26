@@ -58,7 +58,18 @@ tile_transition(n)
       border 0
       min-height 45px
       margin 0
+      padding 0
       tile_transition(0.6s)
+    .t_dialog_btn
+      display inline-block
+      border-radius 0
+      width 50%
+      &:nth-child(even)
+        border-bottom-left-radius 0
+        border-bottom-right-radius 5px
+      &:nth-child(odd)
+        border-bottom-left-radius 5px
+        border-bottom-right-radius 0
   .t_btn
     tile_transition(0.6s)
     &:hover, &:active, &:focus, &:active:focus

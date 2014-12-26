@@ -11,3 +11,8 @@
          i.fa.fa-phone
          | &nbsp;
          | Button {{$index + 1}}
+   .t_controls(ng-if="!!dialogButtons")
+      button.t_btn.t_dialog_btn(type="button", ng-repeat="button in makeArr(dialogButtons) track by $index")
+         i.fa.fa-chevron
+         | &nbsp;
+         | Yes DB {{$index + 1}}
