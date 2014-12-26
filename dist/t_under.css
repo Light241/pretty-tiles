@@ -36,10 +36,10 @@
   background-color: #17a689;
 }
 .t_turquoise .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #17a689;
+  background-color: #16a186;
 }
 .t_turquoise .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #1ed7b2;
+  background-color: #1edbb6;
 }
 .t_turquoise .t_btn:nth-child(1n+1) {
   background-color: #1ed7b2;
@@ -157,10 +157,10 @@
   background-color: #138a72;
 }
 .t_green_sea .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #138a72;
+  background-color: #12856f;
 }
 .t_green_sea .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #1abb9b;
+  background-color: #1abf9f;
 }
 .t_green_sea .t_btn:nth-child(1n+1) {
   background-color: #1abb9b;
@@ -278,10 +278,10 @@
   background-color: #dab10d;
 }
 .t_sun_flower .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #dab10d;
+  background-color: #d5ad0c;
 }
 .t_sun_flower .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #f3cb2c;
+  background-color: #f3cc31;
 }
 .t_sun_flower .t_btn:nth-child(1n+1) {
   background-color: #f3cb2c;
@@ -399,10 +399,10 @@
   background-color: #e08e0b;
 }
 .t_orange .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #e08e0b;
+  background-color: #db8b0b;
 }
 .t_orange .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #f4a82f;
+  background-color: #f5aa34;
 }
 .t_orange .t_btn:nth-child(1n+1) {
   background-color: #f4a82f;
@@ -520,10 +520,10 @@
   background-color: #29b765;
 }
 .t_emerald .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #29b765;
+  background-color: #28b363;
 }
 .t_emerald .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #44d581;
+  background-color: #48d684;
 }
 .t_emerald .t_btn:nth-child(1n+1) {
   background-color: #44d581;
@@ -641,10 +641,10 @@
   background-color: #295;
 }
 .t_nephritis .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #295;
+  background-color: #219552;
 }
 .t_nephritis .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #2dc76e;
+  background-color: #2ecb70;
 }
 .t_nephritis .t_btn:nth-child(1n+1) {
   background-color: #2dc76e;
@@ -762,10 +762,10 @@
   background-color: #d67118;
 }
 .t_carrot .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #d67118;
+  background-color: #d26f18;
 }
 .t_carrot .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #e98e3d;
+  background-color: #ea9142;
 }
 .t_carrot .t_btn:nth-child(1n+1) {
   background-color: #e98e3d;
@@ -883,10 +883,10 @@
   background-color: #b94a00;
 }
 .t_pumpkin .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #b94a00;
+  background-color: #b44800;
 }
 .t_pumpkin .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #f26000;
+  background-color: #f76200;
 }
 .t_pumpkin .t_btn:nth-child(1n+1) {
   background-color: #f26000;
@@ -1004,10 +1004,10 @@
   background-color: #258cd1;
 }
 .t_peter_river .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #258cd1;
+  background-color: #2489cc;
 }
 .t_peter_river .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #4ea5e0;
+  background-color: #52a7e0;
 }
 .t_peter_river .t_btn:nth-child(1n+1) {
   background-color: #4ea5e0;
@@ -1125,10 +1125,10 @@
   background-color: #2472a4;
 }
 .t_belize_hole .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #2472a4;
+  background-color: #236fa0;
 }
 .t_belize_hole .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #3091d1;
+  background-color: #3493d2;
 }
 .t_belize_hole .t_btn:nth-child(1n+1) {
   background-color: #3091d1;
@@ -1246,10 +1246,10 @@
   background-color: #e43725;
 }
 .t_alizarin .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #e43725;
+  background-color: #e43321;
 }
 .t_alizarin .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #ea6557;
+  background-color: #eb695c;
 }
 .t_alizarin .t_btn:nth-child(1n+1) {
   background-color: #ea6557;
@@ -1367,10 +1367,10 @@
   background-color: #ab3326;
 }
 .t_pomegranat .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #ab3326;
+  background-color: #a73225;
 }
 .t_pomegranat .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #d24637;
+  background-color: #d34a3b;
 }
 .t_pomegranat .t_btn:nth-child(1n+1) {
   background-color: #d24637;
@@ -1488,10 +1488,10 @@
   background-color: #8f4bab;
 }
 .t_amethyst .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #8f4bab;
+  background-color: #8c49a7;
 }
 .t_amethyst .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #a86ebf;
+  background-color: #aa72c1;
 }
 .t_amethyst .t_btn:nth-child(1n+1) {
   background-color: #a86ebf;
@@ -1609,10 +1609,10 @@
   background-color: #7f3d9b;
 }
 .t_wisteria .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #7f3d9b;
+  background-color: #7c3b97;
 }
 .t_wisteria .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #9d54bc;
+  background-color: #9f58bd;
 }
 .t_wisteria .t_btn:nth-child(1n+1) {
   background-color: #9d54bc;
@@ -1730,10 +1730,10 @@
   background-color: #dde4e6;
 }
 .t_clouds .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #dde4e6;
+  background-color: #dae2e4;
 }
 .t_clouds .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #fefefe;
+  background-color: #fff;
 }
 .t_clouds .t_btn:nth-child(1n+1) {
   background-color: #fefefe;
@@ -1851,10 +1851,10 @@
   background-color: #afb6bb;
 }
 .t_silver .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #afb6bb;
+  background-color: #acb4b9;
 }
 .t_silver .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #ced2d5;
+  background-color: #d0d5d7;
 }
 .t_silver .t_btn:nth-child(1n+1) {
   background-color: #ced2d5;
@@ -1972,10 +1972,10 @@
   background-color: #2b3c4e;
 }
 .t_wet_asphalt .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #2b3c4e;
+  background-color: #293a4a;
 }
 .t_wet_asphalt .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #3f5872;
+  background-color: #415b75;
 }
 .t_wet_asphalt .t_btn:nth-child(1n+1) {
   background-color: #3f5872;
@@ -2093,10 +2093,10 @@
   background-color: #233140;
 }
 .t_midnight_blue .t_btn.t_dialog_btn:nth-child(even) {
-  background-color: #233140;
+  background-color: #212f3c;
 }
 .t_midnight_blue .t_btn.t_dialog_btn:nth-child(odd):hover {
-  background-color: #374d64;
+  background-color: #395067;
 }
 .t_midnight_blue .t_btn:nth-child(1n+1) {
   background-color: #374d64;
@@ -2260,6 +2260,7 @@
   border-bottom-right-radius: 5px;
 }
 .tile .t_controls .t_dialog_btn:nth-child(odd) {
+  float: left;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 0;
 }
