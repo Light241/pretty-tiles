@@ -26,6 +26,78 @@
 .t_turquoise .t_buttons button {
   color: #ecf0f1;
 }
+.t_turquoise.t_alpha {
+  background-color: rgba(26,188,156,0.35);
+}
+.t_turquoise.t_alpha:hover {
+  background-color: rgba(23,166,137,0.35);
+}
+.t_turquoise.t_alpha:hover .t_btn {
+  background-color: rgba(26,188,156,0.35);
+}
+.t_turquoise.t_alpha .t_btn {
+  background-color: rgba(23,166,137,0.35);
+}
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(22,161,134,0.35);
+}
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(30,219,182,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(30,215,178,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(30,219,182,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(31,224,186,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(35,225,187,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(40,225,189,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(44,226,190,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(49,226,191,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(53,227,193,0.35);
+}
+.t_turquoise.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:last-of-type {
+  background-color: rgba(29,210,175,0.35);
+}
+.t_turquoise.t_alpha .t_btn:hover {
+  background-color: rgba(29,210,175,0.35);
+}
 .t_turquoise:hover {
   background-color: #17a689;
 }
@@ -146,6 +218,78 @@
 }
 .t_green_sea .t_buttons button {
   color: #ecf0f1;
+}
+.t_green_sea.t_alpha {
+  background-color: rgba(22,160,133,0.35);
+}
+.t_green_sea.t_alpha:hover {
+  background-color: rgba(19,138,114,0.35);
+}
+.t_green_sea.t_alpha:hover .t_btn {
+  background-color: rgba(22,160,133,0.35);
+}
+.t_green_sea.t_alpha .t_btn {
+  background-color: rgba(19,138,114,0.35);
+}
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(18,133,111,0.35);
+}
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(26,191,159,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(26,187,155,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(26,191,159,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(27,196,163,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(28,200,167,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(28,205,170,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(29,209,174,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(29,214,178,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(30,218,181,0.35);
+}
+.t_green_sea.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:last-of-type {
+  background-color: rgba(25,182,152,0.35);
+}
+.t_green_sea.t_alpha .t_btn:hover {
+  background-color: rgba(25,182,152,0.35);
 }
 .t_green_sea:hover {
   background-color: #138a72;
@@ -268,6 +412,78 @@
 .t_sun_flower .t_buttons button {
   color: #ecf0f1;
 }
+.t_sun_flower.t_alpha {
+  background-color: rgba(241,196,15,0.35);
+}
+.t_sun_flower.t_alpha:hover {
+  background-color: rgba(218,177,13,0.35);
+}
+.t_sun_flower.t_alpha:hover .t_btn {
+  background-color: rgba(241,196,15,0.35);
+}
+.t_sun_flower.t_alpha .t_btn {
+  background-color: rgba(218,177,13,0.35);
+}
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(213,173,12,0.35);
+}
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(243,204,49,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(243,203,44,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(243,204,49,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(243,205,54,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(244,207,58,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(244,208,63,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(244,209,68,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(244,210,73,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(245,211,78,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:last-of-type {
+  background-color: rgba(242,202,39,0.35);
+}
+.t_sun_flower.t_alpha .t_btn:hover {
+  background-color: rgba(242,202,39,0.35);
+}
 .t_sun_flower:hover {
   background-color: #dab10d;
 }
@@ -388,6 +604,78 @@
 }
 .t_orange .t_buttons button {
   color: #ecf0f1;
+}
+.t_orange.t_alpha {
+  background-color: rgba(243,156,18,0.35);
+}
+.t_orange.t_alpha:hover {
+  background-color: rgba(224,142,11,0.35);
+}
+.t_orange.t_alpha:hover .t_btn {
+  background-color: rgba(243,156,18,0.35);
+}
+.t_orange.t_alpha .t_btn {
+  background-color: rgba(224,142,11,0.35);
+}
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(219,139,11,0.35);
+}
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(245,170,52,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(244,168,47,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(245,170,52,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(245,172,57,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(245,174,62,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(245,176,67,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(246,178,71,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(246,180,76,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(246,182,81,0.35);
+}
+.t_orange.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:last-of-type {
+  background-color: rgba(244,166,42,0.35);
+}
+.t_orange.t_alpha .t_btn:hover {
+  background-color: rgba(244,166,42,0.35);
 }
 .t_orange:hover {
   background-color: #e08e0b;
@@ -510,6 +798,78 @@
 .t_emerald .t_buttons button {
   color: #ecf0f1;
 }
+.t_emerald.t_alpha {
+  background-color: rgba(46,204,113,0.35);
+}
+.t_emerald.t_alpha:hover {
+  background-color: rgba(41,183,101,0.35);
+}
+.t_emerald.t_alpha:hover .t_btn {
+  background-color: rgba(46,204,113,0.35);
+}
+.t_emerald.t_alpha .t_btn {
+  background-color: rgba(41,183,101,0.35);
+}
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(40,179,99,0.35);
+}
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(72,214,132,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(68,213,129,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(72,214,132,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(76,215,135,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(80,216,138,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(84,217,140,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(89,217,143,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(93,218,146,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(97,219,149,0.35);
+}
+.t_emerald.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:last-of-type {
+  background-color: rgba(64,212,126,0.35);
+}
+.t_emerald.t_alpha .t_btn:hover {
+  background-color: rgba(64,212,126,0.35);
+}
 .t_emerald:hover {
   background-color: #29b765;
 }
@@ -630,6 +990,78 @@
 }
 .t_nephritis .t_buttons button {
   color: #ecf0f1;
+}
+.t_nephritis.t_alpha {
+  background-color: rgba(39,174,96,0.35);
+}
+.t_nephritis.t_alpha:hover {
+  background-color: rgba(34,153,85,0.35);
+}
+.t_nephritis.t_alpha:hover .t_btn {
+  background-color: rgba(39,174,96,0.35);
+}
+.t_nephritis.t_alpha .t_btn {
+  background-color: rgba(34,153,85,0.35);
+}
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(33,149,82,0.35);
+}
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(46,203,112,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(45,199,110,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(46,203,112,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(46,207,114,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(50,209,117,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(54,210,120,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(58,211,123,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(62,212,125,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(67,213,128,0.35);
+}
+.t_nephritis.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:last-of-type {
+  background-color: rgba(44,195,107,0.35);
+}
+.t_nephritis.t_alpha .t_btn:hover {
+  background-color: rgba(44,195,107,0.35);
 }
 .t_nephritis:hover {
   background-color: #295;
@@ -752,6 +1184,78 @@
 .t_carrot .t_buttons button {
   color: #ecf0f1;
 }
+.t_carrot.t_alpha {
+  background-color: rgba(230,126,34,0.35);
+}
+.t_carrot.t_alpha:hover {
+  background-color: rgba(214,113,24,0.35);
+}
+.t_carrot.t_alpha:hover .t_btn {
+  background-color: rgba(230,126,34,0.35);
+}
+.t_carrot.t_alpha .t_btn {
+  background-color: rgba(214,113,24,0.35);
+}
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(210,111,24,0.35);
+}
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(234,145,66,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(233,142,61,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(234,145,66,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(234,147,71,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(235,150,75,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(235,153,80,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(236,155,84,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(236,158,89,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(237,161,94,0.35);
+}
+.t_carrot.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:last-of-type {
+  background-color: rgba(233,139,57,0.35);
+}
+.t_carrot.t_alpha .t_btn:hover {
+  background-color: rgba(233,139,57,0.35);
+}
 .t_carrot:hover {
   background-color: #d67118;
 }
@@ -872,6 +1376,78 @@
 }
 .t_pumpkin .t_buttons button {
   color: #ecf0f1;
+}
+.t_pumpkin.t_alpha {
+  background-color: rgba(211,84,0,0.35);
+}
+.t_pumpkin.t_alpha:hover {
+  background-color: rgba(185,74,0,0.35);
+}
+.t_pumpkin.t_alpha:hover .t_btn {
+  background-color: rgba(211,84,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn {
+  background-color: rgba(185,74,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(180,72,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(247,98,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(242,96,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(247,98,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(252,100,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(255,103,2,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(255,106,7,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(255,109,12,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(255,112,17,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(255,115,22,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:last-of-type {
+  background-color: rgba(236,94,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn:hover {
+  background-color: rgba(236,94,0,0.35);
 }
 .t_pumpkin:hover {
   background-color: #b94a00;
@@ -994,6 +1570,78 @@
 .t_peter_river .t_buttons button {
   color: #ecf0f1;
 }
+.t_peter_river.t_alpha {
+  background-color: rgba(52,152,219,0.35);
+}
+.t_peter_river.t_alpha:hover {
+  background-color: rgba(37,140,209,0.35);
+}
+.t_peter_river.t_alpha:hover .t_btn {
+  background-color: rgba(52,152,219,0.35);
+}
+.t_peter_river.t_alpha .t_btn {
+  background-color: rgba(37,140,209,0.35);
+}
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(36,137,204,0.35);
+}
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(82,167,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(78,165,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(82,167,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(87,170,225,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(91,172,226,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(95,174,227,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(100,176,227,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(104,178,228,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(108,181,229,0.35);
+}
+.t_peter_river.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:last-of-type {
+  background-color: rgba(74,163,223,0.35);
+}
+.t_peter_river.t_alpha .t_btn:hover {
+  background-color: rgba(74,163,223,0.35);
+}
 .t_peter_river:hover {
   background-color: #258cd1;
 }
@@ -1114,6 +1762,78 @@
 }
 .t_belize_hole .t_buttons button {
   color: #ecf0f1;
+}
+.t_belize_hole.t_alpha {
+  background-color: rgba(41,128,185,0.35);
+}
+.t_belize_hole.t_alpha:hover {
+  background-color: rgba(36,114,164,0.35);
+}
+.t_belize_hole.t_alpha:hover .t_btn {
+  background-color: rgba(41,128,185,0.35);
+}
+.t_belize_hole.t_alpha .t_btn {
+  background-color: rgba(36,114,164,0.35);
+}
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(35,111,160,0.35);
+}
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(52,147,210,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(48,145,209,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(52,147,210,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(56,150,211,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(60,152,212,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(64,154,213,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(68,156,214,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(73,158,215,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(77,161,216,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:last-of-type {
+  background-color: rgba(46,142,206,0.35);
+}
+.t_belize_hole.t_alpha .t_btn:hover {
+  background-color: rgba(46,142,206,0.35);
 }
 .t_belize_hole:hover {
   background-color: #2472a4;
@@ -1236,6 +1956,78 @@
 .t_alizarin .t_buttons button {
   color: #ecf0f1;
 }
+.t_alizarin.t_alpha {
+  background-color: rgba(231,76,60,0.35);
+}
+.t_alizarin.t_alpha:hover {
+  background-color: rgba(228,55,37,0.35);
+}
+.t_alizarin.t_alpha:hover .t_btn {
+  background-color: rgba(231,76,60,0.35);
+}
+.t_alizarin.t_alpha .t_btn {
+  background-color: rgba(228,55,37,0.35);
+}
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(228,51,33,0.35);
+}
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(235,105,92,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(234,101,87,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(235,105,92,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(235,109,96,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(236,114,101,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(237,118,105,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(237,122,110,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(238,126,114,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(238,130,119,0.35);
+}
+.t_alizarin.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:last-of-type {
+  background-color: rgba(234,97,83,0.35);
+}
+.t_alizarin.t_alpha .t_btn:hover {
+  background-color: rgba(234,97,83,0.35);
+}
 .t_alizarin:hover {
   background-color: #e43725;
 }
@@ -1356,6 +2148,78 @@
 }
 .t_pomegranat .t_buttons button {
   color: #ecf0f1;
+}
+.t_pomegranat.t_alpha {
+  background-color: rgba(192,57,43,0.35);
+}
+.t_pomegranat.t_alpha:hover {
+  background-color: rgba(171,51,38,0.35);
+}
+.t_pomegranat.t_alpha:hover .t_btn {
+  background-color: rgba(192,57,43,0.35);
+}
+.t_pomegranat.t_alpha .t_btn {
+  background-color: rgba(171,51,38,0.35);
+}
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(167,50,37,0.35);
+}
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(211,74,59,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(210,70,55,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(211,74,59,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(212,78,64,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(213,81,68,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(214,85,72,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(215,89,76,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(216,93,80,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(217,97,84,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:last-of-type {
+  background-color: rgba(209,66,51,0.35);
+}
+.t_pomegranat.t_alpha .t_btn:hover {
+  background-color: rgba(209,66,51,0.35);
 }
 .t_pomegranat:hover {
   background-color: #ab3326;
@@ -1478,6 +2342,78 @@
 .t_amethyst .t_buttons button {
   color: #ecf0f1;
 }
+.t_amethyst.t_alpha {
+  background-color: rgba(155,89,182,0.35);
+}
+.t_amethyst.t_alpha:hover {
+  background-color: rgba(143,75,171,0.35);
+}
+.t_amethyst.t_alpha:hover .t_btn {
+  background-color: rgba(155,89,182,0.35);
+}
+.t_amethyst.t_alpha .t_btn {
+  background-color: rgba(143,75,171,0.35);
+}
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(140,73,167,0.35);
+}
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(170,114,193,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(168,110,191,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(170,114,193,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(172,117,194,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(174,121,196,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(176,124,198,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(178,128,199,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(181,132,201,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(183,135,202,0.35);
+}
+.t_amethyst.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:last-of-type {
+  background-color: rgba(166,107,190,0.35);
+}
+.t_amethyst.t_alpha .t_btn:hover {
+  background-color: rgba(166,107,190,0.35);
+}
 .t_amethyst:hover {
   background-color: #8f4bab;
 }
@@ -1598,6 +2534,78 @@
 }
 .t_wisteria .t_buttons button {
   color: #ecf0f1;
+}
+.t_wisteria.t_alpha {
+  background-color: rgba(142,68,173,0.35);
+}
+.t_wisteria.t_alpha:hover {
+  background-color: rgba(127,61,155,0.35);
+}
+.t_wisteria.t_alpha:hover .t_btn {
+  background-color: rgba(142,68,173,0.35);
+}
+.t_wisteria.t_alpha .t_btn {
+  background-color: rgba(127,61,155,0.35);
+}
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(124,59,151,0.35);
+}
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(159,88,189,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(157,84,188,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(159,88,189,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(161,91,191,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(163,95,192,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(165,99,193,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(168,102,195,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(170,106,196,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(172,109,198,0.35);
+}
+.t_wisteria.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:last-of-type {
+  background-color: rgba(155,80,186,0.35);
+}
+.t_wisteria.t_alpha .t_btn:hover {
+  background-color: rgba(155,80,186,0.35);
 }
 .t_wisteria:hover {
   background-color: #7f3d9b;
@@ -1720,6 +2728,78 @@
 .t_clouds .t_buttons button {
   color: #000;
 }
+.t_clouds.t_alpha {
+  background-color: rgba(236,240,241,0.35);
+}
+.t_clouds.t_alpha:hover {
+  background-color: rgba(221,228,230,0.35);
+}
+.t_clouds.t_alpha:hover .t_btn {
+  background-color: rgba(236,240,241,0.35);
+}
+.t_clouds.t_alpha .t_btn {
+  background-color: rgba(221,228,230,0.35);
+}
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(218,226,228,0.35);
+}
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(254,254,254,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:last-of-type {
+  background-color: rgba(251,252,252,0.35);
+}
+.t_clouds.t_alpha .t_btn:hover {
+  background-color: rgba(251,252,252,0.35);
+}
 .t_clouds:hover {
   background-color: #dde4e6;
 }
@@ -1840,6 +2920,78 @@
 }
 .t_silver .t_buttons button {
   color: #000;
+}
+.t_silver.t_alpha {
+  background-color: rgba(189,195,199,0.35);
+}
+.t_silver.t_alpha:hover {
+  background-color: rgba(175,182,187,0.35);
+}
+.t_silver.t_alpha:hover .t_btn {
+  background-color: rgba(189,195,199,0.35);
+}
+.t_silver.t_alpha .t_btn {
+  background-color: rgba(175,182,187,0.35);
+}
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(172,180,185,0.35);
+}
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(208,213,215,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(206,210,213,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(208,213,215,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(211,215,218,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(214,218,220,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(217,220,222,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(219,223,225,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(222,225,227,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(225,228,229,0.35);
+}
+.t_silver.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:last-of-type {
+  background-color: rgba(203,208,211,0.35);
+}
+.t_silver.t_alpha .t_btn:hover {
+  background-color: rgba(203,208,211,0.35);
 }
 .t_silver:hover {
   background-color: #afb6bb;
@@ -1962,6 +3114,78 @@
 .t_wet_asphalt .t_buttons button {
   color: #ecf0f1;
 }
+.t_wet_asphalt.t_alpha {
+  background-color: rgba(52,73,94,0.35);
+}
+.t_wet_asphalt.t_alpha:hover {
+  background-color: rgba(43,60,78,0.35);
+}
+.t_wet_asphalt.t_alpha:hover .t_btn {
+  background-color: rgba(52,73,94,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn {
+  background-color: rgba(43,60,78,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(41,58,74,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(65,91,117,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(63,88,114,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(65,91,117,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(67,93,120,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(68,96,124,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(70,98,127,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(72,101,130,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(74,104,133,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(76,106,137,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:last-of-type {
+  background-color: rgba(61,86,110,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn:hover {
+  background-color: rgba(61,86,110,0.35);
+}
 .t_wet_asphalt:hover {
   background-color: #2b3c4e;
 }
@@ -2082,6 +3306,78 @@
 }
 .t_midnight_blue .t_buttons button {
   color: #ecf0f1;
+}
+.t_midnight_blue.t_alpha {
+  background-color: rgba(44,62,80,0.35);
+}
+.t_midnight_blue.t_alpha:hover {
+  background-color: rgba(35,49,64,0.35);
+}
+.t_midnight_blue.t_alpha:hover .t_btn {
+  background-color: rgba(44,62,80,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn {
+  background-color: rgba(35,49,64,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
+  background-color: rgba(33,47,60,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
+  background-color: rgba(57,80,103,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+1) {
+  background-color: rgba(55,77,100,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+1):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+2) {
+  background-color: rgba(57,80,103,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+2):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+3) {
+  background-color: rgba(58,82,106,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+3):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+4) {
+  background-color: rgba(60,85,110,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+4):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+5) {
+  background-color: rgba(62,87,113,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+5):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+6) {
+  background-color: rgba(64,90,116,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+6):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+7) {
+  background-color: rgba(66,93,119,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+7):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+8) {
+  background-color: rgba(68,95,123,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:nth-child(1n+8):hover {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:last-of-type {
+  background-color: rgba(53,75,96,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn:hover {
+  background-color: rgba(53,75,96,0.35);
 }
 .t_midnight_blue:hover {
   background-color: #233140;

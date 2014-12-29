@@ -29,9 +29,60 @@ black_color = #000
 //steps for hovers
 tile_darken_ratio = 5
 tile_lighten_ratio = 5
+tile_alpha_ratio = 0.35
 
 tile_bg(c)
   background-color c
+  &.t_alpha
+    background-color alpha(c, tile_alpha_ratio)
+    &:hover
+      background-color alpha(darken(c, tile_darken_ratio), tile_alpha_ratio)
+      .t_btn
+        background-color alpha(c, tile_alpha_ratio)
+    .t_btn
+      background-color alpha(darken(c, tile_darken_ratio), tile_alpha_ratio)
+      &.t_dialog_btn
+        &:nth-child(even)
+          background-color alpha(darken(c, tile_darken_ratio + 1), tile_alpha_ratio)
+        &:nth-child(odd)
+          &:hover
+            background-color alpha(lighten(c, tile_lighten_ratio + 2), tile_alpha_ratio)
+      &:nth-child(1n+1)
+        background-color alpha(lighten(c, tile_lighten_ratio + 1), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+2)
+        background-color alpha(lighten(c, tile_lighten_ratio + 2), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+3)
+        background-color alpha(lighten(c, tile_lighten_ratio + 3), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+4)
+        background-color alpha(lighten(c, tile_lighten_ratio + 4), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+5)
+        background-color alpha(lighten(c, tile_lighten_ratio + 5), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+6)
+        background-color alpha(lighten(c, tile_lighten_ratio + 6), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+7)
+        background-color alpha(lighten(c, tile_lighten_ratio + 7), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:nth-child(1n+8)
+        background-color alpha(lighten(c, tile_lighten_ratio + 8), tile_alpha_ratio)
+        &:hover
+          background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:last-of-type
+        background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
+      &:hover
+        background-color alpha(lighten(c, tile_lighten_ratio), tile_alpha_ratio)
   &:hover
     background-color darken(c, tile_darken_ratio)
     .t_btn
