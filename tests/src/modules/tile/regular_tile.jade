@@ -1,18 +1,18 @@
-.tile(class="{{tileClasses}}")
+.tile(class="{{::tileClasses}}")
    .t_cap(ng-if="cap", ng-bind="cap")
    .t_label(ng-if="label",ng-bind="label")
-   .t_body(class="{{tBodyClasses}}")
+   .t_body(class="{{::tBodyClasses}}")
       ul
          li Regular
-         li(ng-repeat="property in properties",ng-bind="property")
-      div(ng-bind="lorem")
+         li(ng-repeat="property in ::properties", ng-bind="::property")
+      div(ng-bind="::lorem")
    .t_controls(ng-if="!!buttons")
-      button.t_btn(type="button", ng-repeat="button in makeArr(buttons) track by $index")
+      button.t_btn(type="button", ng-repeat="button in ::makeArr(buttons) track by $index")
          i.fa.fa-phone
          | &nbsp;
          | Button {{$index + 1}}
    .t_controls(ng-if="!!dialogButtons")
-      button.t_btn.t_dialog_btn(type="button", ng-repeat="button in makeArr(dialogButtons) track by $index")
+      button.t_btn.t_dialog_btn(type="button", ng-repeat="button in ::makeArr(dialogButtons) track by $index")
          i.fa.fa-chevron
          | &nbsp;
          | Yes DB {{$index + 1}}
