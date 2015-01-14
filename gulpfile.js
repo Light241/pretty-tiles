@@ -16,7 +16,7 @@ gulp.task('stylus', function () {
 
     return gulp.src(src)
         //.pipe(changed(dest))
-        .pipe(concat("t_under.styl"))
+        .pipe(concat("pretty-tiles.styl"))
         //.pipe(stylus({use: [nib()], compress: true}))
         .pipe(stylus({use: [nib()]}))
         .on('error', console.log)
@@ -29,10 +29,10 @@ gulp.task('min', function () {
     var dest = 'dist';
 
     return gulp.src(src)
-        .pipe(concat("t_under.styl"))
+        .pipe(concat("pretty-tiles.styl"))
         .pipe(stylus({use: [nib()], compress: true}))
         .on('error', console.log)
-        .pipe(rename('t_under.min.css'))
+        .pipe(rename('pretty-tiles.min.css'))
         .pipe(gulp.dest(dest))
         .pipe(connect.reload());
 });

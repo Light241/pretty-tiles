@@ -1,5 +1,5 @@
 {
-  "name": "t_under_tiles",
+  "name": "pretty-tiles",
   "version": "0.0.3",
   "private": false,
   "keywords": [
@@ -10,7 +10,7 @@
     "squares",
     "t_",
     "tunder",
-    "t_under",
+    "pretty-tiles",
     "css",
     "stylus",
     "front-end",
@@ -18,24 +18,24 @@
     "web"
   ],
   "bugs": {
-    "url": "https://github.com/Light241/t_under_tiles/issues"
+    "url": "https://github.com/Light241/pretty-tiles/issues"
   },
   "license": {
     "type": "Apache License Version 2.0",
-    "url": "https://github.com/Light241/t_under_tiles/blob/master/LICENSE"
+    "url": "https://github.com/Light241/pretty-tiles/blob/master/LICENSE"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Light241/t_under_tiles.git"
+    "url": "git://github.com/Light241/pretty-tiles.git"
   },
-  "homepage": "https://light241.github.io/t_under_tiles/",
+  "homepage": "https://light241.github.io/pretty-tiles/",
   "authors": [
     {
       "name": "Sergey Panfilov",
       "email": "se-panfilov@ya.ru"
     }
   ],
-  "style": "dist/t_under.css",
+  "style": "dist/pretty-tiles.css",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.8.10",

@@ -1,11 +1,11 @@
 {
-  "name": "t_under_tiles",
+  "name": "pretty-tiles",
   "version": "0.0.3",
   "ignore": [
     "**/*.log"
   ],
-  "description": "t_under tiles - is a flat tiles css framework",
-  "main": "dist/t_under.css",
+  "description": "pretty-tiles - is a flat tiles css framework",
+  "main": "dist/pretty-tiles.css",
   "keywords": [
     "flat",
     "tile",
@@ -14,7 +14,7 @@
     "squares",
     "t_",
     "tunder",
-    "t_under",
+    "pretty-tiles",
     "css",
     "stylus",
     "front-end",
@@ -22,15 +22,15 @@
     "web"
   ],
   "bugs": {
-    "url": "https://github.com/Light241/t_under_tiles/issues"
+    "url": "https://github.com/Light241/pretty-tiles/issues"
   },
   "license": {
     "type": "Apache License Version 2.0",
-    "url": "https://github.com/Light241/t_under_tiles/blob/master/LICENSE"
+    "url": "https://github.com/Light241/pretty-tiles/blob/master/LICENSE"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Light241/t_under_tiles.git"
+    "url": "git://github.com/Light241/pretty-tiles.git"
   },
   "authors": [
     {
@@ -38,8 +38,8 @@
       "email": "se-panfilov@ya.ru"
     }
   ],
-  "style": "dist/t_under.css",
-  "homepage": "https://light241.github.io/t_under_tiles/",
+  "style": "dist/pretty-tiles.css",
+  "homepage": "https://light241.github.io/pretty-tiles/",
   "private": false,
   "dependencies": {},
   "devDependencies": {
