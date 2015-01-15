@@ -3492,12 +3492,13 @@
   text-align: center;
   padding: 5px;
   font-size: 24px;
+  height: 37px;
 }
 .tile .t_cap + .t_label + .t_body {
-  height: 176px;
+  height: 166px;
 }
 .tile .t_cap + .t_body {
-  height: 248px;
+  height: 238px;
 }
 .tile .t_label {
   font-size: 36px;
