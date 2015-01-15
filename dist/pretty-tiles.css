@@ -3502,6 +3502,7 @@
 }
 .tile .t_label {
   font-size: 36px;
+  height: 42px;
   padding: 15px;
   text-align: center;
 }
@@ -3593,13 +3594,13 @@
   height: 636px;
 }
 .tile.t_tall .t_cap + .t_label + .t_body {
-  height: 491px;
+  height: 521px;
 }
 .tile.t_tall .t_cap + .t_body {
   height: 563px;
 }
 .tile.t_tall .t_cap .t_label + .t_body {
-  height: 528px;
+  height: 558px;
 }
 .tile.t_tall .t_body {
   height: 600px;

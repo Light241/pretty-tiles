@@ -2,7 +2,8 @@
 
 tile_min_height = 315px
 tile_wide = 265px
-t_label_height = 72px
+t_label_height = 42px
+t_label_padding = 15px
 t_cap_height = 37px
 t_cap_padding = 5px
 t_button_height = 45px
@@ -29,15 +30,16 @@ tile_transition(n)
     height t_cap_height
     & + .t_label
       & + .t_body
-        height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_label_height + t_body_v_padding))
+        height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + (t_label_height + t_label_padding * 2) + t_body_v_padding))
     & + .t_body
       height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_body_v_padding ))
   .t_label
     font-size 36px
-    padding 15px
+    height t_label_height
+    padding t_label_padding
     text-align center
     & + .t_body
-      height (tile_min_height - (t_label_height + t_body_v_padding ))
+      height (tile_min_height - ((t_label_height + t_label_padding * 2) + t_body_v_padding))
   .t_body
     overflow-y auto
     padding 15px
