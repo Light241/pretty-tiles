@@ -23,13 +23,13 @@ tile_transition(n)
   vertical-align top
   min-height tile_min_height
   tile_transition(0.6s)
-  *
-    box-sizing content-box
+  box-sizing content-box
   .t_cap
     text-align center
     padding t_cap_padding
     font-size 24px
     height t_cap_height
+    box-sizing content-box
     & + .t_label
       & + .t_body
         height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + (t_label_height + t_label_padding * 2) + t_body_v_padding))
@@ -40,24 +40,31 @@ tile_transition(n)
     height t_label_height
     padding t_label_padding
     text-align center
+    box-sizing content-box
     & + .t_body
       height (tile_min_height - ((t_label_height + t_label_padding * 2) + t_body_v_padding))
   .t_body
     overflow-y auto
+    overflow-x hidden
     padding 15px
     height (tile_min_height - t_body_v_padding)
     margin-bottom 15px
+    box-sizing content-box
     .description
       transition color 0.6s ease
+      box-sizing content-box
     .t_value
       text-align center
       font-size 18px
       padding 5px 0
+      box-sizing content-box
     .t_sub_value
       text-align center
       font-size 12px
+      box-sizing content-box
   .t_controls
     padding 0
+    box-sizing content-box
     .t_btn
       width 100%
       outline none
@@ -66,10 +73,12 @@ tile_transition(n)
       margin 0
       padding 0
       tile_transition(0.6s)
+      box-sizing content-box
     .t_dialog_btn
       display inline-block
       border-radius 0
       width 50%
+      box-sizing content-box
       &:nth-child(even)
         border-bottom-left-radius 0
         border-bottom-right-radius 5px
@@ -79,6 +88,7 @@ tile_transition(n)
         border-bottom-right-radius 0
   .t_btn
     tile_transition(0.6s)
+    box-sizing content-box
     &:hover, &:active, &:focus, &:active:focus
       cursor pointer
       outline none

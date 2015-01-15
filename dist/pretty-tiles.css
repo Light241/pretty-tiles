@@ -3487,8 +3487,6 @@
   -o-transition: background-color 0.6s ease;
   -ms-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
-}
-.tile * {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -3498,6 +3496,9 @@
   padding: 5px;
   font-size: 24px;
   height: 37px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_cap + .t_label + .t_body {
   height: 166px;
@@ -3510,15 +3511,22 @@
   height: 42px;
   padding: 15px;
   text-align: center;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_label + .t_body {
   height: 213px;
 }
 .tile .t_body {
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 15px;
   height: 285px;
   margin-bottom: 15px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_body .description {
   -webkit-transition: color 0.6s ease;
@@ -3526,18 +3534,30 @@
   -o-transition: color 0.6s ease;
   -ms-transition: color 0.6s ease;
   transition: color 0.6s ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_body .t_value {
   text-align: center;
   font-size: 18px;
   padding: 5px 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_body .t_sub_value {
   text-align: center;
   font-size: 12px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_controls {
   padding: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_controls .t_btn {
   width: 100%;
@@ -3551,12 +3571,18 @@
   -o-transition: background-color 0.6s ease;
   -ms-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_controls .t_dialog_btn {
   display: inline-block;
   -webkit-border-radius: 0;
   border-radius: 0;
   width: 50%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_controls .t_dialog_btn:nth-child(even) {
   border-bottom-left-radius: 0;
@@ -3573,6 +3599,9 @@
   -o-transition: background-color 0.6s ease;
   -ms-transition: background-color 0.6s ease;
   transition: background-color 0.6s ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .tile .t_btn:hover,
 .tile .t_btn:active,
