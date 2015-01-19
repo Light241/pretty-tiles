@@ -1,32 +1,30 @@
 @import 'nib'
 
 //steps for hovers
-tile_darken_ratio = 5
-tile_lighten_ratio = 5
-tile_alpha_ratio = 0.35
+color_ratio = 5
 
 bootstrap(bc, c)
   .nav
     &.nav-tabs
-      border-bottom 1px solid lighten(bc, tile_lighten_ratio + 2)
+      border-bottom 1px solid lighten(bc, color_ratio + 2)
       li
         a
-          background-color darken(bc, tile_darken_ratio + 1)
+          background-color darken(bc, color_ratio + 1)
           color c
-          border-bottom 1px solid lighten(bc, tile_lighten_ratio + 2)
+          border-bottom 1px solid lighten(bc, color_ratio + 2)
           &:hover
-            border 1px solid lighten(bc, tile_lighten_ratio + 2)
+            border 1px solid lighten(bc, color_ratio + 2)
         &.active
           a
-            background-color lighten(bc, tile_lighten_ratio + 2)
-            border 1px solid lighten(bc, tile_lighten_ratio + 2)
+            background-color lighten(bc, color_ratio + 2)
+            border 1px solid lighten(bc, color_ratio + 2)
   .input-group-addon
     color c
-    background-color lighten(bc, tile_lighten_ratio + 2)
-    border 1px solid lighten(bc, tile_lighten_ratio + 2)
+    background-color lighten(bc, color_ratio + 2)
+    border 1px solid lighten(bc, color_ratio + 2)
   .label
     &.input-group-addon
-      background-color  lighten(bc, tile_lighten_ratio + 2)
+      background-color  lighten(bc, color_ratio + 2)
 
 .t_turquoise
   bootstrap(turquoise_color, clouds_color)

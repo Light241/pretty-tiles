@@ -27,67 +27,77 @@ white_color = #FFF
 black_color = #000
 
 //steps for hovers
-tile_darken_ratio = 5
-tile_lighten_ratio = 5
-tile_alpha_ratio = 0.35
+color_ratio = 5
+alpha_ratio = 0.35
 
 tile_buttons(c)
   .t_btn
-    background-color darken(c, tile_darken_ratio)
+    background-color darken(c, color_ratio)
     &.t_dialog_btn
       &:nth-child(even)
-        background-color darken(c, tile_darken_ratio + 1)
+        background-color darken(c, color_ratio + 1)
+        &[disabled]
+          color lighten(c, color_ratio + 2)
+          &:hover, &:active
+            color lighten(c, color_ratio + 2)
+            background-color darken(c, color_ratio + 1)
       &:nth-child(odd)
         &:hover
-          background-color lighten(c, tile_lighten_ratio + 2)
+          background-color lighten(c, color_ratio + 2)
+        &[disabled]
+          color darken(c, color_ratio + 2)
+          &:hover, &:active
+            background-color lighten(c, color_ratio + 2)
+    &[disabled]
+      color lighten(c, color_ratio + 2)
     &:nth-child(1n+1)
-      background-color lighten(c, tile_lighten_ratio + 1)
+      background-color lighten(c, color_ratio + 1)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+2)
-      background-color lighten(c, tile_lighten_ratio + 2)
+      background-color lighten(c, color_ratio + 2)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+3)
-      background-color lighten(c, tile_lighten_ratio + 3)
+      background-color lighten(c, color_ratio + 3)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+4)
-      background-color lighten(c, tile_lighten_ratio + 4)
+      background-color lighten(c, color_ratio + 4)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+5)
-      background-color lighten(c, tile_lighten_ratio + 5)
+      background-color lighten(c, color_ratio + 5)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+6)
-      background-color lighten(c, tile_lighten_ratio + 6)
+      background-color lighten(c, color_ratio + 6)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+7)
-      background-color lighten(c, tile_lighten_ratio + 7)
+      background-color lighten(c, color_ratio + 7)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:nth-child(1n+8)
-      background-color lighten(c, tile_lighten_ratio + 8)
+      background-color lighten(c, color_ratio + 8)
       &:hover
-        background-color lighten(c, tile_lighten_ratio)
+        background-color lighten(c, color_ratio)
     &:last-of-type
-      background-color lighten(c, tile_lighten_ratio)
+      background-color lighten(c, color_ratio)
     &:hover
-      background-color lighten(c, tile_lighten_ratio)
+      background-color lighten(c, color_ratio)
 
 tile_bg(c)
   background-color c
   &.t_alpha
-    background-color alpha(c, tile_alpha_ratio)
+    background-color alpha(c, alpha_ratio)
     &:hover
-      background-color alpha(darken(c, tile_darken_ratio), tile_alpha_ratio)
+      background-color alpha(darken(c, color_ratio), alpha_ratio)
       .t_btn
-        background-color alpha(c, tile_alpha_ratio)
-    tile_buttons(alpha(c, tile_alpha_ratio))
+        background-color alpha(c, alpha_ratio)
+    tile_buttons(alpha(c, alpha_ratio))
   &:hover
-    background-color darken(c, tile_darken_ratio)
+    background-color darken(c, color_ratio)
     .t_btn
       background-color c
   tile_buttons(c)
@@ -131,7 +141,7 @@ scroll(c)
 marked_elems(c)
   .t_cap, .t_label
     &.t_marked
-      background-color darken(c, tile_darken_ratio)
+      background-color darken(c, color_ratio)
 
 .t_turquoise
   tile_text_color(clouds_color)

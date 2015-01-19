@@ -41,8 +41,26 @@
 .t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(22,161,134,0.35);
 }
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(30,219,182,0.35);
+}
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(30,219,182,0.35);
+  background-color: rgba(22,161,134,0.35);
+}
 .t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(30,219,182,0.35);
+}
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(22,157,130,0.35);
+}
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_turquoise.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(30,219,182,0.35);
+}
+.t_turquoise.t_alpha .t_btn[disabled] {
+  color: rgba(30,219,182,0.35);
 }
 .t_turquoise.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(30,215,178,0.35);
@@ -110,8 +128,26 @@
 .t_turquoise .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #16a186;
 }
+.t_turquoise .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #1edbb6;
+}
+.t_turquoise .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_turquoise .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #1edbb6;
+  background-color: #16a186;
+}
 .t_turquoise .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #1edbb6;
+}
+.t_turquoise .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #169d82;
+}
+.t_turquoise .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_turquoise .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #1edbb6;
+}
+.t_turquoise .t_btn[disabled] {
+  color: #1edbb6;
 }
 .t_turquoise .t_btn:nth-child(1n+1) {
   background-color: #1ed7b2;
@@ -234,8 +270,26 @@
 .t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(18,133,111,0.35);
 }
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(26,191,159,0.35);
+}
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(26,191,159,0.35);
+  background-color: rgba(18,133,111,0.35);
+}
 .t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(26,191,159,0.35);
+}
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(18,129,107,0.35);
+}
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_green_sea.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(26,191,159,0.35);
+}
+.t_green_sea.t_alpha .t_btn[disabled] {
+  color: rgba(26,191,159,0.35);
 }
 .t_green_sea.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(26,187,155,0.35);
@@ -303,8 +357,26 @@
 .t_green_sea .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #12856f;
 }
+.t_green_sea .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #1abf9f;
+}
+.t_green_sea .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_green_sea .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #1abf9f;
+  background-color: #12856f;
+}
 .t_green_sea .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #1abf9f;
+}
+.t_green_sea .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #12816b;
+}
+.t_green_sea .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_green_sea .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #1abf9f;
+}
+.t_green_sea .t_btn[disabled] {
+  color: #1abf9f;
 }
 .t_green_sea .t_btn:nth-child(1n+1) {
   background-color: #1abb9b;
@@ -427,8 +499,26 @@
 .t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(213,173,12,0.35);
 }
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(243,204,49,0.35);
+}
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(243,204,49,0.35);
+  background-color: rgba(213,173,12,0.35);
+}
 .t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(243,204,49,0.35);
+}
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(208,169,12,0.35);
+}
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_sun_flower.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(243,204,49,0.35);
+}
+.t_sun_flower.t_alpha .t_btn[disabled] {
+  color: rgba(243,204,49,0.35);
 }
 .t_sun_flower.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(243,203,44,0.35);
@@ -496,8 +586,26 @@
 .t_sun_flower .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #d5ad0c;
 }
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #f3cc31;
+}
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #f3cc31;
+  background-color: #d5ad0c;
+}
 .t_sun_flower .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #f3cc31;
+}
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #d0a90c;
+}
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_sun_flower .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #f3cc31;
+}
+.t_sun_flower .t_btn[disabled] {
+  color: #f3cc31;
 }
 .t_sun_flower .t_btn:nth-child(1n+1) {
   background-color: #f3cb2c;
@@ -620,8 +728,26 @@
 .t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(219,139,11,0.35);
 }
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(245,170,52,0.35);
+}
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(245,170,52,0.35);
+  background-color: rgba(219,139,11,0.35);
+}
 .t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(245,170,52,0.35);
+}
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(214,136,11,0.35);
+}
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_orange.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(245,170,52,0.35);
+}
+.t_orange.t_alpha .t_btn[disabled] {
+  color: rgba(245,170,52,0.35);
 }
 .t_orange.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(244,168,47,0.35);
@@ -689,8 +815,26 @@
 .t_orange .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #db8b0b;
 }
+.t_orange .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #f5aa34;
+}
+.t_orange .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_orange .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #f5aa34;
+  background-color: #db8b0b;
+}
 .t_orange .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #f5aa34;
+}
+.t_orange .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #d6880b;
+}
+.t_orange .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_orange .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #f5aa34;
+}
+.t_orange .t_btn[disabled] {
+  color: #f5aa34;
 }
 .t_orange .t_btn:nth-child(1n+1) {
   background-color: #f4a82f;
@@ -813,8 +957,26 @@
 .t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(40,179,99,0.35);
 }
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(72,214,132,0.35);
+}
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(72,214,132,0.35);
+  background-color: rgba(40,179,99,0.35);
+}
 .t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(72,214,132,0.35);
+}
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(39,175,97,0.35);
+}
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_emerald.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(72,214,132,0.35);
+}
+.t_emerald.t_alpha .t_btn[disabled] {
+  color: rgba(72,214,132,0.35);
 }
 .t_emerald.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(68,213,129,0.35);
@@ -882,8 +1044,26 @@
 .t_emerald .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #28b363;
 }
+.t_emerald .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #48d684;
+}
+.t_emerald .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_emerald .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #48d684;
+  background-color: #28b363;
+}
 .t_emerald .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #48d684;
+}
+.t_emerald .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #27af61;
+}
+.t_emerald .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_emerald .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #48d684;
+}
+.t_emerald .t_btn[disabled] {
+  color: #48d684;
 }
 .t_emerald .t_btn:nth-child(1n+1) {
   background-color: #44d581;
@@ -1006,8 +1186,26 @@
 .t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(33,149,82,0.35);
 }
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(46,203,112,0.35);
+}
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(46,203,112,0.35);
+  background-color: rgba(33,149,82,0.35);
+}
 .t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(46,203,112,0.35);
+}
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(32,145,80,0.35);
+}
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_nephritis.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(46,203,112,0.35);
+}
+.t_nephritis.t_alpha .t_btn[disabled] {
+  color: rgba(46,203,112,0.35);
 }
 .t_nephritis.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(45,199,110,0.35);
@@ -1075,8 +1273,26 @@
 .t_nephritis .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #219552;
 }
+.t_nephritis .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #2ecb70;
+}
+.t_nephritis .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_nephritis .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #2ecb70;
+  background-color: #219552;
+}
 .t_nephritis .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #2ecb70;
+}
+.t_nephritis .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #209150;
+}
+.t_nephritis .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_nephritis .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #2ecb70;
+}
+.t_nephritis .t_btn[disabled] {
+  color: #2ecb70;
 }
 .t_nephritis .t_btn:nth-child(1n+1) {
   background-color: #2dc76e;
@@ -1199,8 +1415,26 @@
 .t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(210,111,24,0.35);
 }
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(234,145,66,0.35);
+}
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(234,145,66,0.35);
+  background-color: rgba(210,111,24,0.35);
+}
 .t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(234,145,66,0.35);
+}
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(205,109,23,0.35);
+}
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_carrot.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(234,145,66,0.35);
+}
+.t_carrot.t_alpha .t_btn[disabled] {
+  color: rgba(234,145,66,0.35);
 }
 .t_carrot.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(233,142,61,0.35);
@@ -1268,8 +1502,26 @@
 .t_carrot .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #d26f18;
 }
+.t_carrot .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #ea9142;
+}
+.t_carrot .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_carrot .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #ea9142;
+  background-color: #d26f18;
+}
 .t_carrot .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #ea9142;
+}
+.t_carrot .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #cd6d17;
+}
+.t_carrot .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_carrot .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #ea9142;
+}
+.t_carrot .t_btn[disabled] {
+  color: #ea9142;
 }
 .t_carrot .t_btn:nth-child(1n+1) {
   background-color: #e98e3d;
@@ -1392,8 +1644,26 @@
 .t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(180,72,0,0.35);
 }
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(247,98,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(247,98,0,0.35);
+  background-color: rgba(180,72,0,0.35);
+}
 .t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(247,98,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(175,70,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_pumpkin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(247,98,0,0.35);
+}
+.t_pumpkin.t_alpha .t_btn[disabled] {
+  color: rgba(247,98,0,0.35);
 }
 .t_pumpkin.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(242,96,0,0.35);
@@ -1461,8 +1731,26 @@
 .t_pumpkin .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #b44800;
 }
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #f76200;
+}
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #f76200;
+  background-color: #b44800;
+}
 .t_pumpkin .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #f76200;
+}
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #af4600;
+}
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_pumpkin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #f76200;
+}
+.t_pumpkin .t_btn[disabled] {
+  color: #f76200;
 }
 .t_pumpkin .t_btn:nth-child(1n+1) {
   background-color: #f26000;
@@ -1585,8 +1873,26 @@
 .t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(36,137,204,0.35);
 }
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(82,167,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(82,167,224,0.35);
+  background-color: rgba(36,137,204,0.35);
+}
 .t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(82,167,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(35,134,200,0.35);
+}
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_peter_river.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(82,167,224,0.35);
+}
+.t_peter_river.t_alpha .t_btn[disabled] {
+  color: rgba(82,167,224,0.35);
 }
 .t_peter_river.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(78,165,224,0.35);
@@ -1654,8 +1960,26 @@
 .t_peter_river .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #2489cc;
 }
+.t_peter_river .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #52a7e0;
+}
+.t_peter_river .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_peter_river .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #52a7e0;
+  background-color: #2489cc;
+}
 .t_peter_river .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #52a7e0;
+}
+.t_peter_river .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #2386c8;
+}
+.t_peter_river .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_peter_river .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #52a7e0;
+}
+.t_peter_river .t_btn[disabled] {
+  color: #52a7e0;
 }
 .t_peter_river .t_btn:nth-child(1n+1) {
   background-color: #4ea5e0;
@@ -1778,8 +2102,26 @@
 .t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(35,111,160,0.35);
 }
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(52,147,210,0.35);
+}
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(52,147,210,0.35);
+  background-color: rgba(35,111,160,0.35);
+}
 .t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(52,147,210,0.35);
+}
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(35,108,156,0.35);
+}
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_belize_hole.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(52,147,210,0.35);
+}
+.t_belize_hole.t_alpha .t_btn[disabled] {
+  color: rgba(52,147,210,0.35);
 }
 .t_belize_hole.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(48,145,209,0.35);
@@ -1847,8 +2189,26 @@
 .t_belize_hole .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #236fa0;
 }
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #3493d2;
+}
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #3493d2;
+  background-color: #236fa0;
+}
 .t_belize_hole .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #3493d2;
+}
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #236c9c;
+}
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_belize_hole .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #3493d2;
+}
+.t_belize_hole .t_btn[disabled] {
+  color: #3493d2;
 }
 .t_belize_hole .t_btn:nth-child(1n+1) {
   background-color: #3091d1;
@@ -1971,8 +2331,26 @@
 .t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(228,51,33,0.35);
 }
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(235,105,92,0.35);
+}
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(235,105,92,0.35);
+  background-color: rgba(228,51,33,0.35);
+}
 .t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(235,105,92,0.35);
+}
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(227,47,28,0.35);
+}
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_alizarin.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(235,105,92,0.35);
+}
+.t_alizarin.t_alpha .t_btn[disabled] {
+  color: rgba(235,105,92,0.35);
 }
 .t_alizarin.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(234,101,87,0.35);
@@ -2040,8 +2418,26 @@
 .t_alizarin .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #e43321;
 }
+.t_alizarin .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #eb695c;
+}
+.t_alizarin .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_alizarin .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #eb695c;
+  background-color: #e43321;
+}
 .t_alizarin .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #eb695c;
+}
+.t_alizarin .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #e32f1c;
+}
+.t_alizarin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_alizarin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #eb695c;
+}
+.t_alizarin .t_btn[disabled] {
+  color: #eb695c;
 }
 .t_alizarin .t_btn:nth-child(1n+1) {
   background-color: #ea6557;
@@ -2164,8 +2560,26 @@
 .t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(167,50,37,0.35);
 }
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(211,74,59,0.35);
+}
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(211,74,59,0.35);
+  background-color: rgba(167,50,37,0.35);
+}
 .t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(211,74,59,0.35);
+}
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(163,48,36,0.35);
+}
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_pomegranat.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(211,74,59,0.35);
+}
+.t_pomegranat.t_alpha .t_btn[disabled] {
+  color: rgba(211,74,59,0.35);
 }
 .t_pomegranat.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(210,70,55,0.35);
@@ -2233,8 +2647,26 @@
 .t_pomegranat .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #a73225;
 }
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #d34a3b;
+}
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #d34a3b;
+  background-color: #a73225;
+}
 .t_pomegranat .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #d34a3b;
+}
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #a33024;
+}
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_pomegranat .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #d34a3b;
+}
+.t_pomegranat .t_btn[disabled] {
+  color: #d34a3b;
 }
 .t_pomegranat .t_btn:nth-child(1n+1) {
   background-color: #d24637;
@@ -2357,8 +2789,26 @@
 .t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(140,73,167,0.35);
 }
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(170,114,193,0.35);
+}
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(170,114,193,0.35);
+  background-color: rgba(140,73,167,0.35);
+}
 .t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(170,114,193,0.35);
+}
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(137,72,163,0.35);
+}
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_amethyst.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(170,114,193,0.35);
+}
+.t_amethyst.t_alpha .t_btn[disabled] {
+  color: rgba(170,114,193,0.35);
 }
 .t_amethyst.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(168,110,191,0.35);
@@ -2426,8 +2876,26 @@
 .t_amethyst .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #8c49a7;
 }
+.t_amethyst .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #aa72c1;
+}
+.t_amethyst .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_amethyst .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #aa72c1;
+  background-color: #8c49a7;
+}
 .t_amethyst .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #aa72c1;
+}
+.t_amethyst .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #8948a3;
+}
+.t_amethyst .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_amethyst .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #aa72c1;
+}
+.t_amethyst .t_btn[disabled] {
+  color: #aa72c1;
 }
 .t_amethyst .t_btn:nth-child(1n+1) {
   background-color: #a86ebf;
@@ -2550,8 +3018,26 @@
 .t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(124,59,151,0.35);
 }
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(159,88,189,0.35);
+}
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(159,88,189,0.35);
+  background-color: rgba(124,59,151,0.35);
+}
 .t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(159,88,189,0.35);
+}
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(121,58,147,0.35);
+}
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_wisteria.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(159,88,189,0.35);
+}
+.t_wisteria.t_alpha .t_btn[disabled] {
+  color: rgba(159,88,189,0.35);
 }
 .t_wisteria.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(157,84,188,0.35);
@@ -2619,8 +3105,26 @@
 .t_wisteria .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #7c3b97;
 }
+.t_wisteria .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #9f58bd;
+}
+.t_wisteria .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_wisteria .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #9f58bd;
+  background-color: #7c3b97;
+}
 .t_wisteria .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #9f58bd;
+}
+.t_wisteria .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #793a93;
+}
+.t_wisteria .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_wisteria .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #9f58bd;
+}
+.t_wisteria .t_btn[disabled] {
+  color: #9f58bd;
 }
 .t_wisteria .t_btn:nth-child(1n+1) {
   background-color: #9d54bc;
@@ -2743,8 +3247,26 @@
 .t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(218,226,228,0.35);
 }
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(255,255,255,0.35);
+  background-color: rgba(218,226,228,0.35);
+}
 .t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(215,224,226,0.35);
+}
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_clouds.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(255,255,255,0.35);
+}
+.t_clouds.t_alpha .t_btn[disabled] {
+  color: rgba(255,255,255,0.35);
 }
 .t_clouds.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(254,254,254,0.35);
@@ -2812,8 +3334,26 @@
 .t_clouds .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #dae2e4;
 }
+.t_clouds .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #fff;
+}
+.t_clouds .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_clouds .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #fff;
+  background-color: #dae2e4;
+}
 .t_clouds .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #fff;
+}
+.t_clouds .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #d7e0e2;
+}
+.t_clouds .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_clouds .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #fff;
+}
+.t_clouds .t_btn[disabled] {
+  color: #fff;
 }
 .t_clouds .t_btn:nth-child(1n+1) {
   background-color: #fefefe;
@@ -2936,8 +3476,26 @@
 .t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(172,180,185,0.35);
 }
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(208,213,215,0.35);
+}
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(208,213,215,0.35);
+  background-color: rgba(172,180,185,0.35);
+}
 .t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(208,213,215,0.35);
+}
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(170,177,183,0.35);
+}
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_silver.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(208,213,215,0.35);
+}
+.t_silver.t_alpha .t_btn[disabled] {
+  color: rgba(208,213,215,0.35);
 }
 .t_silver.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(206,210,213,0.35);
@@ -3005,8 +3563,26 @@
 .t_silver .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #acb4b9;
 }
+.t_silver .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #d0d5d7;
+}
+.t_silver .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_silver .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #d0d5d7;
+  background-color: #acb4b9;
+}
 .t_silver .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #d0d5d7;
+}
+.t_silver .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #aab1b7;
+}
+.t_silver .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_silver .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #d0d5d7;
+}
+.t_silver .t_btn[disabled] {
+  color: #d0d5d7;
 }
 .t_silver .t_btn:nth-child(1n+1) {
   background-color: #ced2d5;
@@ -3129,8 +3705,26 @@
 .t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(41,58,74,0.35);
 }
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(65,91,117,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(65,91,117,0.35);
+  background-color: rgba(41,58,74,0.35);
+}
 .t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(65,91,117,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(39,55,71,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_wet_asphalt.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(65,91,117,0.35);
+}
+.t_wet_asphalt.t_alpha .t_btn[disabled] {
+  color: rgba(65,91,117,0.35);
 }
 .t_wet_asphalt.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(63,88,114,0.35);
@@ -3198,8 +3792,26 @@
 .t_wet_asphalt .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #293a4a;
 }
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #415b75;
+}
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #415b75;
+  background-color: #293a4a;
+}
 .t_wet_asphalt .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #415b75;
+}
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #273747;
+}
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_wet_asphalt .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #415b75;
+}
+.t_wet_asphalt .t_btn[disabled] {
+  color: #415b75;
 }
 .t_wet_asphalt .t_btn:nth-child(1n+1) {
   background-color: #3f5872;
@@ -3322,8 +3934,26 @@
 .t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(even) {
   background-color: rgba(33,47,60,0.35);
 }
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: rgba(57,80,103,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: rgba(57,80,103,0.35);
+  background-color: rgba(33,47,60,0.35);
+}
 .t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: rgba(57,80,103,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: rgba(31,44,57,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_midnight_blue.t_alpha .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: rgba(57,80,103,0.35);
+}
+.t_midnight_blue.t_alpha .t_btn[disabled] {
+  color: rgba(57,80,103,0.35);
 }
 .t_midnight_blue.t_alpha .t_btn:nth-child(1n+1) {
   background-color: rgba(55,77,100,0.35);
@@ -3391,8 +4021,26 @@
 .t_midnight_blue .t_btn.t_dialog_btn:nth-child(even) {
   background-color: #212f3c;
 }
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(even)[disabled] {
+  color: #395067;
+}
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(even)[disabled]:hover,
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(even)[disabled]:active {
+  color: #395067;
+  background-color: #212f3c;
+}
 .t_midnight_blue .t_btn.t_dialog_btn:nth-child(odd):hover {
   background-color: #395067;
+}
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(odd)[disabled] {
+  color: #1f2c39;
+}
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
+.t_midnight_blue .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
+  background-color: #395067;
+}
+.t_midnight_blue .t_btn[disabled] {
+  color: #395067;
 }
 .t_midnight_blue .t_btn:nth-child(1n+1) {
   background-color: #374d64;
