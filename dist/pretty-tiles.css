@@ -4140,7 +4140,7 @@
   background-color: #1edbb6;
   border: 1px solid #1edbb6;
 }
-.t_turquoise .label.input-group-addon {
+.t_turquoise .label {
   background-color: #1edbb6;
 }
 .t_green_sea .nav.nav-tabs {
@@ -4163,7 +4163,7 @@
   background-color: #1abf9f;
   border: 1px solid #1abf9f;
 }
-.t_green_sea .label.input-group-addon {
+.t_green_sea .label {
   background-color: #1abf9f;
 }
 .t_sun_flower .nav.nav-tabs {
@@ -4186,7 +4186,7 @@
   background-color: #f3cc31;
   border: 1px solid #f3cc31;
 }
-.t_sun_flower .label.input-group-addon {
+.t_sun_flower .label {
   background-color: #f3cc31;
 }
 .t_orange .nav.nav-tabs {
@@ -4209,7 +4209,7 @@
   background-color: #f5aa34;
   border: 1px solid #f5aa34;
 }
-.t_orange .label.input-group-addon {
+.t_orange .label {
   background-color: #f5aa34;
 }
 .t_emerald .nav.nav-tabs {
@@ -4232,7 +4232,7 @@
   background-color: #48d684;
   border: 1px solid #48d684;
 }
-.t_emerald .label.input-group-addon {
+.t_emerald .label {
   background-color: #48d684;
 }
 .t_nephritis .nav.nav-tabs {
@@ -4255,7 +4255,7 @@
   background-color: #2ecb70;
   border: 1px solid #2ecb70;
 }
-.t_nephritis .label.input-group-addon {
+.t_nephritis .label {
   background-color: #2ecb70;
 }
 .t_carrot .nav.nav-tabs {
@@ -4278,7 +4278,7 @@
   background-color: #ea9142;
   border: 1px solid #ea9142;
 }
-.t_carrot .label.input-group-addon {
+.t_carrot .label {
   background-color: #ea9142;
 }
 .t_pumpkin .nav.nav-tabs {
@@ -4301,7 +4301,7 @@
   background-color: #f76200;
   border: 1px solid #f76200;
 }
-.t_pumpkin .label.input-group-addon {
+.t_pumpkin .label {
   background-color: #f76200;
 }
 .t_peter_river .nav.nav-tabs {
@@ -4324,7 +4324,7 @@
   background-color: #52a7e0;
   border: 1px solid #52a7e0;
 }
-.t_peter_river .label.input-group-addon {
+.t_peter_river .label {
   background-color: #52a7e0;
 }
 .t_belize_hole .nav.nav-tabs {
@@ -4347,7 +4347,7 @@
   background-color: #3493d2;
   border: 1px solid #3493d2;
 }
-.t_belize_hole .label.input-group-addon {
+.t_belize_hole .label {
   background-color: #3493d2;
 }
 .t_alizarin .nav.nav-tabs {
@@ -4370,7 +4370,7 @@
   background-color: #eb695c;
   border: 1px solid #eb695c;
 }
-.t_alizarin .label.input-group-addon {
+.t_alizarin .label {
   background-color: #eb695c;
 }
 .t_pomegranat .nav.nav-tabs {
@@ -4393,7 +4393,7 @@
   background-color: #d34a3b;
   border: 1px solid #d34a3b;
 }
-.t_pomegranat .label.input-group-addon {
+.t_pomegranat .label {
   background-color: #d34a3b;
 }
 .t_amethyst .nav.nav-tabs {
@@ -4416,7 +4416,7 @@
   background-color: #aa72c1;
   border: 1px solid #aa72c1;
 }
-.t_amethyst .label.input-group-addon {
+.t_amethyst .label {
   background-color: #aa72c1;
 }
 .t_wisteria .nav.nav-tabs {
@@ -4439,7 +4439,7 @@
   background-color: #9f58bd;
   border: 1px solid #9f58bd;
 }
-.t_wisteria .label.input-group-addon {
+.t_wisteria .label {
   background-color: #9f58bd;
 }
 .t_clouds .nav.nav-tabs {
@@ -4462,7 +4462,7 @@
   background-color: #fff;
   border: 1px solid #fff;
 }
-.t_clouds .label.input-group-addon {
+.t_clouds .label {
   background-color: #fff;
 }
 .t_silver .nav.nav-tabs {
@@ -4485,7 +4485,7 @@
   background-color: #d0d5d7;
   border: 1px solid #d0d5d7;
 }
-.t_silver .label.input-group-addon {
+.t_silver .label {
   background-color: #d0d5d7;
 }
 .t_wet_asphalt .nav.nav-tabs {
@@ -4508,7 +4508,7 @@
   background-color: #415b75;
   border: 1px solid #415b75;
 }
-.t_wet_asphalt .label.input-group-addon {
+.t_wet_asphalt .label {
   background-color: #415b75;
 }
 .t_midnight_blue .nav.nav-tabs {
@@ -4531,7 +4531,7 @@
   background-color: #395067;
   border: 1px solid #395067;
 }
-.t_midnight_blue .label.input-group-addon {
+.t_midnight_blue .label {
   background-color: #395067;
 }
 .tile {
