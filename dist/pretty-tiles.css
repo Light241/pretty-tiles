@@ -14,16 +14,16 @@
 .t_turquoise .t_body .value {
   color: #ecf0f1;
 }
-.t_turquoise button {
+.t_turquoise .t_btn {
   color: #ecf0f1;
 }
-.t_turquoise button:hover,
-.t_turquoise button:active,
-.t_turquoise button:focus,
-.t_turquoise button:active:focus {
+.t_turquoise .t_btn:hover,
+.t_turquoise .t_btn:active,
+.t_turquoise .t_btn:focus,
+.t_turquoise .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_turquoise .t_buttons button {
+.t_turquoise .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_turquoise.t_alpha {
@@ -243,16 +243,16 @@
 .t_green_sea .t_body .value {
   color: #ecf0f1;
 }
-.t_green_sea button {
+.t_green_sea .t_btn {
   color: #ecf0f1;
 }
-.t_green_sea button:hover,
-.t_green_sea button:active,
-.t_green_sea button:focus,
-.t_green_sea button:active:focus {
+.t_green_sea .t_btn:hover,
+.t_green_sea .t_btn:active,
+.t_green_sea .t_btn:focus,
+.t_green_sea .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_green_sea .t_buttons button {
+.t_green_sea .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_green_sea.t_alpha {
@@ -472,16 +472,16 @@
 .t_sun_flower .t_body .value {
   color: #ecf0f1;
 }
-.t_sun_flower button {
+.t_sun_flower .t_btn {
   color: #ecf0f1;
 }
-.t_sun_flower button:hover,
-.t_sun_flower button:active,
-.t_sun_flower button:focus,
-.t_sun_flower button:active:focus {
+.t_sun_flower .t_btn:hover,
+.t_sun_flower .t_btn:active,
+.t_sun_flower .t_btn:focus,
+.t_sun_flower .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_sun_flower .t_buttons button {
+.t_sun_flower .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_sun_flower.t_alpha {
@@ -701,16 +701,16 @@
 .t_orange .t_body .value {
   color: #ecf0f1;
 }
-.t_orange button {
+.t_orange .t_btn {
   color: #ecf0f1;
 }
-.t_orange button:hover,
-.t_orange button:active,
-.t_orange button:focus,
-.t_orange button:active:focus {
+.t_orange .t_btn:hover,
+.t_orange .t_btn:active,
+.t_orange .t_btn:focus,
+.t_orange .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_orange .t_buttons button {
+.t_orange .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_orange.t_alpha {
@@ -930,16 +930,16 @@
 .t_emerald .t_body .value {
   color: #ecf0f1;
 }
-.t_emerald button {
+.t_emerald .t_btn {
   color: #ecf0f1;
 }
-.t_emerald button:hover,
-.t_emerald button:active,
-.t_emerald button:focus,
-.t_emerald button:active:focus {
+.t_emerald .t_btn:hover,
+.t_emerald .t_btn:active,
+.t_emerald .t_btn:focus,
+.t_emerald .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_emerald .t_buttons button {
+.t_emerald .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_emerald.t_alpha {
@@ -1159,16 +1159,16 @@
 .t_nephritis .t_body .value {
   color: #ecf0f1;
 }
-.t_nephritis button {
+.t_nephritis .t_btn {
   color: #ecf0f1;
 }
-.t_nephritis button:hover,
-.t_nephritis button:active,
-.t_nephritis button:focus,
-.t_nephritis button:active:focus {
+.t_nephritis .t_btn:hover,
+.t_nephritis .t_btn:active,
+.t_nephritis .t_btn:focus,
+.t_nephritis .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_nephritis .t_buttons button {
+.t_nephritis .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_nephritis.t_alpha {
@@ -1388,16 +1388,16 @@
 .t_carrot .t_body .value {
   color: #ecf0f1;
 }
-.t_carrot button {
+.t_carrot .t_btn {
   color: #ecf0f1;
 }
-.t_carrot button:hover,
-.t_carrot button:active,
-.t_carrot button:focus,
-.t_carrot button:active:focus {
+.t_carrot .t_btn:hover,
+.t_carrot .t_btn:active,
+.t_carrot .t_btn:focus,
+.t_carrot .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_carrot .t_buttons button {
+.t_carrot .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_carrot.t_alpha {
@@ -1617,16 +1617,16 @@
 .t_pumpkin .t_body .value {
   color: #ecf0f1;
 }
-.t_pumpkin button {
+.t_pumpkin .t_btn {
   color: #ecf0f1;
 }
-.t_pumpkin button:hover,
-.t_pumpkin button:active,
-.t_pumpkin button:focus,
-.t_pumpkin button:active:focus {
+.t_pumpkin .t_btn:hover,
+.t_pumpkin .t_btn:active,
+.t_pumpkin .t_btn:focus,
+.t_pumpkin .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_pumpkin .t_buttons button {
+.t_pumpkin .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_pumpkin.t_alpha {
@@ -1846,16 +1846,16 @@
 .t_peter_river .t_body .value {
   color: #ecf0f1;
 }
-.t_peter_river button {
+.t_peter_river .t_btn {
   color: #ecf0f1;
 }
-.t_peter_river button:hover,
-.t_peter_river button:active,
-.t_peter_river button:focus,
-.t_peter_river button:active:focus {
+.t_peter_river .t_btn:hover,
+.t_peter_river .t_btn:active,
+.t_peter_river .t_btn:focus,
+.t_peter_river .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_peter_river .t_buttons button {
+.t_peter_river .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_peter_river.t_alpha {
@@ -2075,16 +2075,16 @@
 .t_belize_hole .t_body .value {
   color: #ecf0f1;
 }
-.t_belize_hole button {
+.t_belize_hole .t_btn {
   color: #ecf0f1;
 }
-.t_belize_hole button:hover,
-.t_belize_hole button:active,
-.t_belize_hole button:focus,
-.t_belize_hole button:active:focus {
+.t_belize_hole .t_btn:hover,
+.t_belize_hole .t_btn:active,
+.t_belize_hole .t_btn:focus,
+.t_belize_hole .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_belize_hole .t_buttons button {
+.t_belize_hole .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_belize_hole.t_alpha {
@@ -2304,16 +2304,16 @@
 .t_alizarin .t_body .value {
   color: #ecf0f1;
 }
-.t_alizarin button {
+.t_alizarin .t_btn {
   color: #ecf0f1;
 }
-.t_alizarin button:hover,
-.t_alizarin button:active,
-.t_alizarin button:focus,
-.t_alizarin button:active:focus {
+.t_alizarin .t_btn:hover,
+.t_alizarin .t_btn:active,
+.t_alizarin .t_btn:focus,
+.t_alizarin .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_alizarin .t_buttons button {
+.t_alizarin .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_alizarin.t_alpha {
@@ -2533,16 +2533,16 @@
 .t_pomegranat .t_body .value {
   color: #ecf0f1;
 }
-.t_pomegranat button {
+.t_pomegranat .t_btn {
   color: #ecf0f1;
 }
-.t_pomegranat button:hover,
-.t_pomegranat button:active,
-.t_pomegranat button:focus,
-.t_pomegranat button:active:focus {
+.t_pomegranat .t_btn:hover,
+.t_pomegranat .t_btn:active,
+.t_pomegranat .t_btn:focus,
+.t_pomegranat .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_pomegranat .t_buttons button {
+.t_pomegranat .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_pomegranat.t_alpha {
@@ -2762,16 +2762,16 @@
 .t_amethyst .t_body .value {
   color: #ecf0f1;
 }
-.t_amethyst button {
+.t_amethyst .t_btn {
   color: #ecf0f1;
 }
-.t_amethyst button:hover,
-.t_amethyst button:active,
-.t_amethyst button:focus,
-.t_amethyst button:active:focus {
+.t_amethyst .t_btn:hover,
+.t_amethyst .t_btn:active,
+.t_amethyst .t_btn:focus,
+.t_amethyst .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_amethyst .t_buttons button {
+.t_amethyst .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_amethyst.t_alpha {
@@ -2991,16 +2991,16 @@
 .t_wisteria .t_body .value {
   color: #ecf0f1;
 }
-.t_wisteria button {
+.t_wisteria .t_btn {
   color: #ecf0f1;
 }
-.t_wisteria button:hover,
-.t_wisteria button:active,
-.t_wisteria button:focus,
-.t_wisteria button:active:focus {
+.t_wisteria .t_btn:hover,
+.t_wisteria .t_btn:active,
+.t_wisteria .t_btn:focus,
+.t_wisteria .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_wisteria .t_buttons button {
+.t_wisteria .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_wisteria.t_alpha {
@@ -3220,16 +3220,16 @@
 .t_clouds .t_body .value {
   color: #000;
 }
-.t_clouds button {
+.t_clouds .t_btn {
   color: #000;
 }
-.t_clouds button:hover,
-.t_clouds button:active,
-.t_clouds button:focus,
-.t_clouds button:active:focus {
+.t_clouds .t_btn:hover,
+.t_clouds .t_btn:active,
+.t_clouds .t_btn:focus,
+.t_clouds .t_btn:active:focus {
   color: #000;
 }
-.t_clouds .t_buttons button {
+.t_clouds .t_buttons .t_btn {
   color: #000;
 }
 .t_clouds.t_alpha {
@@ -3449,16 +3449,16 @@
 .t_silver .t_body .value {
   color: #000;
 }
-.t_silver button {
+.t_silver .t_btn {
   color: #000;
 }
-.t_silver button:hover,
-.t_silver button:active,
-.t_silver button:focus,
-.t_silver button:active:focus {
+.t_silver .t_btn:hover,
+.t_silver .t_btn:active,
+.t_silver .t_btn:focus,
+.t_silver .t_btn:active:focus {
   color: #000;
 }
-.t_silver .t_buttons button {
+.t_silver .t_buttons .t_btn {
   color: #000;
 }
 .t_silver.t_alpha {
@@ -3678,16 +3678,16 @@
 .t_wet_asphalt .t_body .value {
   color: #ecf0f1;
 }
-.t_wet_asphalt button {
+.t_wet_asphalt .t_btn {
   color: #ecf0f1;
 }
-.t_wet_asphalt button:hover,
-.t_wet_asphalt button:active,
-.t_wet_asphalt button:focus,
-.t_wet_asphalt button:active:focus {
+.t_wet_asphalt .t_btn:hover,
+.t_wet_asphalt .t_btn:active,
+.t_wet_asphalt .t_btn:focus,
+.t_wet_asphalt .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_wet_asphalt .t_buttons button {
+.t_wet_asphalt .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_wet_asphalt.t_alpha {
@@ -3907,16 +3907,16 @@
 .t_midnight_blue .t_body .value {
   color: #ecf0f1;
 }
-.t_midnight_blue button {
+.t_midnight_blue .t_btn {
   color: #ecf0f1;
 }
-.t_midnight_blue button:hover,
-.t_midnight_blue button:active,
-.t_midnight_blue button:focus,
-.t_midnight_blue button:active:focus {
+.t_midnight_blue .t_btn:hover,
+.t_midnight_blue .t_btn:active,
+.t_midnight_blue .t_btn:focus,
+.t_midnight_blue .t_btn:active:focus {
   color: #ecf0f1;
 }
-.t_midnight_blue .t_buttons button {
+.t_midnight_blue .t_buttons .t_btn {
   color: #ecf0f1;
 }
 .t_midnight_blue.t_alpha {
