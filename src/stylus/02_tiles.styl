@@ -30,6 +30,7 @@ tile_transition(n)
     font-size 24px
     height t_cap_height
     box-sizing content-box
+    tile_transition(0.6s)
     & + .t_label
       & + .t_body
         height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + (t_label_height + t_label_padding * 2) + t_body_v_padding))
@@ -41,6 +42,7 @@ tile_transition(n)
     padding t_label_padding
     text-align center
     box-sizing content-box
+    tile_transition(0.6s)
     & + .t_body
       height (tile_min_height - ((t_label_height + t_label_padding * 2) + t_body_v_padding))
   .t_body
@@ -50,6 +52,7 @@ tile_transition(n)
     height (tile_min_height - t_body_v_padding)
     margin-bottom 15px
     box-sizing content-box
+    tile_transition(0.6s)
     .description
       transition color 0.6s ease
       box-sizing content-box
@@ -66,6 +69,7 @@ tile_transition(n)
     padding 0
     box-sizing content-box
     min-height 45px
+    tile_transition(0.6s)
     .t_btn
       width 100%
       outline none
