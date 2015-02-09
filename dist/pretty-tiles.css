@@ -4143,6 +4143,24 @@
 .t_turquoise .label {
   background-color: #1edbb6;
 }
+.t_turquoise .dropdown-menu {
+  background-color: #1edbb6;
+  color: #ecf0f1;
+  border: 1px solid #1ed7b2;
+}
+.t_turquoise .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_turquoise .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_turquoise .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #28e1bd;
+}
+.t_turquoise .dropdown-menu li.divider {
+  background-color: #28e1bd;
+}
 .t_green_sea .nav.nav-tabs {
   border-bottom: 1px solid #1abf9f;
 }
@@ -4165,6 +4183,24 @@
 }
 .t_green_sea .label {
   background-color: #1abf9f;
+}
+.t_green_sea .dropdown-menu {
+  background-color: #1abf9f;
+  color: #ecf0f1;
+  border: 1px solid #1abb9b;
+}
+.t_green_sea .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_green_sea .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_green_sea .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #1ccdaa;
+}
+.t_green_sea .dropdown-menu li.divider {
+  background-color: #1ccdaa;
 }
 .t_sun_flower .nav.nav-tabs {
   border-bottom: 1px solid #f3cc31;
@@ -4189,6 +4225,24 @@
 .t_sun_flower .label {
   background-color: #f3cc31;
 }
+.t_sun_flower .dropdown-menu {
+  background-color: #f3cc31;
+  color: #ecf0f1;
+  border: 1px solid #f3cb2c;
+}
+.t_sun_flower .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_sun_flower .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_sun_flower .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #f4d03f;
+}
+.t_sun_flower .dropdown-menu li.divider {
+  background-color: #f4d03f;
+}
 .t_orange .nav.nav-tabs {
   border-bottom: 1px solid #f5aa34;
 }
@@ -4211,6 +4265,24 @@
 }
 .t_orange .label {
   background-color: #f5aa34;
+}
+.t_orange .dropdown-menu {
+  background-color: #f5aa34;
+  color: #ecf0f1;
+  border: 1px solid #f4a82f;
+}
+.t_orange .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_orange .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_orange .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #f5b043;
+}
+.t_orange .dropdown-menu li.divider {
+  background-color: #f5b043;
 }
 .t_emerald .nav.nav-tabs {
   border-bottom: 1px solid #48d684;
@@ -4235,6 +4307,24 @@
 .t_emerald .label {
   background-color: #48d684;
 }
+.t_emerald .dropdown-menu {
+  background-color: #48d684;
+  color: #ecf0f1;
+  border: 1px solid #44d581;
+}
+.t_emerald .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_emerald .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_emerald .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #54d98c;
+}
+.t_emerald .dropdown-menu li.divider {
+  background-color: #54d98c;
+}
 .t_nephritis .nav.nav-tabs {
   border-bottom: 1px solid #2ecb70;
 }
@@ -4257,6 +4347,24 @@
 }
 .t_nephritis .label {
   background-color: #2ecb70;
+}
+.t_nephritis .dropdown-menu {
+  background-color: #2ecb70;
+  color: #ecf0f1;
+  border: 1px solid #2dc76e;
+}
+.t_nephritis .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_nephritis .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_nephritis .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #36d278;
+}
+.t_nephritis .dropdown-menu li.divider {
+  background-color: #36d278;
 }
 .t_carrot .nav.nav-tabs {
   border-bottom: 1px solid #ea9142;
@@ -4281,6 +4389,24 @@
 .t_carrot .label {
   background-color: #ea9142;
 }
+.t_carrot .dropdown-menu {
+  background-color: #ea9142;
+  color: #ecf0f1;
+  border: 1px solid #e98e3d;
+}
+.t_carrot .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_carrot .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_carrot .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #eb9950;
+}
+.t_carrot .dropdown-menu li.divider {
+  background-color: #eb9950;
+}
 .t_pumpkin .nav.nav-tabs {
   border-bottom: 1px solid #f76200;
 }
@@ -4303,6 +4429,24 @@
 }
 .t_pumpkin .label {
   background-color: #f76200;
+}
+.t_pumpkin .dropdown-menu {
+  background-color: #f76200;
+  color: #ecf0f1;
+  border: 1px solid #f26000;
+}
+.t_pumpkin .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_pumpkin .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_pumpkin .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #ff6a07;
+}
+.t_pumpkin .dropdown-menu li.divider {
+  background-color: #ff6a07;
 }
 .t_peter_river .nav.nav-tabs {
   border-bottom: 1px solid #52a7e0;
@@ -4327,6 +4471,24 @@
 .t_peter_river .label {
   background-color: #52a7e0;
 }
+.t_peter_river .dropdown-menu {
+  background-color: #52a7e0;
+  color: #ecf0f1;
+  border: 1px solid #4ea5e0;
+}
+.t_peter_river .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_peter_river .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_peter_river .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #5faee3;
+}
+.t_peter_river .dropdown-menu li.divider {
+  background-color: #5faee3;
+}
 .t_belize_hole .nav.nav-tabs {
   border-bottom: 1px solid #3493d2;
 }
@@ -4349,6 +4511,24 @@
 }
 .t_belize_hole .label {
   background-color: #3493d2;
+}
+.t_belize_hole .dropdown-menu {
+  background-color: #3493d2;
+  color: #ecf0f1;
+  border: 1px solid #3091d1;
+}
+.t_belize_hole .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_belize_hole .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_belize_hole .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #409ad5;
+}
+.t_belize_hole .dropdown-menu li.divider {
+  background-color: #409ad5;
 }
 .t_alizarin .nav.nav-tabs {
   border-bottom: 1px solid #eb695c;
@@ -4373,6 +4553,24 @@
 .t_alizarin .label {
   background-color: #eb695c;
 }
+.t_alizarin .dropdown-menu {
+  background-color: #eb695c;
+  color: #ecf0f1;
+  border: 1px solid #ea6557;
+}
+.t_alizarin .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_alizarin .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_alizarin .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #ed7669;
+}
+.t_alizarin .dropdown-menu li.divider {
+  background-color: #ed7669;
+}
 .t_pomegranat .nav.nav-tabs {
   border-bottom: 1px solid #d34a3b;
 }
@@ -4395,6 +4593,24 @@
 }
 .t_pomegranat .label {
   background-color: #d34a3b;
+}
+.t_pomegranat .dropdown-menu {
+  background-color: #d34a3b;
+  color: #ecf0f1;
+  border: 1px solid #d24637;
+}
+.t_pomegranat .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_pomegranat .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_pomegranat .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #d65548;
+}
+.t_pomegranat .dropdown-menu li.divider {
+  background-color: #d65548;
 }
 .t_amethyst .nav.nav-tabs {
   border-bottom: 1px solid #aa72c1;
@@ -4419,6 +4635,24 @@
 .t_amethyst .label {
   background-color: #aa72c1;
 }
+.t_amethyst .dropdown-menu {
+  background-color: #aa72c1;
+  color: #ecf0f1;
+  border: 1px solid #a86ebf;
+}
+.t_amethyst .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_amethyst .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_amethyst .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #b07cc6;
+}
+.t_amethyst .dropdown-menu li.divider {
+  background-color: #b07cc6;
+}
 .t_wisteria .nav.nav-tabs {
   border-bottom: 1px solid #9f58bd;
 }
@@ -4442,6 +4676,24 @@
 .t_wisteria .label {
   background-color: #9f58bd;
 }
+.t_wisteria .dropdown-menu {
+  background-color: #9f58bd;
+  color: #ecf0f1;
+  border: 1px solid #9d54bc;
+}
+.t_wisteria .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_wisteria .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_wisteria .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #a563c1;
+}
+.t_wisteria .dropdown-menu li.divider {
+  background-color: #a563c1;
+}
 .t_clouds .nav.nav-tabs {
   border-bottom: 1px solid #fff;
 }
@@ -4463,6 +4715,24 @@
   border: 1px solid #fff;
 }
 .t_clouds .label {
+  background-color: #fff;
+}
+.t_clouds .dropdown-menu {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #fefefe;
+}
+.t_clouds .dropdown-menu li {
+  color: #000;
+}
+.t_clouds .dropdown-menu li a {
+  color: #000;
+}
+.t_clouds .dropdown-menu li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+.t_clouds .dropdown-menu li.divider {
   background-color: #fff;
 }
 .t_silver .nav.nav-tabs {
@@ -4488,6 +4758,24 @@
 .t_silver .label {
   background-color: #d0d5d7;
 }
+.t_silver .dropdown-menu {
+  background-color: #d0d5d7;
+  color: #000;
+  border: 1px solid #ced2d5;
+}
+.t_silver .dropdown-menu li {
+  color: #000;
+}
+.t_silver .dropdown-menu li a {
+  color: #000;
+}
+.t_silver .dropdown-menu li a:hover {
+  color: #000;
+  background-color: #d9dcde;
+}
+.t_silver .dropdown-menu li.divider {
+  background-color: #d9dcde;
+}
 .t_wet_asphalt .nav.nav-tabs {
   border-bottom: 1px solid #415b75;
 }
@@ -4511,6 +4799,24 @@
 .t_wet_asphalt .label {
   background-color: #415b75;
 }
+.t_wet_asphalt .dropdown-menu {
+  background-color: #415b75;
+  color: #ecf0f1;
+  border: 1px solid #3f5872;
+}
+.t_wet_asphalt .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_wet_asphalt .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_wet_asphalt .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #46627f;
+}
+.t_wet_asphalt .dropdown-menu li.divider {
+  background-color: #46627f;
+}
 .t_midnight_blue .nav.nav-tabs {
   border-bottom: 1px solid #395067;
 }
@@ -4533,6 +4839,610 @@
 }
 .t_midnight_blue .label {
   background-color: #395067;
+}
+.t_midnight_blue .dropdown-menu {
+  background-color: #395067;
+  color: #ecf0f1;
+  border: 1px solid #374d64;
+}
+.t_midnight_blue .dropdown-menu li {
+  color: #ecf0f1;
+}
+.t_midnight_blue .dropdown-menu li a {
+  color: #ecf0f1;
+}
+.t_midnight_blue .dropdown-menu li a:hover {
+  color: #ecf0f1;
+  background-color: #3e5771;
+}
+.t_midnight_blue .dropdown-menu li.divider {
+  background-color: #3e5771;
+}
+.tile input.editable-has-buttons {
+  width: 133px;
+}
+.tile .editable-click {
+  color: #fff;
+  border-bottom: dashed 1px #fff;
+}
+.tile .editable-click:hover {
+  color: #fff;
+  border-bottom: dashed 1px #fff;
+}
+.tile .editable-click a.editable-click {
+  color: #fff;
+  border-bottom: dashed 1px #fff;
+}
+.tile .editable-click a.editable-click:hover {
+  color: #fff;
+  border-bottom: dashed 1px #fff;
+}
+.tile .editable-empty,
+.tile .editable-empty:hover,
+.tile .editable-empty:focus,
+.tile a.editable-empty,
+.tile a.editable-empty:hover,
+.tile a.editable-empty:focus {
+  color: #fff;
+  border-bottom: dashed 1px #fff;
+}
+.t_turquoise .editable-buttons .btn.btn-primary,
+.t_turquoise .editable-buttons .btn.btn-default {
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_turquoise .editable-buttons .btn.btn-primary[disabled],
+.t_turquoise .editable-buttons .btn.btn-default[disabled] {
+  color: #1edbb6;
+  cursor: inherit;
+}
+.t_turquoise .editable-buttons .btn.btn-primary:hover,
+.t_turquoise .editable-buttons .btn.btn-default:hover,
+.t_turquoise .editable-buttons .btn.btn-primary:active,
+.t_turquoise .editable-buttons .btn.btn-default:active,
+.t_turquoise .editable-buttons .btn.btn-primary:focus,
+.t_turquoise .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_turquoise .editable-buttons .btn.btn-primary:hover,
+.t_turquoise .editable-buttons .btn.btn-default:hover,
+.t_turquoise .editable-buttons .btn.btn-primary:active,
+.t_turquoise .editable-buttons .btn.btn-default:active,
+.t_turquoise .editable-buttons .btn.btn-primary:focus,
+.t_turquoise .editable-buttons .btn.btn-default:focus,
+.t_turquoise .editable-buttons .btn.btn-primary:active:focus,
+.t_turquoise .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_green_sea .editable-buttons .btn.btn-primary,
+.t_green_sea .editable-buttons .btn.btn-default {
+  background-color: #16a085;
+  border-color: #16a085;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_green_sea .editable-buttons .btn.btn-primary[disabled],
+.t_green_sea .editable-buttons .btn.btn-default[disabled] {
+  color: #1abf9f;
+  cursor: inherit;
+}
+.t_green_sea .editable-buttons .btn.btn-primary:hover,
+.t_green_sea .editable-buttons .btn.btn-default:hover,
+.t_green_sea .editable-buttons .btn.btn-primary:active,
+.t_green_sea .editable-buttons .btn.btn-default:active,
+.t_green_sea .editable-buttons .btn.btn-primary:focus,
+.t_green_sea .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_green_sea .editable-buttons .btn.btn-primary:hover,
+.t_green_sea .editable-buttons .btn.btn-default:hover,
+.t_green_sea .editable-buttons .btn.btn-primary:active,
+.t_green_sea .editable-buttons .btn.btn-default:active,
+.t_green_sea .editable-buttons .btn.btn-primary:focus,
+.t_green_sea .editable-buttons .btn.btn-default:focus,
+.t_green_sea .editable-buttons .btn.btn-primary:active:focus,
+.t_green_sea .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_sun_flower .editable-buttons .btn.btn-primary,
+.t_sun_flower .editable-buttons .btn.btn-default {
+  background-color: #f1c40f;
+  border-color: #f1c40f;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_sun_flower .editable-buttons .btn.btn-primary[disabled],
+.t_sun_flower .editable-buttons .btn.btn-default[disabled] {
+  color: #f3cc31;
+  cursor: inherit;
+}
+.t_sun_flower .editable-buttons .btn.btn-primary:hover,
+.t_sun_flower .editable-buttons .btn.btn-default:hover,
+.t_sun_flower .editable-buttons .btn.btn-primary:active,
+.t_sun_flower .editable-buttons .btn.btn-default:active,
+.t_sun_flower .editable-buttons .btn.btn-primary:focus,
+.t_sun_flower .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_sun_flower .editable-buttons .btn.btn-primary:hover,
+.t_sun_flower .editable-buttons .btn.btn-default:hover,
+.t_sun_flower .editable-buttons .btn.btn-primary:active,
+.t_sun_flower .editable-buttons .btn.btn-default:active,
+.t_sun_flower .editable-buttons .btn.btn-primary:focus,
+.t_sun_flower .editable-buttons .btn.btn-default:focus,
+.t_sun_flower .editable-buttons .btn.btn-primary:active:focus,
+.t_sun_flower .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_orange .editable-buttons .btn.btn-primary,
+.t_orange .editable-buttons .btn.btn-default {
+  background-color: #f39c12;
+  border-color: #f39c12;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_orange .editable-buttons .btn.btn-primary[disabled],
+.t_orange .editable-buttons .btn.btn-default[disabled] {
+  color: #f5aa34;
+  cursor: inherit;
+}
+.t_orange .editable-buttons .btn.btn-primary:hover,
+.t_orange .editable-buttons .btn.btn-default:hover,
+.t_orange .editable-buttons .btn.btn-primary:active,
+.t_orange .editable-buttons .btn.btn-default:active,
+.t_orange .editable-buttons .btn.btn-primary:focus,
+.t_orange .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_orange .editable-buttons .btn.btn-primary:hover,
+.t_orange .editable-buttons .btn.btn-default:hover,
+.t_orange .editable-buttons .btn.btn-primary:active,
+.t_orange .editable-buttons .btn.btn-default:active,
+.t_orange .editable-buttons .btn.btn-primary:focus,
+.t_orange .editable-buttons .btn.btn-default:focus,
+.t_orange .editable-buttons .btn.btn-primary:active:focus,
+.t_orange .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_emerald .editable-buttons .btn.btn-primary,
+.t_emerald .editable-buttons .btn.btn-default {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_emerald .editable-buttons .btn.btn-primary[disabled],
+.t_emerald .editable-buttons .btn.btn-default[disabled] {
+  color: #48d684;
+  cursor: inherit;
+}
+.t_emerald .editable-buttons .btn.btn-primary:hover,
+.t_emerald .editable-buttons .btn.btn-default:hover,
+.t_emerald .editable-buttons .btn.btn-primary:active,
+.t_emerald .editable-buttons .btn.btn-default:active,
+.t_emerald .editable-buttons .btn.btn-primary:focus,
+.t_emerald .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_emerald .editable-buttons .btn.btn-primary:hover,
+.t_emerald .editable-buttons .btn.btn-default:hover,
+.t_emerald .editable-buttons .btn.btn-primary:active,
+.t_emerald .editable-buttons .btn.btn-default:active,
+.t_emerald .editable-buttons .btn.btn-primary:focus,
+.t_emerald .editable-buttons .btn.btn-default:focus,
+.t_emerald .editable-buttons .btn.btn-primary:active:focus,
+.t_emerald .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_nephritis .editable-buttons .btn.btn-primary,
+.t_nephritis .editable-buttons .btn.btn-default {
+  background-color: #27ae60;
+  border-color: #27ae60;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_nephritis .editable-buttons .btn.btn-primary[disabled],
+.t_nephritis .editable-buttons .btn.btn-default[disabled] {
+  color: #2ecb70;
+  cursor: inherit;
+}
+.t_nephritis .editable-buttons .btn.btn-primary:hover,
+.t_nephritis .editable-buttons .btn.btn-default:hover,
+.t_nephritis .editable-buttons .btn.btn-primary:active,
+.t_nephritis .editable-buttons .btn.btn-default:active,
+.t_nephritis .editable-buttons .btn.btn-primary:focus,
+.t_nephritis .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_nephritis .editable-buttons .btn.btn-primary:hover,
+.t_nephritis .editable-buttons .btn.btn-default:hover,
+.t_nephritis .editable-buttons .btn.btn-primary:active,
+.t_nephritis .editable-buttons .btn.btn-default:active,
+.t_nephritis .editable-buttons .btn.btn-primary:focus,
+.t_nephritis .editable-buttons .btn.btn-default:focus,
+.t_nephritis .editable-buttons .btn.btn-primary:active:focus,
+.t_nephritis .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_carrot .editable-buttons .btn.btn-primary,
+.t_carrot .editable-buttons .btn.btn-default {
+  background-color: #e67e22;
+  border-color: #e67e22;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_carrot .editable-buttons .btn.btn-primary[disabled],
+.t_carrot .editable-buttons .btn.btn-default[disabled] {
+  color: #ea9142;
+  cursor: inherit;
+}
+.t_carrot .editable-buttons .btn.btn-primary:hover,
+.t_carrot .editable-buttons .btn.btn-default:hover,
+.t_carrot .editable-buttons .btn.btn-primary:active,
+.t_carrot .editable-buttons .btn.btn-default:active,
+.t_carrot .editable-buttons .btn.btn-primary:focus,
+.t_carrot .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_carrot .editable-buttons .btn.btn-primary:hover,
+.t_carrot .editable-buttons .btn.btn-default:hover,
+.t_carrot .editable-buttons .btn.btn-primary:active,
+.t_carrot .editable-buttons .btn.btn-default:active,
+.t_carrot .editable-buttons .btn.btn-primary:focus,
+.t_carrot .editable-buttons .btn.btn-default:focus,
+.t_carrot .editable-buttons .btn.btn-primary:active:focus,
+.t_carrot .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_pumpkin .editable-buttons .btn.btn-primary,
+.t_pumpkin .editable-buttons .btn.btn-default {
+  background-color: #d35400;
+  border-color: #d35400;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_pumpkin .editable-buttons .btn.btn-primary[disabled],
+.t_pumpkin .editable-buttons .btn.btn-default[disabled] {
+  color: #f76200;
+  cursor: inherit;
+}
+.t_pumpkin .editable-buttons .btn.btn-primary:hover,
+.t_pumpkin .editable-buttons .btn.btn-default:hover,
+.t_pumpkin .editable-buttons .btn.btn-primary:active,
+.t_pumpkin .editable-buttons .btn.btn-default:active,
+.t_pumpkin .editable-buttons .btn.btn-primary:focus,
+.t_pumpkin .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_pumpkin .editable-buttons .btn.btn-primary:hover,
+.t_pumpkin .editable-buttons .btn.btn-default:hover,
+.t_pumpkin .editable-buttons .btn.btn-primary:active,
+.t_pumpkin .editable-buttons .btn.btn-default:active,
+.t_pumpkin .editable-buttons .btn.btn-primary:focus,
+.t_pumpkin .editable-buttons .btn.btn-default:focus,
+.t_pumpkin .editable-buttons .btn.btn-primary:active:focus,
+.t_pumpkin .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_peter_river .editable-buttons .btn.btn-primary,
+.t_peter_river .editable-buttons .btn.btn-default {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_peter_river .editable-buttons .btn.btn-primary[disabled],
+.t_peter_river .editable-buttons .btn.btn-default[disabled] {
+  color: #52a7e0;
+  cursor: inherit;
+}
+.t_peter_river .editable-buttons .btn.btn-primary:hover,
+.t_peter_river .editable-buttons .btn.btn-default:hover,
+.t_peter_river .editable-buttons .btn.btn-primary:active,
+.t_peter_river .editable-buttons .btn.btn-default:active,
+.t_peter_river .editable-buttons .btn.btn-primary:focus,
+.t_peter_river .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_peter_river .editable-buttons .btn.btn-primary:hover,
+.t_peter_river .editable-buttons .btn.btn-default:hover,
+.t_peter_river .editable-buttons .btn.btn-primary:active,
+.t_peter_river .editable-buttons .btn.btn-default:active,
+.t_peter_river .editable-buttons .btn.btn-primary:focus,
+.t_peter_river .editable-buttons .btn.btn-default:focus,
+.t_peter_river .editable-buttons .btn.btn-primary:active:focus,
+.t_peter_river .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_belize_hole .editable-buttons .btn.btn-primary,
+.t_belize_hole .editable-buttons .btn.btn-default {
+  background-color: #2980b9;
+  border-color: #2980b9;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_belize_hole .editable-buttons .btn.btn-primary[disabled],
+.t_belize_hole .editable-buttons .btn.btn-default[disabled] {
+  color: #3493d2;
+  cursor: inherit;
+}
+.t_belize_hole .editable-buttons .btn.btn-primary:hover,
+.t_belize_hole .editable-buttons .btn.btn-default:hover,
+.t_belize_hole .editable-buttons .btn.btn-primary:active,
+.t_belize_hole .editable-buttons .btn.btn-default:active,
+.t_belize_hole .editable-buttons .btn.btn-primary:focus,
+.t_belize_hole .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_belize_hole .editable-buttons .btn.btn-primary:hover,
+.t_belize_hole .editable-buttons .btn.btn-default:hover,
+.t_belize_hole .editable-buttons .btn.btn-primary:active,
+.t_belize_hole .editable-buttons .btn.btn-default:active,
+.t_belize_hole .editable-buttons .btn.btn-primary:focus,
+.t_belize_hole .editable-buttons .btn.btn-default:focus,
+.t_belize_hole .editable-buttons .btn.btn-primary:active:focus,
+.t_belize_hole .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_alizarin .editable-buttons .btn.btn-primary,
+.t_alizarin .editable-buttons .btn.btn-default {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_alizarin .editable-buttons .btn.btn-primary[disabled],
+.t_alizarin .editable-buttons .btn.btn-default[disabled] {
+  color: #eb695c;
+  cursor: inherit;
+}
+.t_alizarin .editable-buttons .btn.btn-primary:hover,
+.t_alizarin .editable-buttons .btn.btn-default:hover,
+.t_alizarin .editable-buttons .btn.btn-primary:active,
+.t_alizarin .editable-buttons .btn.btn-default:active,
+.t_alizarin .editable-buttons .btn.btn-primary:focus,
+.t_alizarin .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_alizarin .editable-buttons .btn.btn-primary:hover,
+.t_alizarin .editable-buttons .btn.btn-default:hover,
+.t_alizarin .editable-buttons .btn.btn-primary:active,
+.t_alizarin .editable-buttons .btn.btn-default:active,
+.t_alizarin .editable-buttons .btn.btn-primary:focus,
+.t_alizarin .editable-buttons .btn.btn-default:focus,
+.t_alizarin .editable-buttons .btn.btn-primary:active:focus,
+.t_alizarin .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_pomegranat .editable-buttons .btn.btn-primary,
+.t_pomegranat .editable-buttons .btn.btn-default {
+  background-color: #c0392b;
+  border-color: #c0392b;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_pomegranat .editable-buttons .btn.btn-primary[disabled],
+.t_pomegranat .editable-buttons .btn.btn-default[disabled] {
+  color: #d34a3b;
+  cursor: inherit;
+}
+.t_pomegranat .editable-buttons .btn.btn-primary:hover,
+.t_pomegranat .editable-buttons .btn.btn-default:hover,
+.t_pomegranat .editable-buttons .btn.btn-primary:active,
+.t_pomegranat .editable-buttons .btn.btn-default:active,
+.t_pomegranat .editable-buttons .btn.btn-primary:focus,
+.t_pomegranat .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_pomegranat .editable-buttons .btn.btn-primary:hover,
+.t_pomegranat .editable-buttons .btn.btn-default:hover,
+.t_pomegranat .editable-buttons .btn.btn-primary:active,
+.t_pomegranat .editable-buttons .btn.btn-default:active,
+.t_pomegranat .editable-buttons .btn.btn-primary:focus,
+.t_pomegranat .editable-buttons .btn.btn-default:focus,
+.t_pomegranat .editable-buttons .btn.btn-primary:active:focus,
+.t_pomegranat .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_amethyst .editable-buttons .btn.btn-primary,
+.t_amethyst .editable-buttons .btn.btn-default {
+  background-color: #9b59b6;
+  border-color: #9b59b6;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_amethyst .editable-buttons .btn.btn-primary[disabled],
+.t_amethyst .editable-buttons .btn.btn-default[disabled] {
+  color: #aa72c1;
+  cursor: inherit;
+}
+.t_amethyst .editable-buttons .btn.btn-primary:hover,
+.t_amethyst .editable-buttons .btn.btn-default:hover,
+.t_amethyst .editable-buttons .btn.btn-primary:active,
+.t_amethyst .editable-buttons .btn.btn-default:active,
+.t_amethyst .editable-buttons .btn.btn-primary:focus,
+.t_amethyst .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_amethyst .editable-buttons .btn.btn-primary:hover,
+.t_amethyst .editable-buttons .btn.btn-default:hover,
+.t_amethyst .editable-buttons .btn.btn-primary:active,
+.t_amethyst .editable-buttons .btn.btn-default:active,
+.t_amethyst .editable-buttons .btn.btn-primary:focus,
+.t_amethyst .editable-buttons .btn.btn-default:focus,
+.t_amethyst .editable-buttons .btn.btn-primary:active:focus,
+.t_amethyst .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_wisteria .editable-buttons .btn.btn-primary,
+.t_wisteria .editable-buttons .btn.btn-default {
+  background-color: #8e44ad;
+  border-color: #8e44ad;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_wisteria .editable-buttons .btn.btn-primary[disabled],
+.t_wisteria .editable-buttons .btn.btn-default[disabled] {
+  color: #9f58bd;
+  cursor: inherit;
+}
+.t_wisteria .editable-buttons .btn.btn-primary:hover,
+.t_wisteria .editable-buttons .btn.btn-default:hover,
+.t_wisteria .editable-buttons .btn.btn-primary:active,
+.t_wisteria .editable-buttons .btn.btn-default:active,
+.t_wisteria .editable-buttons .btn.btn-primary:focus,
+.t_wisteria .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_wisteria .editable-buttons .btn.btn-primary:hover,
+.t_wisteria .editable-buttons .btn.btn-default:hover,
+.t_wisteria .editable-buttons .btn.btn-primary:active,
+.t_wisteria .editable-buttons .btn.btn-default:active,
+.t_wisteria .editable-buttons .btn.btn-primary:focus,
+.t_wisteria .editable-buttons .btn.btn-default:focus,
+.t_wisteria .editable-buttons .btn.btn-primary:active:focus,
+.t_wisteria .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_clouds .editable-buttons .btn.btn-primary,
+.t_clouds .editable-buttons .btn.btn-default {
+  background-color: #ecf0f1;
+  border-color: #ecf0f1;
+  color: #000;
+  outline: none;
+}
+.t_clouds .editable-buttons .btn.btn-primary[disabled],
+.t_clouds .editable-buttons .btn.btn-default[disabled] {
+  color: #fff;
+  cursor: inherit;
+}
+.t_clouds .editable-buttons .btn.btn-primary:hover,
+.t_clouds .editable-buttons .btn.btn-default:hover,
+.t_clouds .editable-buttons .btn.btn-primary:active,
+.t_clouds .editable-buttons .btn.btn-default:active,
+.t_clouds .editable-buttons .btn.btn-primary:focus,
+.t_clouds .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_clouds .editable-buttons .btn.btn-primary:hover,
+.t_clouds .editable-buttons .btn.btn-default:hover,
+.t_clouds .editable-buttons .btn.btn-primary:active,
+.t_clouds .editable-buttons .btn.btn-default:active,
+.t_clouds .editable-buttons .btn.btn-primary:focus,
+.t_clouds .editable-buttons .btn.btn-default:focus,
+.t_clouds .editable-buttons .btn.btn-primary:active:focus,
+.t_clouds .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_silver .editable-buttons .btn.btn-primary,
+.t_silver .editable-buttons .btn.btn-default {
+  background-color: #bdc3c7;
+  border-color: #bdc3c7;
+  color: #000;
+  outline: none;
+}
+.t_silver .editable-buttons .btn.btn-primary[disabled],
+.t_silver .editable-buttons .btn.btn-default[disabled] {
+  color: #d0d5d7;
+  cursor: inherit;
+}
+.t_silver .editable-buttons .btn.btn-primary:hover,
+.t_silver .editable-buttons .btn.btn-default:hover,
+.t_silver .editable-buttons .btn.btn-primary:active,
+.t_silver .editable-buttons .btn.btn-default:active,
+.t_silver .editable-buttons .btn.btn-primary:focus,
+.t_silver .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_silver .editable-buttons .btn.btn-primary:hover,
+.t_silver .editable-buttons .btn.btn-default:hover,
+.t_silver .editable-buttons .btn.btn-primary:active,
+.t_silver .editable-buttons .btn.btn-default:active,
+.t_silver .editable-buttons .btn.btn-primary:focus,
+.t_silver .editable-buttons .btn.btn-default:focus,
+.t_silver .editable-buttons .btn.btn-primary:active:focus,
+.t_silver .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_wet_asphalt .editable-buttons .btn.btn-primary,
+.t_wet_asphalt .editable-buttons .btn.btn-default {
+  background-color: #34495e;
+  border-color: #34495e;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_wet_asphalt .editable-buttons .btn.btn-primary[disabled],
+.t_wet_asphalt .editable-buttons .btn.btn-default[disabled] {
+  color: #415b75;
+  cursor: inherit;
+}
+.t_wet_asphalt .editable-buttons .btn.btn-primary:hover,
+.t_wet_asphalt .editable-buttons .btn.btn-default:hover,
+.t_wet_asphalt .editable-buttons .btn.btn-primary:active,
+.t_wet_asphalt .editable-buttons .btn.btn-default:active,
+.t_wet_asphalt .editable-buttons .btn.btn-primary:focus,
+.t_wet_asphalt .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_wet_asphalt .editable-buttons .btn.btn-primary:hover,
+.t_wet_asphalt .editable-buttons .btn.btn-default:hover,
+.t_wet_asphalt .editable-buttons .btn.btn-primary:active,
+.t_wet_asphalt .editable-buttons .btn.btn-default:active,
+.t_wet_asphalt .editable-buttons .btn.btn-primary:focus,
+.t_wet_asphalt .editable-buttons .btn.btn-default:focus,
+.t_wet_asphalt .editable-buttons .btn.btn-primary:active:focus,
+.t_wet_asphalt .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
+}
+.t_midnight_blue .editable-buttons .btn.btn-primary,
+.t_midnight_blue .editable-buttons .btn.btn-default {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+  color: #ecf0f1;
+  outline: none;
+}
+.t_midnight_blue .editable-buttons .btn.btn-primary[disabled],
+.t_midnight_blue .editable-buttons .btn.btn-default[disabled] {
+  color: #395067;
+  cursor: inherit;
+}
+.t_midnight_blue .editable-buttons .btn.btn-primary:hover,
+.t_midnight_blue .editable-buttons .btn.btn-default:hover,
+.t_midnight_blue .editable-buttons .btn.btn-primary:active,
+.t_midnight_blue .editable-buttons .btn.btn-default:active,
+.t_midnight_blue .editable-buttons .btn.btn-primary:focus,
+.t_midnight_blue .editable-buttons .btn.btn-default:focus {
+  outline: none;
+}
+.t_midnight_blue .editable-buttons .btn.btn-primary:hover,
+.t_midnight_blue .editable-buttons .btn.btn-default:hover,
+.t_midnight_blue .editable-buttons .btn.btn-primary:active,
+.t_midnight_blue .editable-buttons .btn.btn-default:active,
+.t_midnight_blue .editable-buttons .btn.btn-primary:focus,
+.t_midnight_blue .editable-buttons .btn.btn-default:focus,
+.t_midnight_blue .editable-buttons .btn.btn-primary:active:focus,
+.t_midnight_blue .editable-buttons .btn.btn-default:active:focus {
+  outline: none;
+  cursor: pointer;
 }
 .tile {
   margin: 4px 2px;
@@ -4561,12 +5471,38 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  -webkit-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -moz-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -o-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
 }
 .tile .t_cap + .t_label + .t_body {
   height: 166px;
 }
 .tile .t_cap + .t_body {
   height: 238px;
+}
+.tile .t_cap .t_cap_r {
+  display: inline-block;
+  float: right;
+  position: relative;
+}
+.tile .t_cap .t_cap_r .dropdown-menu {
+  right: 0;
+  left: inherit;
+}
+.tile .t_cap .t_cap_r .t_btn {
+  outline: none;
+  border: 0;
+  background: none !important;
+}
+.tile .t_cap .t_cap_r .t_btn:hover,
+.tile .t_cap .t_cap_r .t_btn:active,
+.tile .t_cap .t_cap_r .t_btn:focus,
+.tile .t_cap .t_cap_r .t_btn:active:focus {
+  cursor: pointer;
+  outline: none;
 }
 .tile .t_label {
   font-size: 36px;
@@ -4576,6 +5512,11 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  -webkit-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -moz-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -o-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
 }
 .tile .t_label + .t_body {
   height: 213px;
@@ -4589,6 +5530,11 @@
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  -webkit-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -moz-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -o-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
 }
 .tile .t_body .description {
   -webkit-transition: color 0.6s ease;
@@ -4621,6 +5567,11 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   min-height: 45px;
+  -webkit-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -moz-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -o-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
+  transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
 }
 .tile .t_controls .t_btn {
   width: 100%;

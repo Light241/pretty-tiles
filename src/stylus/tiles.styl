@@ -1,15 +1,3 @@
-@import 'nib'
-
-tile_min_height = 315px
-tile_wide = 265px
-t_label_height = 42px
-t_label_padding = 15px
-t_cap_height = 37px
-t_cap_padding = 5px
-t_button_height = 45px
-t_body_v_padding = 30px
-t_bottom_space = 45px
-
 tile_transition(n)
   transition background-color n ease, width n ease, height n ease
 
@@ -36,6 +24,20 @@ tile_transition(n)
         height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + (t_label_height + t_label_padding * 2) + t_body_v_padding))
     & + .t_body
       height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_body_v_padding ))
+    .t_cap_r
+      display inline-block
+      float right
+      position relative
+      .dropdown-menu
+        right 0
+        left inherit
+      .t_btn
+        outline none
+        border 0
+        background none !important
+        &:hover, &:active, &:focus, &:active:focus
+          cursor pointer
+          outline none
   .t_label
     font-size 36px
     height t_label_height

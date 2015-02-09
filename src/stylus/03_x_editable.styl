@@ -1,0 +1,91 @@
+.tile
+  input
+    &.editable-has-buttons
+      width tile_wide - 132px
+  .editable-click
+    color white_color
+    border-bottom dashed 1px white_color
+    &:hover
+      color white_color
+      border-bottom dashed 1px white_color
+    a
+      &.editable-click
+        color white_color
+        border-bottom dashed 1px white_color
+        &:hover
+          color white_color
+          border-bottom dashed 1px white_color
+  .editable-empty, .editable-empty:hover, .editable-empty:focus, a.editable-empty, a.editable-empty:hover, a.editable-empty:focus
+    color white_color
+    border-bottom dashed 1px white_color
+
+x_editable_btns(c, text_c)
+  .editable-buttons
+    .btn
+      &.btn-primary, &.btn-default
+        background-color c
+        border-color c
+        color text_c
+        outline none
+        &[disabled]
+          color lighten(c, color_ratio + 2)
+          cursor inherit
+        &:hover, &:active, &:focus
+          outline none
+        &:hover, &:active, &:focus, &:active:focus
+          outline none
+          cursor pointer
+
+.t_turquoise
+  x_editable_btns(turquoise_color, clouds_color)
+
+.t_green_sea
+  x_editable_btns(green_sea_color, clouds_color)
+
+.t_sun_flower
+  x_editable_btns(sun_flower_color, clouds_color)
+
+.t_orange
+  x_editable_btns(orange_color, clouds_color)
+
+.t_emerald
+  x_editable_btns(emerald_color, clouds_color)
+
+.t_nephritis
+  x_editable_btns(nephritis_color, clouds_color)
+
+.t_carrot
+  x_editable_btns(carrot_color, clouds_color)
+
+.t_pumpkin
+  x_editable_btns(pumpkin_color, clouds_color)
+
+.t_peter_river
+  x_editable_btns(peter_river_color, clouds_color)
+
+.t_belize_hole
+  x_editable_btns(belize_hole_color, clouds_color)
+
+.t_alizarin
+  x_editable_btns(alizarin_color, clouds_color)
+
+.t_pomegranat
+  x_editable_btns(pomegranat_color, clouds_color)
+
+.t_amethyst
+  x_editable_btns(amethyst_color, clouds_color)
+
+.t_wisteria
+  x_editable_btns(wisteria_color, clouds_color)
+
+.t_clouds
+  x_editable_btns(clouds_color, black_color)
+
+.t_silver
+  x_editable_btns(silver_color, black_color)
+
+.t_wet_asphalt
+  x_editable_btns(wet_asphalt_color, clouds_color)
+
+.t_midnight_blue
+  x_editable_btns(midnight_blue_color, clouds_color)
