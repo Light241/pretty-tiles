@@ -1,0 +1,34 @@
+
+basic_container_width = 260px
+basic_container_height = 335px
+basic_containers_spaces =  5px
+
+.pt-container:before, .pt-container:after
+  content ""
+  display table
+
+.pt-container
+  &:after
+    clear both
+
+.pt-container
+  zoom 1 /* For IE 6/7 (trigger hasLayout) */
+
+.pt-container
+  padding 15px
+  .pt-tile
+    float left
+  &.pt-solid
+    .pt-tile
+      wide basic_container_width + basic_containers_spaces
+      margin 0
+      border-radius 0
+
+.pt-tile
+  width basic_container_width
+  height basic_container_height
+  margin basic_containers_spaces
+  display block
+  color white_color
+  background-color default_color
+  border-radius 5px
