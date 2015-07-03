@@ -19,6 +19,11 @@ black_color = #000
 //steps for hovers
 color_ratio = 5
 
+.tile
+  color white_color
+  .t_btn
+    color white_color
+
 tile_buttons(c)
   .t_btn
     background-color darken(c, color_ratio)
@@ -37,22 +42,6 @@ tile_buttons(c)
           color darken(c, color_ratio + 2)
           &:hover, &:active
             background-color lighten(c, color_ratio + 2)
-    &[disabled]
-      color lighten(c, color_ratio + 2)
-    &:nth-child(1n+1)
-      background-color lighten(c, color_ratio + 1)
-      &:hover
-        background-color lighten(c, color_ratio)
-    &:nth-child(1n+2)
-      background-color lighten(c, color_ratio + 2)
-      &:hover
-        background-color lighten(c, color_ratio)
-    &:nth-child(1n+3)
-      background-color lighten(c, color_ratio + 3)
-      &:hover
-        background-color lighten(c, color_ratio)
-    &:last-of-type
-      background-color lighten(c, color_ratio)
     &:hover
       background-color lighten(c, color_ratio)
 

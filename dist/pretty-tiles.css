@@ -1,3 +1,9 @@
+.tile {
+  color: #fff;
+}
+.tile .t_btn {
+  color: #fff;
+}
 .t_turquoise {
   background-color: #1abc9c;
 }
@@ -30,30 +36,6 @@
 .t_turquoise .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
 .t_turquoise .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #1edbb6;
-}
-.t_turquoise .t_btn[disabled] {
-  color: #1edbb6;
-}
-.t_turquoise .t_btn:nth-child(1n+1) {
-  background-color: #1ed7b2;
-}
-.t_turquoise .t_btn:nth-child(1n+1):hover {
-  background-color: #1dd2af;
-}
-.t_turquoise .t_btn:nth-child(1n+2) {
-  background-color: #1edbb6;
-}
-.t_turquoise .t_btn:nth-child(1n+2):hover {
-  background-color: #1dd2af;
-}
-.t_turquoise .t_btn:nth-child(1n+3) {
-  background-color: #1fe0ba;
-}
-.t_turquoise .t_btn:nth-child(1n+3):hover {
-  background-color: #1dd2af;
-}
-.t_turquoise .t_btn:last-of-type {
-  background-color: #1dd2af;
 }
 .t_turquoise .t_btn:hover {
   background-color: #1dd2af;
@@ -111,30 +93,6 @@
 .t_sun_flower .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #f3cc31;
 }
-.t_sun_flower .t_btn[disabled] {
-  color: #f3cc31;
-}
-.t_sun_flower .t_btn:nth-child(1n+1) {
-  background-color: #f3cb2c;
-}
-.t_sun_flower .t_btn:nth-child(1n+1):hover {
-  background-color: #f2ca27;
-}
-.t_sun_flower .t_btn:nth-child(1n+2) {
-  background-color: #f3cc31;
-}
-.t_sun_flower .t_btn:nth-child(1n+2):hover {
-  background-color: #f2ca27;
-}
-.t_sun_flower .t_btn:nth-child(1n+3) {
-  background-color: #f3cd36;
-}
-.t_sun_flower .t_btn:nth-child(1n+3):hover {
-  background-color: #f2ca27;
-}
-.t_sun_flower .t_btn:last-of-type {
-  background-color: #f2ca27;
-}
 .t_sun_flower .t_btn:hover {
   background-color: #f2ca27;
 }
@@ -190,30 +148,6 @@
 .t_orange .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
 .t_orange .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #f5aa34;
-}
-.t_orange .t_btn[disabled] {
-  color: #f5aa34;
-}
-.t_orange .t_btn:nth-child(1n+1) {
-  background-color: #f4a82f;
-}
-.t_orange .t_btn:nth-child(1n+1):hover {
-  background-color: #f4a62a;
-}
-.t_orange .t_btn:nth-child(1n+2) {
-  background-color: #f5aa34;
-}
-.t_orange .t_btn:nth-child(1n+2):hover {
-  background-color: #f4a62a;
-}
-.t_orange .t_btn:nth-child(1n+3) {
-  background-color: #f5ac39;
-}
-.t_orange .t_btn:nth-child(1n+3):hover {
-  background-color: #f4a62a;
-}
-.t_orange .t_btn:last-of-type {
-  background-color: #f4a62a;
 }
 .t_orange .t_btn:hover {
   background-color: #f4a62a;
@@ -271,30 +205,6 @@
 .t_nephritis .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #2ecb70;
 }
-.t_nephritis .t_btn[disabled] {
-  color: #2ecb70;
-}
-.t_nephritis .t_btn:nth-child(1n+1) {
-  background-color: #2dc76e;
-}
-.t_nephritis .t_btn:nth-child(1n+1):hover {
-  background-color: #2cc36b;
-}
-.t_nephritis .t_btn:nth-child(1n+2) {
-  background-color: #2ecb70;
-}
-.t_nephritis .t_btn:nth-child(1n+2):hover {
-  background-color: #2cc36b;
-}
-.t_nephritis .t_btn:nth-child(1n+3) {
-  background-color: #2ecf72;
-}
-.t_nephritis .t_btn:nth-child(1n+3):hover {
-  background-color: #2cc36b;
-}
-.t_nephritis .t_btn:last-of-type {
-  background-color: #2cc36b;
-}
 .t_nephritis .t_btn:hover {
   background-color: #2cc36b;
 }
@@ -350,30 +260,6 @@
 .t_carrot .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
 .t_carrot .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #ea9142;
-}
-.t_carrot .t_btn[disabled] {
-  color: #ea9142;
-}
-.t_carrot .t_btn:nth-child(1n+1) {
-  background-color: #e98e3d;
-}
-.t_carrot .t_btn:nth-child(1n+1):hover {
-  background-color: #e98b39;
-}
-.t_carrot .t_btn:nth-child(1n+2) {
-  background-color: #ea9142;
-}
-.t_carrot .t_btn:nth-child(1n+2):hover {
-  background-color: #e98b39;
-}
-.t_carrot .t_btn:nth-child(1n+3) {
-  background-color: #ea9347;
-}
-.t_carrot .t_btn:nth-child(1n+3):hover {
-  background-color: #e98b39;
-}
-.t_carrot .t_btn:last-of-type {
-  background-color: #e98b39;
 }
 .t_carrot .t_btn:hover {
   background-color: #e98b39;
@@ -431,30 +317,6 @@
 .t_pumpkin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #f76200;
 }
-.t_pumpkin .t_btn[disabled] {
-  color: #f76200;
-}
-.t_pumpkin .t_btn:nth-child(1n+1) {
-  background-color: #f26000;
-}
-.t_pumpkin .t_btn:nth-child(1n+1):hover {
-  background-color: #ec5e00;
-}
-.t_pumpkin .t_btn:nth-child(1n+2) {
-  background-color: #f76200;
-}
-.t_pumpkin .t_btn:nth-child(1n+2):hover {
-  background-color: #ec5e00;
-}
-.t_pumpkin .t_btn:nth-child(1n+3) {
-  background-color: #fc6400;
-}
-.t_pumpkin .t_btn:nth-child(1n+3):hover {
-  background-color: #ec5e00;
-}
-.t_pumpkin .t_btn:last-of-type {
-  background-color: #ec5e00;
-}
 .t_pumpkin .t_btn:hover {
   background-color: #ec5e00;
 }
@@ -510,30 +372,6 @@
 .t_peter_river .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
 .t_peter_river .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #52a7e0;
-}
-.t_peter_river .t_btn[disabled] {
-  color: #52a7e0;
-}
-.t_peter_river .t_btn:nth-child(1n+1) {
-  background-color: #4ea5e0;
-}
-.t_peter_river .t_btn:nth-child(1n+1):hover {
-  background-color: #4aa3df;
-}
-.t_peter_river .t_btn:nth-child(1n+2) {
-  background-color: #52a7e0;
-}
-.t_peter_river .t_btn:nth-child(1n+2):hover {
-  background-color: #4aa3df;
-}
-.t_peter_river .t_btn:nth-child(1n+3) {
-  background-color: #57aae1;
-}
-.t_peter_river .t_btn:nth-child(1n+3):hover {
-  background-color: #4aa3df;
-}
-.t_peter_river .t_btn:last-of-type {
-  background-color: #4aa3df;
 }
 .t_peter_river .t_btn:hover {
   background-color: #4aa3df;
@@ -591,30 +429,6 @@
 .t_belize_hole .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #3493d2;
 }
-.t_belize_hole .t_btn[disabled] {
-  color: #3493d2;
-}
-.t_belize_hole .t_btn:nth-child(1n+1) {
-  background-color: #3091d1;
-}
-.t_belize_hole .t_btn:nth-child(1n+1):hover {
-  background-color: #2e8ece;
-}
-.t_belize_hole .t_btn:nth-child(1n+2) {
-  background-color: #3493d2;
-}
-.t_belize_hole .t_btn:nth-child(1n+2):hover {
-  background-color: #2e8ece;
-}
-.t_belize_hole .t_btn:nth-child(1n+3) {
-  background-color: #3896d3;
-}
-.t_belize_hole .t_btn:nth-child(1n+3):hover {
-  background-color: #2e8ece;
-}
-.t_belize_hole .t_btn:last-of-type {
-  background-color: #2e8ece;
-}
 .t_belize_hole .t_btn:hover {
   background-color: #2e8ece;
 }
@@ -671,30 +485,6 @@
 .t_alizarin .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #eb695c;
 }
-.t_alizarin .t_btn[disabled] {
-  color: #eb695c;
-}
-.t_alizarin .t_btn:nth-child(1n+1) {
-  background-color: #ea6557;
-}
-.t_alizarin .t_btn:nth-child(1n+1):hover {
-  background-color: #ea6153;
-}
-.t_alizarin .t_btn:nth-child(1n+2) {
-  background-color: #eb695c;
-}
-.t_alizarin .t_btn:nth-child(1n+2):hover {
-  background-color: #ea6153;
-}
-.t_alizarin .t_btn:nth-child(1n+3) {
-  background-color: #eb6d60;
-}
-.t_alizarin .t_btn:nth-child(1n+3):hover {
-  background-color: #ea6153;
-}
-.t_alizarin .t_btn:last-of-type {
-  background-color: #ea6153;
-}
 .t_alizarin .t_btn:hover {
   background-color: #ea6153;
 }
@@ -750,30 +540,6 @@
 .t_wisteria .t_btn.t_dialog_btn:nth-child(odd)[disabled]:hover,
 .t_wisteria .t_btn.t_dialog_btn:nth-child(odd)[disabled]:active {
   background-color: #9f58bd;
-}
-.t_wisteria .t_btn[disabled] {
-  color: #9f58bd;
-}
-.t_wisteria .t_btn:nth-child(1n+1) {
-  background-color: #9d54bc;
-}
-.t_wisteria .t_btn:nth-child(1n+1):hover {
-  background-color: #9b50ba;
-}
-.t_wisteria .t_btn:nth-child(1n+2) {
-  background-color: #9f58bd;
-}
-.t_wisteria .t_btn:nth-child(1n+2):hover {
-  background-color: #9b50ba;
-}
-.t_wisteria .t_btn:nth-child(1n+3) {
-  background-color: #a15bbf;
-}
-.t_wisteria .t_btn:nth-child(1n+3):hover {
-  background-color: #9b50ba;
-}
-.t_wisteria .t_btn:last-of-type {
-  background-color: #9b50ba;
 }
 .t_wisteria .t_btn:hover {
   background-color: #9b50ba;
