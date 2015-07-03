@@ -9,7 +9,7 @@ tile_transition(n)
   width tile_wide
   position relative
   vertical-align top
-  min-height tile_min_height
+  min-height 425px
   tile_transition(0.6s)
   box-sizing content-box
   .t_cap
@@ -19,42 +19,16 @@ tile_transition(n)
     height t_cap_height
     box-sizing content-box
     tile_transition(0.6s)
-    //& + .t_body
-    //  height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_body_v_padding ))
-    .t_cap_r
-      display inline-block
-      float right
-      position relative
-      .dropdown-menu
-        right 0
-        left inherit
-      .t_btn
-        outline none
-        border 0
-        background none !important
-        &:hover, &:active, &:focus, &:active:focus
-          cursor pointer
-          outline none
   .t_body
     overflow-y auto
     overflow-x hidden
     padding 15px
     height (tile_min_height - t_body_v_padding)
     margin-bottom 15px
+    margin-top 15px
     box-sizing content-box
+    min-height tile_min_height
     tile_transition(0.6s)
-    .description
-      transition color 0.6s ease
-      box-sizing content-box
-    .t_value
-      text-align center
-      font-size 18px
-      padding 5px 0
-      box-sizing content-box
-    .t_sub_value
-      text-align center
-      font-size 12px
-      box-sizing content-box
   .t_controls
     padding 0
     box-sizing content-box

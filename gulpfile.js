@@ -9,6 +9,14 @@ var connect = require('gulp-connect');
 var rename = require('gulp-rename');
 var ngAnnotate = require('gulp-ng-annotate');
 var jshint = require('gulp-jshint');
+var size = require('gulp-filesize');
+
+gulp.task('sizes_dist', function () {
+    return gulp.src([
+        'dist/**/*.js',
+        'dist/**/*.css'
+    ]).pipe(size());
+});
 
 gulp.task('stylus', function () {
     var src = 'src/stylus/**/*.styl';
