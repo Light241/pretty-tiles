@@ -203,10 +203,6 @@
 .t_turquoise .t_btn:hover {
   background-color: #1dd2af;
 }
-.t_turquoise .t_cap.t_marked,
-.t_turquoise .t_label.t_marked {
-  background-color: #17a689;
-}
 .t_turquoise .t_body {
   scrollbar-face-color: #1abc9c;
   scrollbar-shadow-color: #1abc9c;
@@ -431,10 +427,6 @@
 }
 .t_green_sea .t_btn:hover {
   background-color: #19b698;
-}
-.t_green_sea .t_cap.t_marked,
-.t_green_sea .t_label.t_marked {
-  background-color: #138a72;
 }
 .t_green_sea .t_body {
   scrollbar-face-color: #16a085;
@@ -661,10 +653,6 @@
 .t_sun_flower .t_btn:hover {
   background-color: #f2ca27;
 }
-.t_sun_flower .t_cap.t_marked,
-.t_sun_flower .t_label.t_marked {
-  background-color: #dab10d;
-}
 .t_sun_flower .t_body {
   scrollbar-face-color: #f1c40f;
   scrollbar-shadow-color: #f1c40f;
@@ -889,10 +877,6 @@
 }
 .t_orange .t_btn:hover {
   background-color: #f4a62a;
-}
-.t_orange .t_cap.t_marked,
-.t_orange .t_label.t_marked {
-  background-color: #e08e0b;
 }
 .t_orange .t_body {
   scrollbar-face-color: #f39c12;
@@ -1119,10 +1103,6 @@
 .t_emerald .t_btn:hover {
   background-color: #40d47e;
 }
-.t_emerald .t_cap.t_marked,
-.t_emerald .t_label.t_marked {
-  background-color: #29b765;
-}
 .t_emerald .t_body {
   scrollbar-face-color: #2ecc71;
   scrollbar-shadow-color: #2ecc71;
@@ -1347,10 +1327,6 @@
 }
 .t_nephritis .t_btn:hover {
   background-color: #2cc36b;
-}
-.t_nephritis .t_cap.t_marked,
-.t_nephritis .t_label.t_marked {
-  background-color: #295;
 }
 .t_nephritis .t_body {
   scrollbar-face-color: #27ae60;
@@ -1577,10 +1553,6 @@
 .t_carrot .t_btn:hover {
   background-color: #e98b39;
 }
-.t_carrot .t_cap.t_marked,
-.t_carrot .t_label.t_marked {
-  background-color: #d67118;
-}
 .t_carrot .t_body {
   scrollbar-face-color: #e67e22;
   scrollbar-shadow-color: #e67e22;
@@ -1805,10 +1777,6 @@
 }
 .t_pumpkin .t_btn:hover {
   background-color: #ec5e00;
-}
-.t_pumpkin .t_cap.t_marked,
-.t_pumpkin .t_label.t_marked {
-  background-color: #b94a00;
 }
 .t_pumpkin .t_body {
   scrollbar-face-color: #d35400;
@@ -2035,10 +2003,6 @@
 .t_peter_river .t_btn:hover {
   background-color: #4aa3df;
 }
-.t_peter_river .t_cap.t_marked,
-.t_peter_river .t_label.t_marked {
-  background-color: #258cd1;
-}
 .t_peter_river .t_body {
   scrollbar-face-color: #3498db;
   scrollbar-shadow-color: #3498db;
@@ -2263,10 +2227,6 @@
 }
 .t_belize_hole .t_btn:hover {
   background-color: #2e8ece;
-}
-.t_belize_hole .t_cap.t_marked,
-.t_belize_hole .t_label.t_marked {
-  background-color: #2472a4;
 }
 .t_belize_hole .t_body {
   scrollbar-face-color: #2980b9;
@@ -2493,10 +2453,6 @@
 .t_alizarin .t_btn:hover {
   background-color: #ea6153;
 }
-.t_alizarin .t_cap.t_marked,
-.t_alizarin .t_label.t_marked {
-  background-color: #e43725;
-}
 .t_alizarin .t_body {
   scrollbar-face-color: #e74c3c;
   scrollbar-shadow-color: #e74c3c;
@@ -2721,10 +2677,6 @@
 }
 .t_pomegranat .t_btn:hover {
   background-color: #d14233;
-}
-.t_pomegranat .t_cap.t_marked,
-.t_pomegranat .t_label.t_marked {
-  background-color: #ab3326;
 }
 .t_pomegranat .t_body {
   scrollbar-face-color: #c0392b;
@@ -2951,10 +2903,6 @@
 .t_amethyst .t_btn:hover {
   background-color: #a66bbe;
 }
-.t_amethyst .t_cap.t_marked,
-.t_amethyst .t_label.t_marked {
-  background-color: #8f4bab;
-}
 .t_amethyst .t_body {
   scrollbar-face-color: #9b59b6;
   scrollbar-shadow-color: #9b59b6;
@@ -3179,10 +3127,6 @@
 }
 .t_wisteria .t_btn:hover {
   background-color: #9b50ba;
-}
-.t_wisteria .t_cap.t_marked,
-.t_wisteria .t_label.t_marked {
-  background-color: #7f3d9b;
 }
 .t_wisteria .t_body {
   scrollbar-face-color: #8e44ad;
@@ -3409,10 +3353,6 @@
 .t_wet_asphalt .t_btn:hover {
   background-color: #3d566e;
 }
-.t_wet_asphalt .t_cap.t_marked,
-.t_wet_asphalt .t_label.t_marked {
-  background-color: #2b3c4e;
-}
 .t_wet_asphalt .t_body {
   scrollbar-face-color: #34495e;
   scrollbar-shadow-color: #34495e;
@@ -3638,10 +3578,6 @@
 .t_midnight_blue .t_btn:hover {
   background-color: #354b60;
 }
-.t_midnight_blue .t_cap.t_marked,
-.t_midnight_blue .t_label.t_marked {
-  background-color: #233140;
-}
 .t_midnight_blue .t_body {
   scrollbar-face-color: #2c3e50;
   scrollbar-shadow-color: #2c3e50;
@@ -3695,12 +3631,6 @@
   -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
   transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
 }
-.tile .t_cap + .t_label + .t_body {
-  height: 166px;
-}
-.tile .t_cap + .t_body {
-  height: 238px;
-}
 .tile .t_cap .t_cap_r {
   display: inline-block;
   float: right;
@@ -3721,23 +3651,6 @@
 .tile .t_cap .t_cap_r .t_btn:active:focus {
   cursor: pointer;
   outline: none;
-}
-.tile .t_label {
-  font-size: 36px;
-  height: 42px;
-  padding: 15px;
-  text-align: center;
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  -webkit-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
-  -moz-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
-  -o-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
-  -ms-transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
-  transition: background-color 0.6s ease, width 0.6s ease, height 0.6s ease;
-}
-.tile .t_label + .t_body {
-  height: 213px;
 }
 .tile .t_body {
   overflow-y: auto;

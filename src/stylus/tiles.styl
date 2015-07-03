@@ -19,11 +19,8 @@ tile_transition(n)
     height t_cap_height
     box-sizing content-box
     tile_transition(0.6s)
-    & + .t_label
-      & + .t_body
-        height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + (t_label_height + t_label_padding * 2) + t_body_v_padding))
-    & + .t_body
-      height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_body_v_padding ))
+    //& + .t_body
+    //  height (tile_min_height - (t_cap_height + (t_cap_padding * 2) + t_body_v_padding ))
     .t_cap_r
       display inline-block
       float right
@@ -38,15 +35,6 @@ tile_transition(n)
         &:hover, &:active, &:focus, &:active:focus
           cursor pointer
           outline none
-  .t_label
-    font-size 36px
-    height t_label_height
-    padding t_label_padding
-    text-align center
-    box-sizing content-box
-    tile_transition(0.6s)
-    & + .t_body
-      height (tile_min_height - ((t_label_height + t_label_padding * 2) + t_body_v_padding))
   .t_body
     overflow-y auto
     overflow-x hidden
