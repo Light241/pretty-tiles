@@ -5,15 +5,6 @@ angular.module('app.tile.regular', [])
 
         var lorem = " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tincidunt, nisl nec faucibus vestibulum, leo leo pulvinar augue, at aliquet quam dui sit amet tellus. Proin pretium justo convallis, scelerisque neque eget, rhoncus neque. Sed venenatis pharetra vestibulum. Duis nulla ligula, congue at nulla at, euismod dictum tortor. Curabitur ac pulvinar nisl, a mollis lacus. Aenean interdum libero ut mattis dignissim. Suspendisse vulputate urna sed consectetur egestas. Nunc vel purus justo. Vivamus vitae sagittis lorem. Proin dapibus vestibulum orci malesuada tristique. Sed posuere felis at nulla congue lacinia id id dui. Vestibulum sodales ut augue id tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin convallis orci id ultrices lacinia. Suspendisse blandit, erat et posuere posuere, leo turpis rhoncus metus, nec porta odio nisl id orci.";
 
-        function _resolveMarked($scope) {
-            if ($scope.marked) {
-                var marked = $scope.marked.split(' ');
-                for (var i = 0; i < marked.length; i++) {
-                    $scope.properties.push('Marked ' + marked[i]);
-                }
-            }
-        }
-
         function _resolveButtons($scope) {
             if ($scope.buttons) $scope.properties.push('Buttons (' + $scope.buttons + ')');
         }
@@ -46,12 +37,6 @@ angular.module('app.tile.regular', [])
             }
         }
 
-        function _resolveLabel($scope) {
-            if ($scope.label) {
-                $scope.properties.push('Label');
-            }
-        }
-
         return {
             restrict: 'E',
             scope: {
@@ -59,10 +44,8 @@ angular.module('app.tile.regular', [])
                 tBodyClasses: '@',
                 buttons: '@',
                 dialogButtons: '@',
-                marked: '@',
                 textLimit: '@',
-                cap: '@',
-                label: '@'
+                cap: '@'
             },
             replace: true,
             templateUrl: 'src/modules/tile/regular_tile.html',
@@ -72,11 +55,9 @@ angular.module('app.tile.regular', [])
 
                 _resolveButtons($scope);
                 _resolveDialogButtons($scope);
-                _resolveMarked($scope);
                 _resolveClasses($scope);
                 _resolveBodyClasses($scope);
                 _resolveCap($scope);
-                _resolveLabel($scope);
 
                 $scope.makeArr = function (size) {
                     return new Array(+size);
